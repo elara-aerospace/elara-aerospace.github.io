@@ -1,2 +1,6 @@
-# ignition-aerospace.github.io
-Official website of Ignition Aerospace
+# Ignition Aerospace
+> Official website of Ignition Aerospace
+
+----
+
+Copyright (c) 2023 Ignition Aerospace gGmbH (i.G.)
