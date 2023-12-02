@@ -1,0 +1,41 @@
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+
+title: "Ignition Aerospace"
+email: contact@ignition-aerospace.com
+description: "Join us on a historic journey: Be part of the first student methalox rocket to reach the Kármán line."
+author: "Suriyaa Sundararuban"
+logo: "/assets/images/logo.jpg"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://ignition-aerospace.com" # the base hostname & protocol for your site, e.g. http://example.com
+linkedin_username: ignition-aerospace
+github_username: ignition-aerospace
+twitter_username: x
+instagram_username: x
+youtube_username: x
+
+# Build settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
