@@ -1,7 +1,7 @@
 
     <!-- home
     ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="{{ page.header-image }}" data-natural-width=6000 data-natural-height=3000 data-position-y=center>
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="{{ page.header-image }}" data-natural-width="{{ page.header-image-width }}" data-natural-height="{{ page.header-image-height }}" data-position-y="center">
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -14,10 +14,7 @@
 
                 <h3>
                      <div class="tektur">
-						Join Us on a Historic Journey: <br>
-						Be Part of the First Student <br>
-						Methalox Rocket to Reach <br>
-						100 km.
+						{{ page.header-desc }}
 						<!-- DEACTIVATED:
 						<big><abbr title="Wikipedia definition: The Kármán line is a proposed conventional boundary between Earth's atmosphere and outer space set by the international record-keeping body FAI at an altitude of 100 kilometres above mean sea level.">Kármán Line</abbr><big>
 						-->
@@ -25,7 +22,7 @@
                 </h3>
 
                 <div class="home-content__buttons">
-                    <a href="#" class="smoothscroll btn btn--primary">
+                    <a href="/apply/" class="smoothscroll btn btn--primary">
                         Join Us
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
@@ -48,17 +45,19 @@
 
         <ul class="home-social">
             <li>
-                <a href="https://www.linkedin.com/company/{{ site.linkedin }}"><i class="fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+                <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa fa-linkedin" aria-hidden="true"></i><span>LinkedIn</span></a>
+            </li>
+			<li>
+                <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
             </li>
             <li>
-                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
+                <a href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
             </li>
+            <!-- DEACTIVATED:
             <li>
-                <a href="#"><i class="fa fa-youtube" aria-hidden="true"></i><span>YouTube</span></a>
+                <a href="#/{{ site.youtube_username }}"><i class="fa fa-youtube" aria-hidden="true"></i><span>YouTube</span></a>
             </li>
-            <li>
-                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-            </li>
+			-->
         </ul> 
         <!-- end home-social -->
 

@@ -1,10 +1,14 @@
 - name: Home
   link: /
-- name: About
+- name: About Us
   link: /about/
-- name: Technology
-  link: /tech/
-- name: Blog
-  link: /blog/
-- name: Careers
-  link: /careers/
+- name: Our Team
+  link: /team/
+- name: Mission
+  link: /mission/
+- name: Sponsors
+  link: /sponsors/
+- name: Rocket
+  link: /rocket/
+- name: Experiments
+  link: /experiments/

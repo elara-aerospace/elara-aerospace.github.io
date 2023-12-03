@@ -16,29 +16,30 @@
                 <h3>Navigation</h3>
                 
                 <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="{{ site.url }}" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="{{ site.url }}/about/" title="about">About Us</a></li>
-                    <li><a class="smoothscroll"  href="{{ site.url }}/mission/" title="mission">Mission</a></li>
-                    <li><a class="smoothscroll"  href="{{ site.url }}/sponsors/" title="clients">Sponsors</a></li>
-                    <li><a class="smoothscroll"  href="{{ site.url }}/rocket/" title="rocket">Rocket</a></li>
-                    <li><a class="smoothscroll"  href="{{ site.url }}/experiments/" title="experiments">Experiments</a></li>
+					{% for item in site.data.navigation %}
+						<li><a class="smoothscroll" {% if page.url == item.link %}class="current" style="color: purple;"{% endif %} href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a></li>
+					{% endfor %}
                 </ul>
     
-                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
-    
+                <!-- DEACTIVATED:
+				<p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
+				-->
+				
                 <ul class="header-nav__social">
                     <li>
-                        <a href="https://www.linkedin.com/company/{{ site.linkedin }}"><i class="fa fa-linkedin"></i></a>
+                        <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa fa-linkedin"></i></a>
+                    </li>
+					<li>
+                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter"></i></a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa fa-instagram"></i></a>
                     </li>
+                    <!-- DEACTIVATED:
                     <li>
                         <a href="#"><i class="fa fa-youtube"></i></a>
                     </li>
-                    <li>
-                        <a href="#"><i class="fa fa-instagram"></i></a>
-                    </li>
+					-->
                 </ul>
 
             </div> <!-- end header-nav__content -->
