@@ -17,7 +17,7 @@
                 
                 <ul class="header-nav__list">
 					{% for item in site.data.navigation %}
-						<li><a class="smoothscroll" {% if page.url == item.link %}class="current" style="color: purple;"{% endif %} href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a></li>
+						<li><a {% if page.url == item.link %}class="current" style="color: purple;"{% endif %} href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a></li>
 					{% endfor %}
                 </ul>
     

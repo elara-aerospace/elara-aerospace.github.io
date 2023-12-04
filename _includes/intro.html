@@ -22,11 +22,7 @@
                 </h3>
 
                 <div class="home-content__buttons">
-                    {% if site.url == "/" %}
-					<a target="_blank" href="{{ site.url }}/apply/" class="smoothscroll btn btn--primary">
-                        Join Us
-                    </a>
-					{% endif %}
+                    {{ page.first-button }}
 					
 					<a href="{{ page.second-button-link }}" class="smoothscroll btn btn--stroke">
                         {{ page.second-button-desc }}
