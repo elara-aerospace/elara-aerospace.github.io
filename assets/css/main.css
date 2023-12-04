@@ -2311,6 +2311,9 @@ html.no-csstransitions .home-content__main {
         font-size: 2rem;
         max-width: 600px;
     }
+    .stats__nocount {
+        font-size: 8rem;
+    }
     .stats__count {
         font-size: 8rem;
     }
@@ -2366,6 +2369,9 @@ html.no-csstransitions .home-content__main {
 @media only screen and (max-width: 400px) {
     .about-desc {
         font-size: 1.8rem;
+    }
+    .stats__nocount {
+        font-size: 7.8rem;
     }
     .stats__count {
         font-size: 7.8rem;
