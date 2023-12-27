@@ -2239,24 +2239,13 @@ html.no-csstransitions .home-content__main {
 
 .stats__nocount {
     font-family: "montserrat-bold", sans-serif;
+    font-size: 8.4rem;
     line-height: 1;
     color: #FFFFFF;
     position: relative;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-}
-
-@media screen and (min-width: 601px) {
-	.stats__nocount {
-		font-size: 8.4rem;
-	}
-}
-
-@media screen and (max-width: 600px) {
-	.stats__nocount {
-		font-size: 4.2rem;
-	}
 }
 
 .stats__count {

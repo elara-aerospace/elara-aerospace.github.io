@@ -50,8 +50,20 @@ second-button: "<a href='#about' class='smoothscroll btn btn--stroke'>More About
             </div>
 			<hr>
             <div>
-                <h5>Rocket Launch in</h5> 
-                <div class="stats__nocount tektur" id="countdown"></div>
+				<script>
+				if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+					// true for mobile device
+					document.write('<h5>Rocket Launch on</h5>');
+					document.write('14th November 2024');
+				} else {
+					// false for not mobile device
+					document.write('<h5>Rocket Launch in</h5>');
+					document.write('<div class="stats__nocount tektur" id="countdown"></div>');
+				}
+				</script>
+
+
+                
             </div>
 
         </div> <!-- end about-stats -->
