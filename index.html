@@ -61,9 +61,6 @@ second-button: "<a href='#about' class='smoothscroll btn btn--stroke'>More About
 					document.write('<div class="stats__nocount tektur" id="countdown"></div>');
 				}
 				</script>
-
-
-                
             </div>
 
         </div> <!-- end about-stats -->
@@ -311,7 +308,15 @@ second-button: "<a href='#about' class='smoothscroll btn btn--stroke'>More About
         <div class="row contact-content" data-aos="fade-up">
             
             <div class="contact-primary">
-				<iframe width="560" height="440" src="https://www.openstreetmap.org/export/embed.html?bbox=11.562734842300417%2C48.146954263636836%2C11.572777032852175%2C48.15145677479453&amp;layer=mapnik&amp;marker=48.149205568593786%2C11.567755937576294" style="border: 1px solid black"></iframe>
+				<script>
+				if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+					// true for mobile device
+					document.write('');
+				} else {
+					// false for not mobile device
+					document.write('<iframe width="560" height="440" src="https://www.openstreetmap.org/export/embed.html?bbox=11.562734842300417%2C48.146954263636836%2C11.572777032852175%2C48.15145677479453&amp;layer=mapnik&amp;marker=48.149205568593786%2C11.567755937576294" style="border: 1px solid black"></iframe>');
+				}
+				</script>
             </div> <!-- end contact-primary -->
 
             <div class="contact-secondary">
