@@ -50,17 +50,8 @@ second-button: "<a href='#about' class='smoothscroll btn btn--stroke'>More About
             </div>
 			<hr>
             <div>
-				<script>
-				if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-					// true for mobile device
-					document.write('<h5>Rocket Launch on</h5>');
-					document.write('<div class="stats__nocount tektur">14th Nov<br2024</div>');
-				} else {
-					// false for not mobile device
-					document.write('<h5>Rocket Launch in</h5>');
-					document.write('<div class="stats__nocount tektur" id="countdown"></div>');
-				}
-				</script>
+				<h5>Rocket Launch in</h5>
+				<div class="stats__nocount tektur" id="countdown"></div>
             </div>
 
         </div> <!-- end about-stats -->
@@ -391,13 +382,18 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="countdown"
-  document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
+  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+	// true for mobile device
+	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + "<br>" + minutes + "m " + seconds + "s ";
+  } else {
+	// false for not mobile device
+	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+  }
     
   // If the count down is over, write some text 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("countdown").innerHTML = "EXPIRED";
+    document.getElementById("countdown").innerHTML = "3, 2, 1...<br> LIFT OFF!";
   }
 }, 1000);
 </script>
