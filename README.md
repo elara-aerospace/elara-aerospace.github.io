@@ -1,6 +1,6 @@
-# Ignition Aerospace
-> Official website of Ignition Aerospace
+# Elara Aerospace
+> Official website of Elara Aerospace
 
 ----
 
-Copyright (c) 2023-present Ignition Aerospace gUG (haftungsbeschränkt)
+Copyright (c) 2023-present Elara Aerospace GmbH

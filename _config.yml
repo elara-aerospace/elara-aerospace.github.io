@@ -4,19 +4,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: "Ignition Aerospace"
-email: contact@ignition-aerospace.com
+title: "Elara Aerospace"
+email: contact@elara-aerospace.com
 description: "Join us on a historic journey: Be part of the first student methalox rocket to reach the Kármán line."
 author: "Suriyaa Sundararuban"
 logo: "/assets/images/logo.jpg"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://ignition-aerospace.com" # the base hostname & protocol for your site, e.g. http://example.com
-domain: ignition-aerospace.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
-linkedin_username: "ignition-aerospace"
-github_username: "ignition-aerospace"
-twitter_username: "Ignition_Space"
-instagram_username: "ignition_aerospace"
-youtube_username: "@Ignition-Aerospace"
+url: "https://elara-aerospace.com" # the base hostname & protocol for your site, e.g. http://example.com
+domain: elara-aerospace.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
+linkedin_username: "elara-aerospace"
+github_username: "elara-aerospace"
+twitter_username: "Elara_Space"
+instagram_username: "elara_aerospace"
+youtube_username: "@Elara-Aerospace"
 
 # Build settings
 plugins:

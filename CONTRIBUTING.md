@@ -1,4 +1,4 @@
-## How to contribute to Ignition Aerospace
+## How to contribute to Elara Aerospace
 
 #### **Did you find a bug?**
 
@@ -17,14 +17,14 @@
 
 #### **Do you intend to add a new feature or change an existing one?**
 
-* Suggest your change with the Ignition Dev team and start writing code.
+* Suggest your change with the Elara Dev team and start writing code.
 
 * Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.
 
-#### **Do you want to contribute to Ignition Aerospace in general?**
+#### **Do you want to contribute to Elara Aerospace in general?**
 
-Ignition Aerospace is a student effort. We encourage you to pitch in and join [the team](https://ignition-aerospace.com/team/)!
+Elara Aerospace is a student effort. We encourage you to pitch in and join [the team](https://ignition-aerospace.com/team/)!
 
 Thanks! :heart: :heart: :heart:
 
-Ignition Aerospace Team
+Elara Aerospace Team
