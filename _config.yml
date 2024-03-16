@@ -5,7 +5,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: "Elara Aerospace"
-email: contact@elara-aerospace.com
+email: team@elara-aerospace.com
 description: "Join us on a historic journey: Be part of the first student methalox rocket to reach the Kármán line."
 author: "Suriyaa Sundararuban"
 logo: "/assets/images/logo.jpg"
@@ -14,7 +14,7 @@ url: "https://elara-aerospace.com" # the base hostname & protocol for your site,
 domain: elara-aerospace.com       # if you want to force HTTPS, specify the domain without the http at the start, e.g. example.com
 linkedin_username: "elara-aerospace"
 github_username: "elara-aerospace"
-twitter_username: "Elara_Space"
+twitter_username: "Ignition_Space"
 instagram_username: "elara_aerospace"
 youtube_username: "@Elara-Aerospace"
 
