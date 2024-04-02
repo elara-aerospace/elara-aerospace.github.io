@@ -83,7 +83,15 @@
 	</script>
 	
 	{% if jekyll.environment == "production" %}
-		<script src="my-analytics-script.js"></script>
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEBDGT1478"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'G-YEBDGT1478');
+		</script>
 	{% endif %}
   </head>
   <body id="top">
