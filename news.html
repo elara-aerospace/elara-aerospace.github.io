@@ -10,11 +10,144 @@ header-image-width: 5848
 scroll-link: "#read-article"
 ---
 
+<!-- Blog post card design from https://codepen.io/gh-o-st/pen/zYrddjP -->
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+.container:body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f7f8fc;
+  font-family: "Roboto", sans-serif;
+  color: #10182f;
+  min-height: 100vh;
+}
+.container {
+  display: flex;
+  width: 1040px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 300px;
+  transform: scale(1);
+  filter: grayscale(1);
+  transition: transform 0.2s cubic-bezier(.65,.05,.36,1), box-shadow 0.2s cubic-bezier(.65,.05,.36,1), filter 0.4s cubic-bezier(.65,.05,.36,1);
+}
+.card:hover {
+  cursor: pointer;
+  filter: none;
+  transform: scale(1.15);
+  box-shadow: 0 3px 25px rgba(0, 0, 0, 0.3);
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+
+.card-body p {
+  font-size: 20px;
+  margin: 0 0 40px;
+}
+
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  transform: scalex(-1);
+}
+.user-info small {
+  color: #545d7a;
+}
+</style>
+<script>
+let scroll = 0;
+const card = document.querySelector('.card');
+const unpack = function() {
+  
+};
+const repack = function() {
+  
+};
+
+window.addEventListener('wheel', function(evt) {
+  if (evt.deltaY > 0) {
+    scroll+=5;
+  } else if (evt.deltaY < 0 && scroll > 0) {
+    scroll-=5;
+  }
+  console.log(scroll);
+});
+// window.addEventListener('scroll', function() {
+//   console.log(document.querySelector('.container').getBoundingClientRect().top);
+// });
+</script>
+
 <section id='read-article'>
 	<center>
 		<h1>{{ page.title }}</h1>
+		<br/>
+		<div class="container">
 		  {% for post in site.posts %}
-			  <p><a href="{{ post.url }}">{{ post.title }} ({{ post.date | date: "%-d %B %Y" }})</a></p>
+			  <a href="{{ post.url }}">
+				  <div class="card">
+					<div class="card-header">
+					  <img src="{{ post.header-image }}" alt="{{ post.header-title }}" />
+					</div>
+					<div class="card-body">
+					  <span class="tag tag-teal">{{ post.categories }}</span>
+					  <p>{{ post.title }}</p>
+					  <div class="user">
+						<img src="/assets/images/team/uta-heldt.png" alt="Uta Heldt" />
+						<div class="user-info">
+						  <small><b>By {{ post.author }}</b> | On {{ post.date | date: "%-d %B %Y" }}</small>
+						</div>
+					  </div>
+					</div>
+				  </div>
+			  </a>
 		  {% endfor %}
+		</div>
 	</center>
 </section>
+
+<!-- embed twitter / linkedin / instagram code -->
+...
