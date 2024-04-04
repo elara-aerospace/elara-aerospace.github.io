@@ -8,10 +8,10 @@
   link: /mission/
 - name: Partners
   link: /partners/
-- name: Project
-  link: /project/
-- name: Experiments
-  link: /experiments/
+#- name: Project
+#  link: /project/
+#- name: Experiments
+#  link: /experiments/
 - name: News
   link: /news/
 - name: Press
