@@ -12,6 +12,8 @@
 #  link: /project/
 #- name: Experiments
 #  link: /experiments/
+- name: Pitch Deck
+  link: /pitch/
 - name: News
   link: /news/
 - name: Press
