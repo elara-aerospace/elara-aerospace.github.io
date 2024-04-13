@@ -118,7 +118,13 @@
 	{% include header.html %}
 	{% include intro.html %}
 	
-	<section id='read-article'>
+	<style>
+	.read-article {
+	  margin: 250px;
+	  color: white;
+	}
+	</style>
+	<section class='read-article' id='read-article'>
 		<center>
 			<h1>{{ page.title }}</h1>
 			<p><b>{{ page.date | date_to_string }} - {{ page.author }}</b></p>
