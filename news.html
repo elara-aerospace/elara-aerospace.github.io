@@ -116,66 +116,73 @@ window.addEventListener('wheel', function(evt) {
   }
   console.log(scroll);
 });
-// window.addEventListener('scroll', function() {
-//   console.log(document.querySelector('.container').getBoundingClientRect().top);
-// });
 </script>
-
-<!-- DEACTIVATED:
-<script>
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-  // true for mobile device
-  document.getElementById("desktop").style.display = 'none';
-}else{
-  // false for not mobile device
-  document.getElementById("mobile").style.display = 'none';
-}
-</script>
--->
 
 <section id='read-article'>
-	<!-- DEACTIVATED:
-	<div id='mobile'>
-		<center>
-			<h1>{{ page.title }}</h1>
-			  {% for post in site.posts %}
-				  <p><a href="{{ post.url }}">{{ post.title }} ({{ post.date }})</a></p>
-			  {% endfor %}
-		</center>
-	</div>
-	-->
+	<script>
+		// Function to detect if the user is browsing on a mobile device
+		function isMobileDevice() {
+		  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+		}
 
-	<div id='desktop'>
-		<center>
-			<h1>{{ page.title }}</h1>
-			<br/>
-			<div class="container">
-			  {% for post in site.posts %}
-				  <a href="{{ post.url }}">
-					  <div class="card">
-						<div class="card-header">
-						  <img src="{{ post.header-image }}" alt="{{ post.header-title }}" />
-						</div>
-						<div class="card-body">
-						  <span class="tag tag-teal">{{ post.categories }}</span>
-						  <p>{{ post.title }}</p>
-						  <div class="user">
-							<img src="/assets/images/team/uta-heldt.png" alt="Uta Heldt" />
-							<div class="user-info">
-							  <small><b>By {{ post.author }}</b> | On {{ post.date | date: "%-d %B %Y" }}</small>
+		// Function to display different content based on device type
+		function displayContentBasedOnDevice() {
+		  const outputElement = document.getElementById("output");
+
+		  if (isMobileDevice()) {
+			// Display mobile-specific content
+			outputElement.innerHTML = `
+			  <div id='mobile'>
+				<center>
+				  <h1>{{ page.title }}</h1>
+				  {% for post in site.posts %}
+					<p><a href="{{ post.url }}">{{ post.title }} ({{ post.date }})</a></p>
+				  {% endfor %}
+				</center>
+			  </div>
+			`;
+		  } else {
+			// Display desktop-specific content
+			outputElement.innerHTML = `
+			  <div id='desktop'>
+				<center>
+				  <h1>{{ page.title }}</h1>
+				  <br/>
+				  <div class="container">
+					{% for post in site.posts %}
+					  <a href="{{ post.url }}">
+						<div class="card">
+						  <div class="card-header">
+							<img src="{{ post.header-image }}" alt="{{ post.header-title }}" />
+						  </div>
+						  <div class="card-body">
+							<span class="tag tag-teal">{{ post.categories }}</span>
+							<p>{{ post.title }}</p>
+							<div class="user">
+							  <img src="/assets/images/team/uta-heldt.png" alt="Uta Heldt" />
+							  <div class="user-info">
+								<small><b>By {{ post.author }}</b> | On {{ post.date | date: "%-d %B %Y" }}</small>
+							  </div>
 							</div>
 						  </div>
 						</div>
-					  </div>
-				  </a>
-				  <br />
-			  {% endfor %}
-			</div>
-		</center>
+					  </a>
+					  <br />
+					{% endfor %}
+				  </div>
+				</center>
+			  </div>
+			`;
+		  }
+		}
+
+		// Call the function when the page loads
+		window.onload = function() {
+		  displayContentBasedOnDevice();
+		};
+	</script>
+
+	<div id="output">
+	<!-- Content will be dynamically loaded and inserted here based on device type -->
 	</div>
 </section>
-
-<!-- Embedded Twitter Timeline (from https://publish.twitter.com/?query=https%3A%2F%2Ftwitter.com%2FIgnition_Space&widget=Timeline) -->
-<!-- DEACTIVATED:
-<a class="twitter-timeline" href="https://twitter.com/Ignition_Space?ref_src=twsrc%5Etfw">Tweets by Ignition_Space</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
--->
