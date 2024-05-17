@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+set -e # halt script on error
+
+## Ensures that Jekyll software doesn’t fail to build the site
+bundle exec jekyll build
+
+## This tool checks the resulting site to ensure all links and images exist
+bundle exec htmlproofer ./_site
