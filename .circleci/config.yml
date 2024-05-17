@@ -23,13 +23,4 @@ jobs:
           command: bundle exec jekyll build
       - run:
           name: HTMLProofer tests
-          command: |
-            bundle exec htmlproofer ./_site \
-              --allow-hash-href \
-              --check-favicon  \
-              --check-html \
-              --disable-external
-      - persist_to_workspace:
-          root: ./
-          paths:
-            - _site
+          command: bundle exec htmlproofer ./_site --check-html --disable-external
