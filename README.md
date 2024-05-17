@@ -3,4 +3,4 @@
 
 ----
 
-Copyright (c) 2023-present Elara Aerospace GmbH
+Copyright (c) 2023-present Elara Aerospace
