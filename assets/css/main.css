@@ -544,6 +544,13 @@ form,
     vertical-align: middle;
 }
 
+.line-scale-pulse-out > img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 20%;
+}
+
 .line-scale-pulse-out > div {
     background-color: #7f02fc;
     width: 4px;
