@@ -14,11 +14,11 @@
     {% feed_meta %}
 	<meta name="author" content="{{ site.author }}"> <!-- tag defines website creator -->
 	<meta name="description" content="{{ page.header-desc }}">
-	
+
 	<!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<!-- CSS
     ================================================== -->
     <link rel="stylesheet" href="/assets/css/base.css">
@@ -27,7 +27,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
 	<style>
 		.tektur { font-family: 'Tektur', sans-serif; }
 	</style>
@@ -83,7 +83,7 @@
 			]
 		}
 	</script>
-	
+
 	{% if jekyll.environment == "production" %}
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEBDGT1478"></script>
@@ -117,7 +117,7 @@
 
 	{% include header.html %}
 	{% include intro.html %}
-	
+
 	<style>
 	.read-article {
 	  margin: 250px;
@@ -136,7 +136,7 @@
 		</center>
 		{{ content }}
 	</section>
-	
+
     {% include footer.html %}
   </body>
 </html>
