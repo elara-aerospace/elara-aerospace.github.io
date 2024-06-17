@@ -1114,6 +1114,7 @@
     /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
     -webkit-backface-visibility: hidden;
     outline: none;
+    font-family: "montserrat-regular", sans-serif;
 }
 
 .pswp * {
@@ -1193,6 +1194,7 @@
 
 .pswp__container, .pswp__zoom-wrap {
     -ms-touch-action: none;
+    -webkit-backface-visibility: hidden;
     touch-action: none;
     position: absolute;
     left: 0;
@@ -1234,10 +1236,6 @@
 .pswp--animated-in .pswp__bg, .pswp--animated-in .pswp__zoom-wrap {
     -webkit-transition: none;
     transition: none;
-}
-
-.pswp__container, .pswp__zoom-wrap {
-    -webkit-backface-visibility: hidden;
 }
 
 .pswp__item {
@@ -1828,10 +1826,6 @@ a.pswp__share--download:hover {
 
 
 /* root element of UI */
-
-.pswp {
-    font-family: "montserrat-regular", sans-serif;
-}
 
 .pswp__ui {
     -webkit-font-smoothing: auto;
