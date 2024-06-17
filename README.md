@@ -9,6 +9,10 @@
 
 > Official website of Elara Aerospace
 
+Up to Space. And Far Beyond.
+
+JOIN US ON A HISTORIC JOURNEY: BE PART OF THE FIRST STUDENT METHALOX ROCKET TO REACH 100 KM.
+
 ----
 
 Copyright (c) 2023-present Elara Aerospace
