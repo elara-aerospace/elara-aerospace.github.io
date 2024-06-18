@@ -106,7 +106,7 @@
             $folioItems = $('.item-folio');
 
             // get items
-            $folioItems.each( function(i) {
+            $folioItems.each( function() {
 
                 var $folio = $(this),
                     $thumbLink =  $folio.find('.thumb-link'),
@@ -133,7 +133,7 @@
             });
 
             // bind click event
-            $folioItems.each(function(i) {
+            $folioItems.each(function() {
 
                 $(this).on('click', function(e) {
                     e.preventDefault();
