@@ -2831,7 +2831,7 @@ html.no-csstransitions .home-content__main {
     height: 8.4rem;
     width: 8.4rem;
     border-radius: 50%;
-    margin: 0 auto 1.2rem auto;
+    margin: 0 auto 1.2rem;
 }
 
 .clients-testimonials .testimonials__name, 
@@ -3402,7 +3402,7 @@ footer .row {
 
 .footer-logo {
     display: block;
-    margin: -.6rem 0 3.6rem 0;
+    margin: -.6rem 0 3.6rem;
     padding: 0;
     outline: 0;
     border: none;
@@ -3601,7 +3601,7 @@ footer .row {
 
 @media only screen and (max-width: 500px) {
     .footer-subscribe #mc-form input[type="email"] {
-        padding: 1.2rem 20px 1.2rem;
+        padding: 1.2rem 20px;
         background: rgba(0, 0, 0, 0.1);
         text-align: center;
     }
