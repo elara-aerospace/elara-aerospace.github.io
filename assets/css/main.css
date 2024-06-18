@@ -988,10 +988,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     content: ", ";
 }
 
-.lining dd + dd:before {
-    content: ", ";
-}
-
 .lining dd:before {
     content: ": ";
     margin-left: -0.2em;
