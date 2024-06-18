@@ -1415,7 +1415,6 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     margin: 0;
     cursor: pointer;
-    font: 0/0 a;
     text-shadow: none;
     color: transparent;
 }
