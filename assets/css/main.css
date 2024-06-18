@@ -2297,8 +2297,6 @@ html.no-csstransitions .home-content__main {
     .about-stats {
         padding-top: 3rem;
         padding-bottom: 3.9rem;
-    }
-    .about-stats {
         max-width: 800px;
     }
     .stats__col {
