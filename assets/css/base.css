@@ -47,6 +47,10 @@ html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    /* merged from basic/base setup styles */
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
 }
 
 body {
@@ -287,11 +291,6 @@ template {
  * # basic/base setup styles
  *
  * ------------------------------------------------------------------- */
-html {
-    font-size: 62.5%;
-    box-sizing: border-box;
-}
-
 *,
 *::before,
 *::after {
