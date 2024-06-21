@@ -15,16 +15,66 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Learn
 	<!-- wo we are
     ================================================== -->
     <section id='learn-more' class="s-about">
-	<div class="row section-header has-bottom-sep" data-aos="fade-up">
+		<div class="row section-header has-bottom-sep" data-aos="fade-up">
+				<div class="col-full">
+					<h1 class="display-1 display-1--light"><div class="tektur">Pioneer in Student Rocketry</div></h1>
+				</div>
+			</div> <!-- end section-header -->
+
+			<div class="row about-desc" data-aos="fade-up">
+				<div class="col-full">
+					As a pioneer in student rocketry, Elara Aerospace endeavours to construct the first rocket with a bi-liquid Methalox rocket engine to ascend to an altitude of 100 kilometres. Innovation propels us forward; by pushing the limits with liquid rocket engines, we are able to conduct scientific experiments in the upper atmosphere that are unlike any other. Our objective? Motivate progress in the aerospace industry by providing exceptional prospects for exploration and pioneering revelations. We invite you to collaborate with us as we redefine the boundaries of possibility in the field of aerospace engineering.
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+    <!-- services
+    ================================================== -->
+    <section id='video' class="s-services">
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h1 class="display-1 display-1--light"><div class="tektur">Pioneer in Student Rocketry</div></h1>
+                <h3 class="subhead">Our Pitch Video</h3>
+                <h1 class="display-2">Be Part of the First Student Methalox Rocket to Reach 100 km</h1>
             </div>
         </div> <!-- end section-header -->
 
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-				As a pioneer in student rocketry, Elara Aerospace endeavours to construct the first rocket with a bi-liquid Methalox rocket engine to ascend to an altitude of 100 kilometres. Innovation propels us forward; by pushing the limits with liquid rocket engines, we are able to conduct scientific experiments in the upper atmosphere that are unlike any other. Our objective? Motivate progress in the aerospace industry by providing exceptional prospects for exploration and pioneering revelations. We invite you to collaborate with us as we redefine the boundaries of possibility in the field of aerospace engineering.
-			</div>
-		</div>
-	</div>
+	<link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
+
+	<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+	<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+    
+	<!-- Video.js Fantasy Theme -->
+	<link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet" />
+	
+	<!-- Video.js Watermark (https://github.com/xbgmsharp/videojs-watermark) -->
+	<link href="/assets/css/videojs.watermark.css" rel="stylesheet">
+
+	<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
+
+	<!-- Video.js Watermark (https://github.com/xbgmsharp/videojs-watermark) -->
+	<script src='/assets/js/videojs.watermark.js'></script>
+
+		<video
+			id="my-video"
+			class="video-js vjs-theme-fantasy"
+			style="display:block; margin: 0 auto;"
+			controls
+			preload="auto"
+			width="960"
+			height="540"
+			poster=""
+			data-setup="">
+			<source src="/assets/videos/Elara Aerospace Pitch v1.mp4" type="video/mp4" />
+			<source src="/assets/videos/Elara Aerospace Pitch v1.webm" type="video/webm" />
+			<source src="/assets/videos/Elara Aerospace Pitch v1.ogv" type="video/ogg" />
+			<p class="vjs-no-js">
+			  To view this video please enable JavaScript, and consider upgrading to a
+			  web browser that
+			  <a href="https://videojs.com/html5-video-support/" target="_blank"
+				>supports HTML5 video</a
+			  >
+			</p>
+		</video>
 	</section>
