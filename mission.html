@@ -56,19 +56,32 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Learn
 	<!-- Video.js Watermark (https://github.com/xbgmsharp/videojs-watermark) -->
 	<script src='/assets/js/videojs.watermark.js'></script>
 
+	<!-- YouTube Playback Technology for Video.js (https://github.com/videojs/videojs-youtube) -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js"></script>
+
+	<!-- Embedded Video.js Video -->
 		<video
-			id="my-video"
+			id="pitch-video"
 			class="video-js vjs-theme-fantasy"
 			style="display:block; margin: 0 auto;"
 			controls
 			preload="auto"
 			width="960"
 			height="540"
-			poster=""
-			data-setup="">
-			<source src="/assets/videos/Elara Aerospace Pitch v1.mp4" type="video/mp4" />
-			<source src="/assets/videos/Elara Aerospace Pitch v1.webm" type="video/webm" />
-			<source src="/assets/videos/Elara Aerospace Pitch v1.ogv" type="video/ogg" />
+			poster="https://img.youtube.com/vi/bLl7GcvQjdo/maxresdefault.jpg"
+			data-setup="{
+				'techOrder': ['youtube'],
+				'sources': [{ 'type': 'video/youtube', 'src':
+				'https://www.youtube.com/watch?v=bLl7GcvQjdo'}] },
+				'youtube': {
+					'ytControls': 2,
+					'customVars': { 'wmode': 'transparent'}
+			}">
+			<!-- Disabled local video, using YouTube instead:
+				<source src="/assets/videos/Elara Aerospace Pitch v1.mp4" type="video/mp4" />
+				<source src="/assets/videos/Elara Aerospace Pitch v1.webm" type="video/webm" />
+				<source src="/assets/videos/Elara Aerospace Pitch v1.ogv" type="video/ogg" />
+			-->
 			<p class="vjs-no-js">
 			  To view this video please enable JavaScript, and consider upgrading to a
 			  web browser that
