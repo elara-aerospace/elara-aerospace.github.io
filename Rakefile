@@ -25,4 +25,4 @@ Rake::TestTask.new do |t|
 end
 
 desc 'Default task: Build and Test'
-task default: [:clean, :build, :test]
+task default: [:build, :test, :clean]
