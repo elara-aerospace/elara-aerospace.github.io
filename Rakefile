@@ -10,13 +10,6 @@ task :build do
   puts "Jekyll build completed."
 end
 
-desc 'Clean the site'
-task :clean do
-  puts "Cleaning the site..."
-  sh "jekyll clean"
-  puts "Site cleaned."
-end
-
 desc 'Test the Jekyll site'
 Rake::TestTask.new do |t|
   t.libs << "test"
@@ -25,4 +18,4 @@ Rake::TestTask.new do |t|
 end
 
 desc 'Default task: Build and Test'
-task default: [:build, :test, :clean]
+task default: [:build, :test]
