@@ -40,17 +40,46 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Learn
             </div>
         </div> <!-- end section-header -->
 
+	<!-- Video.js stylesheet -->
 	<link href="https://vjs.zencdn.net/8.10.0/video-js.css" rel="stylesheet" />
 
-	<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
-	<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
-    
 	<!-- Video.js Fantasy Theme -->
 	<link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet" />
 	
 	<!-- Video.js Watermark (https://github.com/xbgmsharp/videojs-watermark) -->
-	<link href="/assets/css/videojs.watermark.css" rel="stylesheet">
+	<!-- <link href="/assets/css/videojs.watermark.css" rel="stylesheet"> -->
 
+	<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+	<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
+
+	<!-- Embedded Video.js Video -->
+	<video
+		id="pitch-video"
+		class="video-js vjs-big-play-centered vjs-theme-fantasy"
+		style="display:block; margin: 0 auto;"
+		controls
+		preload="auto"
+		fluid="true"
+		width="960"
+		height="540"
+		poster="https://img.youtube.com/vi/bLl7GcvQjdo/maxresdefault.jpg"
+		data-setup="{
+			'techOrder': ['youtube'],
+			'sources': [{ 'type': 'video/youtube', 'src':
+			'https://www.youtube.com/watch?v=bLl7GcvQjdo'}] },
+			'youtube': {
+				'ytControls': 2,
+				'customVars': { 'wmode': 'transparent'}
+			}">
+		<!-- Disabled local video, using YouTube instead:
+		<source src="/assets/videos/Elara Aerospace Pitch v1.mp4" type="video/mp4" />
+		<source src="/assets/videos/Elara Aerospace Pitch v1.webm" type="video/webm" />
+		<source src="/assets/videos/Elara Aerospace Pitch v1.ogv" type="video/ogg" />
+		<p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a></p>
+		-->
+	</video>
+
+	<!-- Video.js script -->
 	<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
 
 	<!-- Video.js Watermark (https://github.com/xbgmsharp/videojs-watermark) -->
@@ -59,35 +88,7 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Learn
 	<!-- YouTube Playback Technology for Video.js (https://github.com/videojs/videojs-youtube) -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/2.6.1/Youtube.min.js"></script>
 
-	<!-- Embedded Video.js Video -->
-		<video
-			id="pitch-video"
-			class="video-js vjs-theme-fantasy"
-			style="display:block; margin: 0 auto;"
-			controls
-			preload="auto"
-			width="960"
-			height="540"
-			poster="https://img.youtube.com/vi/bLl7GcvQjdo/maxresdefault.jpg"
-			data-setup="{
-				'techOrder': ['youtube'],
-				'sources': [{ 'type': 'video/youtube', 'src':
-				'https://www.youtube.com/watch?v=bLl7GcvQjdo'}] },
-				'youtube': {
-					'ytControls': 2,
-					'customVars': { 'wmode': 'transparent'}
-			}">
-			<!-- Disabled local video, using YouTube instead:
-				<source src="/assets/videos/Elara Aerospace Pitch v1.mp4" type="video/mp4" />
-				<source src="/assets/videos/Elara Aerospace Pitch v1.webm" type="video/webm" />
-				<source src="/assets/videos/Elara Aerospace Pitch v1.ogv" type="video/ogg" />
-			-->
-			<p class="vjs-no-js">
-			  To view this video please enable JavaScript, and consider upgrading to a
-			  web browser that
-			  <a href="https://videojs.com/html5-video-support/" target="_blank"
-				>supports HTML5 video</a
-			  >
-			</p>
-		</video>
-	</section>
+	<script>
+	var player = videojs('pitch-video');
+	</script>
+    </section>
