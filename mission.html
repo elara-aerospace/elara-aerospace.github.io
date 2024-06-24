@@ -45,9 +45,6 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Learn
 
 	<!-- Video.js Fantasy Theme -->
 	<link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet" />
-	
-	<!-- Video.js Watermark (https://github.com/xbgmsharp/videojs-watermark) -->
-	<!-- <link href="/assets/css/videojs.watermark.css" rel="stylesheet"> -->
 
 	<!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
 	<script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script>
@@ -57,11 +54,12 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Learn
 		id="pitch-video"
 		class="video-js vjs-big-play-centered vjs-theme-fantasy"
 		controls
-		width="960"
-		height="540"
+		autoplay
+		width="640" height="360"
 		poster="https://img.youtube.com/vi/bLl7GcvQjdo/maxresdefault.jpg"
-		data-setup="{ 'techOrder': ['youtube'], 'sources': [{ 'type': 'video/youtube', 'src': 'https://www.youtube.com/watch?v=bLl7GcvQjdo'}] }">
-	</video>
+		data-setup='{ "techOrder": ["youtube"], "sources": [{ "type": "video/youtube", "src": "https://www.youtube.com/watch?v=bLl7GcvQjdo"}] }'
+	>
+  </video>
 
 	<!-- Video.js script -->
 	<script src="https://vjs.zencdn.net/8.10.0/video.min.js"></script>
