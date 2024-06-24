@@ -1,5 +1,5 @@
 # Build Test for Rakefile written in Ruby
-require 'minitest/autorun'
+require "minitest/autorun"
 
 class TestJekyllBuild < Minitest::Test
   def test_jekyll_build_exits_successfully
