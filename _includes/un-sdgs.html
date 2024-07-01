@@ -1,0 +1,64 @@
+    <style>
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            justify-content: center;
+        }
+        .icon-container {
+            text-align: center;
+            padding: 15px;
+        }
+        .icon-container:hover {
+            transform: translateY(-5px);
+        }
+        .icon {
+            width: 100%;
+            max-width: 150px; /* change icon size */
+            height: auto;
+        }
+        .icon-title {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .disclaimer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 12px;
+            color: #ccc;
+        }
+    </style>
+
+    <div class="gallery">
+        <div class="icon-container">
+            <a href="https://sdgs.un.org/goals/goal4"><img src="/assets/images/un-sdgs/E-WEB-Goal-04.png" alt="SDG 1" class="icon"></a>
+			<p class="icon-title"><b>Goal 4</b><br>Quality Education</p>
+        </div>
+        <div class="icon-container">
+            <a href="https://sdgs.un.org/goals/goal5"><img src="/assets/images/un-sdgs/E-WEB-Goal-05.png" alt="SDG 2" class="icon"></a>
+            <p class="icon-title"><b>Goal 5</b><br> Gender Equality</p>
+        </div>
+        <div class="icon-container">
+            <a href="https://sdgs.un.org/goals/goal7"><img src="/assets/images/un-sdgs/E-WEB-Goal-07.png" alt="SDG 2" class="icon"></a>
+			<p class="icon-title"><b>Goal 7</b><br> Affordable and Clean Energy</p>
+        </div>
+        <div class="icon-container">
+            <a href="https://sdgs.un.org/goals/goal8"><img src="/assets/images/un-sdgs/E-WEB-Goal-08.png" alt="SDG 2" class="icon"></a>
+            <p class="icon-title"><b>Goal 8</b><br> Decent Work and Economic Growth</p>
+        </div>
+        <div class="icon-container">
+            <a href="https://sdgs.un.org/goals/goal9"><img src="/assets/images/un-sdgs/E-WEB-Goal-09.png" alt="SDG 2" class="icon"></a>
+            <p class="icon-title"><b>Goal 9</b><br> Industry, Innovation and Infrastructure</p>
+        </div>
+        <div class="icon-container">
+            <a href="https://sdgs.un.org/goals/goal12"><img src="/assets/images/un-sdgs/E-WEB-Goal-12.png" alt="SDG 2" class="icon"></a>
+            <p class="icon-title"><b>Goal 12</b><br> Responsible Consumption and Production</p>
+        </div>
+        <!-- Add more icon containers for SDGs 3-17 -->
+    </div>
+
+    <p class="disclaimer">
+		<u>Disclaimer:</u> The content of this publication has not been approved by the United Nations and does not reflect the views of the United Nations or its officials or Member States.
+        <br><br>
+		<b><a href="https://sdgs.un.org/goals" target="_blank">Learn more about UN Sustainable Development Goals</a></b>
+    </p>
