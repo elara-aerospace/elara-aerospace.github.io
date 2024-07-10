@@ -119,10 +119,22 @@
 	{% include intro.html %}
 	
 	<style>
-	.read-article {
-	  margin: 250px;
-	  color: white;
+	/* Responsive text format for desktop devices */
+	@media screen and (min-width: 768px) {
+	  .read-article {
+		margin: 250px; /* Larger margin for desktop */
+		color: white;
+	  }
 	}
+
+	/* Responsive text format for mobile devices */
+	@media screen and (max-width: 767px) {
+	  .read-article {
+		margin: 20px; /* Smaller margin for mobile */
+		color: white;
+	  }
+	}
+
 	.image-caption {
 	  text-align: center;
 	  font-size: 1.6rem;
