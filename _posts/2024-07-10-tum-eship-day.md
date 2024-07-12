@@ -4,7 +4,7 @@ permalink: /news/tum-eship-day/
 author: "Uta Heldt"
 date: 2024-07-10 14:00:00 +0200
 categories: event
-title: "TUM Entrepreneurship Day"
+title: "TUM Entrepreneurship Day 💡"
 header-title: "TUM Entrepreneurship Day 2024"
 header-desc: "Elara Aerospace joined the vibrant community at TUM Entrepreneurship Day, held at the Technical University of Munich to celebrate all things entrepreneurship, innovation and start-ups. This annual event, co-hosted by UnternehmerTUM and TUM Venture Labs, transformed the campus into a hub of innovation and collaboration."
 header-image: /assets/images/blog/tum-eship-day.png

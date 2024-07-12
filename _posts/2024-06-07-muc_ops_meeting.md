@@ -4,7 +4,7 @@ permalink: /news/munich-urban-colab-meeting/
 author: "Uta Heldt"
 date: 2024-06-07 22:00:00 +0200
 categories: meetup
-title: "Team building and in person operations meeting with Elara Aerospace"
+title: "Team building and in person operations meeting 🏗️"
 header-title: "Team building and in person operations meeting with Elara Aerospace"
 header-desc: "Last Friday, the Elara Aerospace team gathered for a face-to-face operations meeting at the Munich Urban Colab. This meeting allowed us to discuss our current projects in the region, assess progress and plan future steps more effectively through face-to-face interaction and open discussion."
 header-image: /assets/images/blog/muc_ops_meeting-cover.jpg

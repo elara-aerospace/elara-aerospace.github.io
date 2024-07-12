@@ -4,7 +4,7 @@ permalink: /news/diversity/
 author: "Uta Heldt"
 date: 2024-07-07 18:00:00 +0200
 categories: info
-title: "Diversity at Elara Aerospace"
+title: "Diversity at Elara Aerospace 🌐"
 header-title: "Talent Diversity at Elara Aerospace"
 header-desc: "At Elara Aerospace, diversity drives our innovation. Our team, made up of individuals from different nationalities and cultural backgrounds, demonstrates the power of inclusivity to drive breakthrough advances."
 header-image: /assets/images/blog/kyle-glenn-nXt5HtLmlgE-unsplash.jpg

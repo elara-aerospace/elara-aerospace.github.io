@@ -4,8 +4,8 @@ permalink: /news/photo-shooting/
 author: "Uta Heldt"
 date: 2024-05-04 16:00:00 +0200
 categories: meetup
-title: "Elara Aerospace Photoshoot"
-header-title: "Elara Aerospace Photoshoot"
+title: "Elara Aerospace Photoshoot 📸"
+header-title: "Elara Aerospace Photoshooting Day"
 header-desc: "Elara Aerospace recently held a special team photo and headshot event to celebrate the unity and diversity of our workforce. The photo shoot took place at Munich University of Applied Sciences and included team members leading Munich universities."
 header-image: /assets/images/blog/photoshooting_day.png
 header-image-height: 3024
