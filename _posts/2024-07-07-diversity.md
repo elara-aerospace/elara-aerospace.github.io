@@ -7,9 +7,9 @@ categories: info
 title: "Diversity at Elara Aerospace"
 header-title: "Talent Diversity at Elara Aerospace"
 header-desc: "At Elara Aerospace, diversity drives our innovation. Our team, made up of individuals from different nationalities and cultural backgrounds, demonstrates the power of inclusivity to drive breakthrough advances."
-header-image: /assets/images/blog/photoshooting_day.png
-header-image-height: 3024
-header-image-width: 4032
+header-image: /assets/images/blog/kyle-glenn-nXt5HtLmlgE-unsplash.jpg
+header-image-height: 3840
+header-image-width: 5760
 scroll-link: "#read-article"
 ---
 
