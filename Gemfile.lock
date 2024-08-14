@@ -253,7 +253,7 @@ GEM
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
-    minitest (5.24.1)
+    minitest (5.25.0)
     mutex_m (0.2.0)
     net-http (0.4.1)
       uri
@@ -331,7 +331,7 @@ DEPENDENCIES
   jekyll-seo-tag (~> 2.8.0)
   jekyll-sitemap (~> 1.4.0)
   liquid (~> 4.0.4)
-  minitest (~> 5.24)
+  minitest (~> 5.25)
   rake (~> 13.2, >= 13.2.1)
   tzinfo (~> 2.0, >= 2.0.6)
   tzinfo-data (~> 1.2024, >= 1.2024.1)
