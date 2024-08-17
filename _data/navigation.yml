@@ -2,23 +2,26 @@
   link: /
 - name: About Us
   link: /about/
-- name: Our Team
-  link: /team/
 - name: Mission
   link: /mission/
-- name: Technology
-  link: /tech/
+- name: Our Team
+  link: /team/
 - name: Partners
   link: /partners/
+- name: Technology
+  link: /tech/
+- name: Pitch Deck
+  link: /pitch/
 - name: Join Us
   link: /apply/
 #- name: Project
 #  link: /project/
 #- name: Experiments
 #  link: /experiments/
-- name: Pitch Deck
-  link: /pitch/
 - name: News
   link: /news/
 - name: Press
   link: /press/
+- name: Contact Us
+  link: /contact/
+
