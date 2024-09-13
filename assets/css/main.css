@@ -1472,6 +1472,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 /* ------------------------------------------------------------------- 
  * ## main navigation 
  * ------------------------------------------------------------------- */
+ .badge {
+  background-color: red;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+}
+
 .header-nav {
     background: #0C0C0C;
     color: rgba(255, 255, 255, 0.25);
