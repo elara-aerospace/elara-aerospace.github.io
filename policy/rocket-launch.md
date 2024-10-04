@@ -25,15 +25,6 @@ We implement robust range safety measures for each launch, including:
 - Establishing a secure launch corridor with defined destruct lines
 - Continuous monitoring of the rocket's flight path and instantaneous impact point
 
-## Flight Termination System
-
-Our launches utilize a reliable Flight Termination System (FTS) to protect public safety:
-
-- Redundant UHF receivers on the rocket receive coded commands
-- Range Safety Officer can issue arm and fire commands if needed
-- Linear shaped charges can disable the rocket if it veers off course
-- FTS is extensively tested pre-launch and monitored during flight
-
 ## Access Control and Security
 
 We maintain strict access control measures at the launch facilities:
