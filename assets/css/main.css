@@ -3362,6 +3362,9 @@ footer {
     line-height: 2;
     text-align: center;
     color: rgba(255, 255, 255, 0.3);
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 footer h4 {
@@ -3384,6 +3387,26 @@ footer .row {
     max-width: 980px;
 }
 
+.footer-links {
+    padding: 3rem 0 6rem;
+    font-family: "montserrat-light", sans-serif;
+    font-size: 15px;
+    line-height: 2;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-links .row {
+    max-width: 980px;
+}
+
+.footer-links a {
+    color: #FFFFFF;
+}
+
+.footer-links a:hover, footer a:focus, footer a:active {
+    color: #7f02fc;
+}
 
 /* --------------------------------------------------------------- 
  * ## footer main
@@ -3406,10 +3429,10 @@ footer .row {
     padding: 0;
     outline: 0;
     border: none;
-    width: 85px;
-    height: 28px;
-    background: url("../images/logo-footer.jpg") no-repeat center;
-    background-size: 85px 28px;
+    width: 250px;
+    height: 115px;
+    background: url("../images/logo.png") no-repeat center;
+    background-size: 250px 115px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
