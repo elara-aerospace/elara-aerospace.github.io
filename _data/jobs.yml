@@ -1,4 +1,5 @@
 - title: IT Administration Engineer
+  category: Software
   description: Manage and maintain IT infrastructure and systems
   location: Munich, Germany
   qualifications:
@@ -11,6 +12,7 @@
     - Provide technical support and troubleshooting for team members
 
 - title: Frontend Developer
+  category: Software
   description: Create responsive and user-friendly web interfaces
   location: Munich, Germany
   qualifications:
@@ -23,6 +25,7 @@
     - Optimize applications for maximum speed and scalability
 
 - title: Backend Developer
+  category: Software
   description: Design and implement server-side logic and databases
   location: Munich, Germany
   qualifications:
@@ -35,6 +38,7 @@
     - Integrate third-party services and APIs
 
 - title: Simulation and Testing Lead
+  category: Software
   description: Oversee simulation and testing processes for aerospace systems
   location: Munich, Germany
   qualifications:
@@ -47,6 +51,7 @@
     - Ensure compliance with industry standards and regulations
 
 - title: Simulation Developer
+  category: Software
   description: Create and maintain simulation models for aerospace systems
   location: Munich, Germany
   qualifications:
@@ -59,6 +64,7 @@
     - Optimize simulation performance and accuracy
 
 - title: QA Tester
+  category: Software
   description: Ensure the quality and reliability of software systems
   location: Munich, Germany
   qualifications:
@@ -71,6 +77,7 @@
     - Collaborate with developers to resolve issues
 
 - title: Flight Software Lead
+  category: Software
   description: Lead the development of flight control software
   location: Munich, Germany
   qualifications:
@@ -83,6 +90,7 @@
     - Collaborate with hardware teams and system engineers
 
 - title: Flight Software Developer
+  category: Software
   description: Develop and maintain flight control software
   location: Munich, Germany
   qualifications:
@@ -95,6 +103,7 @@
     - Collaborate with systems engineers and hardware teams
 
 - title: Embedded System Specialist
+  category: Software
   description: Design and develop embedded systems for aerospace applications
   location: Munich, Germany
   qualifications:
@@ -107,6 +116,7 @@
     - Troubleshoot and debug complex embedded systems
 
 - title: Ground Control Software Lead
+  category: Software
   description: Lead the development of ground control software systems
   location: Munich, Germany
   qualifications:
@@ -119,6 +129,7 @@
     - Manage software development team and project timelines
 
 - title: UI/UX Developer
+  category: Software
   description: Create intuitive and efficient user interfaces for aerospace software
   location: Munich, Germany
   qualifications:
@@ -131,6 +142,7 @@
     - Collaborate with engineers to ensure feasibility of designs
 
 - title: Data Visualization Specialist
+  category: Software
   description: Develop data visualization solutions for aerospace applications
   location: Munich, Germany
   qualifications:
@@ -143,18 +155,26 @@
     - Collaborate with data scientists and engineers to present complex data
 
 - title: Sponsoring
+  category: Operations
 
 - title: Social Media Marketing
+  category: Operations
 
 - title: General Marketing
+  category: Operations
 
 - title: Videographer/Content Creator
+  category: Operations
 
 - title: Event Planner
+  category: Operations
 
 - title: Logistics and Storage Administrator
+  category: Operations
 
 - title: Process Administrator
+  category: Operations
 
 - title: Safety Planner
+  category: Operations
 

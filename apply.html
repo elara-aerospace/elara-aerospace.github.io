@@ -133,6 +133,7 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
         }
 
         #jobAccordion h3 {
+            position: relative; /* Ensure proper positioning for child elements */
             background-color: black;
             color: white;
             padding: 15px;
@@ -158,11 +159,24 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
         #jobAccordion p {
             margin: 10px 0;
         }
+
+        /* Style for the category label */
+        .category-label {
+            float: right; /* Align it to the right */
+            font-size: 0.9em; /* Adjust the font size */
+            color: #555; /* Optional: Change text color */
+            background-color: #f1f1f1; /* Optional: Add a background color */
+            padding: 2px 8px; /* Add some padding */
+            border-radius: 4px; /* Round the corners */
+        }
     </style>
 
     <div id="jobAccordion">
         {% if site.data.jobs %} {% for job in site.data.jobs %}
-        <h3>{{ job.title }}</h3>
+        <h3>
+            {{ job.title }}
+            <span class="category-label">{{ job.category }}</span>
+        </h3>
         <div>
             <p><strong>Role Description:</strong> {{ job.description }}</p>
             <p><strong>Location:</strong> {{ job.location }}</p>
