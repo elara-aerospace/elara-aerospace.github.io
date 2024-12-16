@@ -1,0 +1,144 @@
+- title: IT Administration Engineer
+  description: Manage and maintain IT infrastructure and systems
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in IT, Computer Science, or related field
+    - 3+ years of experience in IT administration, preferably in Linux and Windows (optional)
+    - Certifications in relevant technologies (optional)
+  key_responsibilities:
+    - Maintain Hetzner Virtual Machines and installing/updating software
+    - Maintain GitHub infrastructure
+    - Provide technical support and troubleshooting for team members
+
+- title: Frontend Developer
+  description: Create responsive and user-friendly web interfaces
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Computer Science or related field
+    - 3+ years of experience in frontend development (optional)
+    - Proficiency in HTML5, CSS3, and JavaScript, preferably good experience with <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> static site generator and <a target="_blank" href="https://pages.github.com/">GitHub Pages</a>
+  key_responsibilities:
+    - Develop and maintain responsive web applications
+    - Collaborate with designers to implement user interfaces
+    - Optimize applications for maximum speed and scalability
+
+- title: Backend Developer
+  description: Design and implement server-side logic and databases
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Computer Science or related field
+    - 3+ years of experience in backend development (optional)
+    - Proficiency in server-side languages
+  key_responsibilities:
+    - Develop and maintain server-side applications
+    - Design and implement efficient database structures
+    - Integrate third-party services and APIs
+
+- title: Simulation and Testing Lead
+  description: Oversee simulation and testing processes for aerospace systems
+  location: Munich, Germany
+  qualifications:
+    - Master's degree in Aerospace Engineering or related field
+    - 5+ years of experience in simulation and testing (optional)
+    - Knowledge of aerospace systems and regulations
+  key_responsibilities:
+    - Develop and implement simulation and testing strategies
+    - Lead a team of simulation developers and testers
+    - Ensure compliance with industry standards and regulations
+
+- title: Simulation Developer
+  description: Create and maintain simulation models for aerospace systems
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Aerospace Engineering or related field
+    - 3+ years of experience in simulation development (optional)
+    - Proficiency in simulation software and programming languages
+  key_responsibilities:
+    - Develop and maintain complex simulation models
+    - Collaborate with engineers to validate simulation results
+    - Optimize simulation performance and accuracy
+
+- title: QA Tester
+  description: Ensure the quality and reliability of software systems
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Computer Science or related field
+    - 2+ years of experience in software testing (optional)
+    - Knowledge of testing methodologies and tools
+  key_responsibilities:
+    - Develop and execute test plans and test cases
+    - Identify and report software defects
+    - Collaborate with developers to resolve issues
+
+- title: Flight Software Lead
+  description: Lead the development of flight control software
+  location: Munich, Germany
+  qualifications:
+    - Master's degree in Computer Science or Aerospace Engineering
+    - 7+ years of experience in flight software development (optional)
+    - Expertise in real-time operating systems and embedded systems
+  key_responsibilities:
+    - Oversee the design and implementation of flight software
+    - Ensure compliance with safety-critical software standards
+    - Collaborate with hardware teams and system engineers
+
+- title: Flight Software Developer
+  description: Develop and maintain flight control software
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Computer Science or Aerospace Engineering
+    - 3+ years of experience in embedded software development (optional)
+    - Proficiency in C/C++ and real-time operating systems
+  key_responsibilities:
+    - Implement and test flight control algorithms
+    - Optimize software for performance and reliability
+    - Collaborate with systems engineers and hardware teams
+
+- title: Embedded System Specialist
+  description: Design and develop embedded systems for aerospace applications
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Electrical Engineering or Computer Engineering
+    - 5+ years of experience in embedded systems development (optional)
+    - Expertise in microcontrollers and low-level programming
+  key_responsibilities:
+    - Design and implement embedded hardware and software solutions
+    - Optimize systems for power efficiency and performance
+    - Troubleshoot and debug complex embedded systems
+
+- title: Ground Control Software Lead
+  description: Lead the development of ground control software systems
+  location: Munich, Germany
+  qualifications:
+    - Master's degree in Computer Science or related field
+    - 7+ years of experience in software development (optional)
+    - Knowledge of satellite communications and ground station operations
+  key_responsibilities:
+    - Oversee the design and implementation of ground control software
+    - Ensure integration with satellite systems and mission control
+    - Manage software development team and project timelines
+
+- title: UI/UX Developer
+  description: Create intuitive and efficient user interfaces for aerospace software
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Design or Computer Science
+    - 3+ years of experience in UI/UX design and development (optional)
+    - Proficiency in design tools and frontend technologies
+  key_responsibilities:
+    - Design and implement user interfaces for complex systems
+    - Conduct user research and usability testing
+    - Collaborate with engineers to ensure feasibility of designs
+
+- title: Data Visualization Specialist
+  description: Develop data visualization solutions for aerospace applications
+  location: Munich, Germany
+  qualifications:
+    - Bachelor's degree in Computer Science or related field
+    - 3+ years of experience in data visualization (optional)
+    - Proficiency in data visualization libraries and tools
+  key_responsibilities:
+    - Create interactive and informative data visualizations
+    - Develop custom visualization tools and dashboards
+    - Collaborate with data scientists and engineers to present complex data
+
