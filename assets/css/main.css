@@ -2775,14 +2775,14 @@ html.no-csstransitions .home-content__main {
 
 .clients__slide {
     display: block;
-    opacity: .55;
+    opacity: 1;
     padding: 1.5rem 2.8rem;
     -webkit-transition: opacity 0.5s ease-in-out;
     transition: opacity 0.5s ease-in-out;
 }
 
 .clients__slide:hover, .clients__slide:focus {
-    opacity: 1;
+    opacity: .55;
 }
 
 
