@@ -12,390 +12,124 @@ first-button: "<a href='/pitch/' class='btn btn--primary'>Become Partner</a>"
 second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More</a>"
 ---
 
-    <!-- clients
+<!-- clients
     ================================================== -->
-    <section id="list" class="s-clients">
+<section id="list" class="s-clients">
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Our Partners</h3>
+            <h1 class="display-2">Elara Aerospace has been honored to partner up with these partners</h1>
+        </div>
+    </div>
+    <!-- end section-header -->
 
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Our Partners</h3>
-                <h1 class="display-2">Elara Aerospace has been honored to partner up with these partners</h1>
+    <style>
+        /* Popup CSS */
+        .popup {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        .popup-title {
+            color: black;
+        }
+
+        .popup-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Additional styling for gallery */
+        .gallery img {
+            cursor: pointer;
+            margin: 10px;
+            width: 100px; /* Adjust size as needed */
+            width: 300px; /* Set width to 300px */
+            height: 300px; /* Set height to 300px */
+        }
+    </style>
+
+    <!-- Gallery Section -->
+    <div class="row clients-outer" data-aos="fade-up">
+        <div class="col-full">
+            {% assign grouped_companies = site.data.companies | group_by: "category" %} {% for category in grouped_companies %}
+            <h2>{{ category.name }}</h2>
+            <div class="responsive">
+                <div class="gallery">
+                    {% for company in category.items %}
+                    <img src="{{ company.logo }}" alt="{{ company.name }}" data-company="{{ company.name }}" data-info="{{ company.info }}" data-url="{{ company.url }}" class="company-logo" />
+                    {% endfor %}
+                </div>
             </div>
-        </div> <!-- end section-header -->
+            {% endfor %}
+        </div>
+    </div>
 
-		<style>
-		div.gallery img {
-		  width: 100%;
-		  height: auto;
-		}
+    <!-- Popup Section -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 class="popup-title" id="companyName"></h2>
+            <p id="companyInfo"></p>
+            <a id="companyLink" href="#" target="_blank" class="btn btn--primary">Visit Website</a>
+        </div>
+    </div>
 
-		div.desc {
-		  padding: 15px;
-		  text-align: center;
-		}
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const popup = document.getElementById("popup");
+            const closeBtn = document.querySelector(".close");
 
-		.responsive {
-		  padding: 0 6px;
-		  float: left;
-		  width: 24.99999%;
-		}
+            document.querySelectorAll(".company-logo").forEach((item) => {
+                item.addEventListener("click", function () {
+                    const companyName = this.getAttribute("data-company");
+                    const companyInfo = this.getAttribute("data-info");
+                    const companyUrl = this.getAttribute("data-url");
 
-		@media only screen and (max-width: 700px) {
-		  .responsive {
-			width: 49.99999%;
-			margin: 6px 0;
-		  }
-		}
+                    document.getElementById("companyName").innerText = companyName;
+                    document.getElementById("companyInfo").innerText = companyInfo;
+                    document.getElementById("companyLink").setAttribute("href", companyUrl);
 
-		@media only screen and (max-width: 500px) {
-		  .responsive {
-			width: 100%;
-		  }
-		}
-		</style>
+                    popup.style.display = "block";
+                });
+            });
 
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-				
-				<h2>University Partners</h2>
-				
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.hm.edu/">
-						  <img src="/assets/images/clients/hochschule-muenchen.png" alt="Hochschule München" title="HM – access to profs and facilities: HM's access to professors and facilities enriches our learning and development journey." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
+            closeBtn.onclick = function () {
+                popup.style.display = "none";
+            };
 
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.sce.de/">
-						  <img src="/assets/images/clients/sce.png" alt="Strascheg Center for Entrepreneurship (SCE)" title="SCE – incubator access: Access to SCE's incubator fosters our growth and provides an environment that encourages innovation." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
+            window.onclick = function (event) {
+                if (event.target == popup) {
+                    popup.style.display = "none";
+                }
+            };
+        });
+    </script>
+</section>
+<!-- end s-clients -->
 
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.tum.de/">
-						  <img src="/assets/images/clients/tum.png" alt="Technische Universität München" title="TUM – access to profs and facilities: TUM's support gives us access to esteemed professors and state-of-the-art facilities, furthering our academic pursuits." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.tum-venture-labs.de/">
-						  <img src="/assets/images/clients/tum-venture-labs.png" alt="TUM Venture Labs" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://funding.unternehmertum.de/en">
-						  <img src="/assets/images/clients/unternehmertum-grant.png" alt="UnternehmerTUM Grant" title="UnternehmerTUM – Prototype grant: UnternehmerTUM's Prototype grant fuels our prototyping efforts, turning ideas into tangible realities." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.unternehmertum.de/en/services/makerspace">
-						  <img src="/assets/images/clients/makerspace.png" alt="Makerspace" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-				<hr>
-				
-				<h2>Sponsors</h2>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.baslerweb.com/de-de/">
-						  <img src="/assets/images/clients/basler.png" alt="Basler AG" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.boellhoff.com/de-en/locations-worldwide/">
-						  <img src="/assets/images/clients/boellhoff.png" alt="Böllhoff" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://confoot.fi/">
-						  <img src="/assets/images/clients/confoot.png" alt="ConFoot" title="Confoot – 1 CFU set of ConFoot stelts: Confoot's generous donation provides us with a CFU set of ConFoot stelts to take our game to the next level." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-					
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.craft.do/">
-						  <img src="/assets/images/clients/craft.png" alt="Craft" title="Craft – software: Craft's software helps to refine our creative process, enhancing our design capabilities." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.hetzner.com/de?mtm_campaign=ignitionaerospace_sponsoring&mtm_medium=referral&mtm_content=sponsoring_link">
-						  <img src="/assets/images/clients/hetzner.png" alt="Hetzner" title="Hetzner – 2 servers: Hetzner's donation of 2 servers strengthens our computing infrastructure and enhances our capabilities." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.ifm.com/">
-						  <img src="/assets/images/clients/ifm.png" alt="IFM" title="# – #: #" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.moo.com/">
-						  <img src="/assets/images/clients/moo.png" alt="Moo" title="Moo – business cards and stickers: Moo's contribution of business cards and stickers adds a professional touch to our branding efforts." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.myposter.de/">
-						  <img src="/assets/images/clients/myposter.png" alt="MYPOSTER" title="MYPOSTER – printing of recruiting posters: With the help of MYPOSTER, we are equipped with high-quality posters that stand out and make a lasting impression." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://okrinstitute.org/">
-						  <img src="/assets/images/clients/okr-institute.png" alt="OKR Institute" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.tngtech.com/">
-						  <img src="/assets/images/clients/tng.png" alt="TNG Consulting" title="TNG Technology Consulting – 5 tickets for BTD24 +1 speech on stage + 5k financial: TNG Technology Consulting's support brings us 5 tickets to BTD24, an opportunity to speak on stage, and financial support to fuel our progress." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-				<hr>
-				
-				<h2>Industry Partners</h2>
-
-          <!-- DEACTIVATED:
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://amcm.com/">
-						  <img src="/assets/images/clients/amcm.png" alt="AMCM" title="AMCM – 2 to 3 3d-printed CCZ bell nozzles discount: With AMCM's support, we've secured discounted 3D printed CCZ Bell Nozzles to fuel our innovation." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-					-->
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://accelleron-industries.com/">
-						  <img src="/assets/images/clients/accelleron.png" alt="Accelleron" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.ansys.com/">
-						  <img src="/assets/images/clients/ansys.png" alt="Ansys" title="Ansys – simulations tools: Ansys' simulation software license enables us to accurately simulate and optimise our designs." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.autodesk.com/">
-						  <img src="/assets/images/clients/autodesk.png" alt="Autodesk" title="Autodesk Fusion: Autodesk supports us with Autodesk Fusion, seamlessly combining design, simulation, rendering, and manufacturing in one accessible platform, accelerating our workflow and making collaboration easier than ever." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.cadfem.net/">
-						  <img src="/assets/images/clients/cadfem.png" alt="Cadfem" title="Cadfem – simulation software license: Cadfem's simulation software license enables us to accurately simulate and optimise our designs, while Ansys provides us with powerful simulation tools that facilitate comprehensive analysis and optimisation." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://cfturbo.com/">
-						  <img src="/assets/images/clients/cfturbo.png" alt="CF Turbo" title="CF Turbo - 1 software licenses: Thanks to CF Turbo, we've got the boost of a software license to speed up our engineering tasks." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.creality.com/">
-						  <img src="/assets/images/clients/creality.png" alt="Creality" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.epsilon3.io/">
-						  <img src="/assets/images/clients/epsilon3.png" alt="Epsilon3" title="Epsilon 3 – software: Epsilon 3 software enriches our analytical capabilities, adding depth to our projects." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://formlabs.com/">
-						  <img src="/assets/images/clients/formlabs.png" alt="Formlabs" title="Fromlabs – resin fimalments and access to print at their facilities: Thanks to Fromlabs, we're armed with resin filaments and printing access for stellar creations." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-          <!-- DEACTIVATED:
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://kulite.com/">
-						  <img src="/assets/images/clients/kulite.png" alt="Kulite" title="Kulite - sensors up to 4k: Kulite's sensors, up to 4k, provide invaluable data insights to guide our research and development." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-					-->
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.stokefusion.com/">
-						  <img src="/assets/images/clients/stoke-space.png" alt="Fusion by Stoke Space" title="Fusion by Stoke Space: With support from Fusion by Stoke Space, we efficiently manage our inventory and streamline our operations, ensuring our projects run smoothly and effectively." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.gtisoft.com/">
-						  <img src="/assets/images/clients/gamma-technologies.png" alt="Gamma Technologies" title="Gamma Technologies – 2 software licenses: Software licenses from Gamma Technologies strengthen our analytical capabilities and refine our engineering solutions." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.st.com/">
-						  <img src="/assets/images/clients/st-microelectronics.png" alt="STMicroelectronics" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.synera.io/">
-						  <img src="/assets/images/clients/synera.png" alt="Synera" title="Synera – software licenses: Synera's software license adds to our toolkit, enabling advanced simulation and analysis." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.teijin.com/">
-						  <img src="/assets/images/clients/teijin.png" alt="Teijin" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.valispace.com/">
-						  <img src="/assets/images/clients/valispace.png" alt="Valispace" title="Valispace – software for calculations: Valispace provides us with powerful software for precise calculations, ensuring the accuracy of our projects." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://thevirtualfoundry.com/">
-						  <img src="/assets/images/clients/the-virtual-foundry.png" alt="The Virtual Foundry" title="Virtual Foundry – metal filament for FDM printing: Virtual Foundry's metal filament for FDM printing opens new horizons in metal 3D printing technology." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-					
-					<!-- DEACTIVATED:
-					<hr>
-					
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.xometry.com/">
-						  <img src="/assets/images/clients/xometry.png" alt="Xometry" title="#" width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-					-->
-
-				<hr>
-				
-				<h2>Strategy Partners</h2>
-
-					<div class="responsive">
-					  <div class="gallery">
-						<a target="_blank" href="https://www.launch-olm.com/">
-						  <img src="/assets/images/clients/olm.png" alt="OLM" title="OLM – launch site: OLM is a strategic partner supporting the launch of our rocket." width="300" height="300">
-						</a>
-						<div class="desc"></div>
-					  </div>
-					</div>
-
-                </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
-
-    </section> <!-- end s-clients -->
