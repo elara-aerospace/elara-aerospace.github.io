@@ -34,6 +34,18 @@
   url: "https://www.unternehmertum.de/en/services/makerspace"
   category: "University Partners"
 
+- name: "OLM"
+  logo: "/assets/images/clients/olm.png"
+  info: "OLM is a key strategic partner supporting the launch of our rocket."
+  url: "https://www.launch-olm.com/"
+  category: "Strategic Partners"
+
+- name: "OKR Institute"
+  logo: "/assets/images/clients/okr-institute.png"
+  info: "OKR Institute is a valuable sponsor in our ecosystem."
+  url: "https://okrinstitute.org/"
+  category: "Strategic Partners"
+  
 - name: "Basler AG"
   logo: "/assets/images/clients/basler.png"
   info: "Basler AG is a valuable sponsor in our ecosystem."
@@ -79,12 +91,6 @@
   logo: "/assets/images/clients/myposter.png"
   info: "With the help of MYPOSTER, we are equipped with high-quality posters that stand out and make a lasting impression."
   url: "https://www.myposter.de/"
-  category: "Sponsors"
-
-- name: "OKR Institute"
-  logo: "/assets/images/clients/okr-institute.png"
-  info: "OKR Institute is a valuable sponsor in our ecosystem."
-  url: "https://okrinstitute.org/"
   category: "Sponsors"
 
 - name: "TNG Technology Consulting"
@@ -182,10 +188,4 @@
   info: "Virtual Foundry's metal filament for FDM printing opens new horizons in metal 3D printing technology."
   url: "https://thevirtualfoundry.com/"
   category: "Industry Partners"
-
-- name: "OLM"
-  logo: "/assets/images/clients/olm.png"
-  info: "OLM is a key strategic partner supporting the launch of our rocket."
-  url: "https://www.launch-olm.com/"
-  category: "Strategic Partners"
 
