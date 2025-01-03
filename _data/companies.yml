@@ -4,16 +4,22 @@
   url: "https://www.hm.edu/"
   category: "University Partners"
 
-- name: "Strascheg Center for Entrepreneurship (SCE)"
-  logo: "/assets/images/clients/sce.png"
-  info: "Access to SCE's incubator fosters our growth and provides an environment that encourages innovation"
-  url: "https://www.sce.de/"
-  category: "University Partners"
-
 - name: "Technische Universität München (TUM)"
   logo: "/assets/images/clients/tum.png"
   info: "TUM's support gives us access to esteemed professors and state-of-the-art facilities, furthering our academic pursuits"
   url: "https://www.tum.de/"
+  category: "University Partners"
+  
+- name: "Embry-Riddle Aeronautical University (Daytona Beach)"
+  logo: "/assets/images/clients/embry-university.png"
+  info: "#"
+  url: "https://daytonabeach.erau.edu/"
+  category: "University Partners"
+
+- name: "Strascheg Center for Entrepreneurship (SCE)"
+  logo: "/assets/images/clients/sce.png"
+  info: "Access to SCE's incubator fosters our growth and provides an environment that encourages innovation"
+  url: "https://www.sce.de/"
   category: "University Partners"
 
 - name: "TUM Venture Labs"
