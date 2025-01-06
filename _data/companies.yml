@@ -88,6 +88,12 @@
   url: "https://www.ifm.com/"
   category: "Sponsors"
 
+- name: "JBC Soldering S.L."
+  logo: "/assets/images/clients/jbc.png"
+  info: "#"
+  url: "https://www.jbctools.com/"
+  category: "Sponsors"
+
 - name: "Moo"
   logo: "/assets/images/clients/moo.png"
   info: "Moo's contribution of business cards and stickers adds a professional touch to our branding efforts."
