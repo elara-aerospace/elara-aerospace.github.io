@@ -1,0 +1,21 @@
+- first_name: "Peter"
+  last_name: "von Grundherr"
+  image: "/assets/images/team/peter-von-grundherr.png"
+  role: "Head of Electrical"
+  role_desc: "Head of the Electrical Team"
+  linkedin: "https://www.linkedin.com/in/peter-von-grundherr-b95721226"
+  github: "https://github.com/PeterVonGrundherr"
+
+- first_name: "Benedikt"
+  last_name: "Dawid"
+  image: "/assets/images/team/benedikt-dawid.png"
+  role: "Electrical"
+  role_desc: "Electrical Engineering"
+
+- first_name: "Yash Kumar"
+  last_name: "Vari"
+  image: "/assets/images/team/yash-vari.png"
+  role: "Electrical"
+  role_desc: "Electrical Engineering"
+  linkedin: "https://www.linkedin.com/in/yashkumarvari"
+

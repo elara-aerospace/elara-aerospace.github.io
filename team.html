@@ -29,1104 +29,187 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
 
 <style>
     * {
-      font-family: Nunito, sans-serif;
+        font-family: Nunito, sans-serif;
     }
-    
+
     .text-blk {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 0px;
-      margin-left: 0px;
-      line-height: 25px;
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        line-height: 25px;
     }
-    
+
     .responsive-cell-block {
-      min-height: 75px;
+        min-height: 75px;
     }
-    
+
     .responsive-container-block {
-      min-height: 75px;
-      height: fit-content;
-      width: 100%;
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 0px;
-      margin-right: auto;
-      margin-bottom: 0px;
-      margin-left: auto;
-      justify-content: space-evenly;
+        min-height: 75px;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0px;
+        margin-right: auto;
+        margin-bottom: 0px;
+        margin-left: auto;
+        justify-content: space-evenly;
     }
-    
+
     .outer-container {
-      padding-top: 10px;
-      padding-right: 50px;
-      padding-bottom: 10px;
-      padding-left: 50px;
+        padding-top: 10px;
+        padding-right: 50px;
+        padding-bottom: 10px;
+        padding-left: 50px;
     }
-    
+
     .inner-container {
-      max-width: 1320px;
-      flex-direction: column;
-      align-items: center;
-      margin-top: 50px;
-      margin-right: auto;
-      margin-bottom: 50px;
-      margin-left: auto;
+        max-width: 1320px;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: auto;
+        margin-bottom: 50px;
+        margin-left: auto;
     }
-    
+
     .section-head-text {
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 5px;
-      margin-left: 0px;
-      font-size: 35px;
-      font-weight: 700;
-      line-height: 48px;
-      color: rgb(70, 0, 175);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+        font-size: 35px;
+        font-weight: 700;
+        line-height: 48px;
+        color: rgb(70, 0, 175);
     }
-    
+
     .section-subhead-text {
-      font-size: 25px;
-      color: rgb(153, 153, 153);
-      line-height: 35px;
-      max-width: 470px;
-      text-align: center;
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 60px;
-      margin-left: 0px;
-    }
-    
-    .img-wrapper {
-      width: 100%;
-    }
-    
-    .team-card {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    .name {
-      font-size: 25px;
-      font-weight: 700;
-      color: rgb(143, 89, 224);
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 5px;
-      margin-left: 0px;
-    }
-    
-    .position {
-      font-size: 25px;
-      font-size: large;
-      font-weight: 700;
-      color: rgb(240, 244, 255);
-      margin-top: 0px;
-      margin-right: 0px;
-      margin-bottom: 20px; /* distance between job position text and social media icons */
-      margin-left: 0px;
-    }
-    
-    .team-img {
-      width: 100%;
-      height: 100%;
-    }
-    
-    .team-card-container {
-      width: 280px;
-      margin: 0 0 40px;
-    }
-    
-    @media (max-width: 500px) {
-      .outer-container {
-        padding: 10px 20px;
-      }
-    
-      .section-head-text {
+        font-size: 25px;
+        color: rgb(153, 153, 153);
+        line-height: 35px;
+        max-width: 470px;
         text-align: center;
-      }
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 60px;
+        margin-left: 0px;
     }
-    
+
+    .img-wrapper {
+        width: 100%;
+    }
+
+    .team-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name {
+        font-size: 25px;
+        font-weight: 700;
+        color: rgb(143, 89, 224);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 5px;
+        margin-left: 0px;
+    }
+
+    .position {
+        font-size: 25px;
+        font-size: large;
+        font-weight: 700;
+        color: rgb(240, 244, 255);
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-bottom: 20px; /* distance between job position text and social media icons */
+        margin-left: 0px;
+    }
+
+    .team-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .team-card-container {
+        width: 280px;
+        margin: 0 0 40px;
+    }
+
+    @media (max-width: 500px) {
+        .outer-container {
+            padding: 10px 20px;
+        }
+
+        .section-head-text {
+            text-align: center;
+        }
+    }
+
     .social-media-links {
-      letter-spacing: 10px; /* space between icons */
+        letter-spacing: 10px; /* space between icons */
     }
 </style>
 
-<!-- team
+<!-- advisors and team
     ================================================== -->
-<section id='list'>
-
-    <h1 style="text-align:center;">ADVISORS AND SUPPORTERS</h1>
+<section id="list">
+    {% assign categories = "advisors,board,mechanical,electrical,software,operations" | split: "," %} {% for category in categories %}
+    <h2 style="text-align: center;">{{ site.data.team.headers[category] | upcase }}</h2>
     <div class="responsive-container-block outer-container">
         <!-- Team List (in Alphabetical Order) -->
         <div class="responsive-container-block inner-container">
             <div class="responsive-container-block">
-
-                <!-- TUM president -->
+                {% assign team_members = site.data.team[category] %} {% for member in team_members %}
+                <!-- {{ member.first_name }} {{ member.last_name }} -->
                 <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
                     <div class="team-card">
                         <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/thomas-hofmann.png">
+                            <img class="team-img" src="{{ member.image }}" />
                         </div>
                         <p class="text-blk name">
-                            Prof. Dr. Thomas F.
+                            {{ member.first_name }}
                         </p>
                         <p class="text-blk name">
-                            Hofmann
+                            {{ member.last_name }}
                         </p>
-                        <p class="text-blk position">
-                            Project Patron <abbr title="University President of the Technical University of Munich (TUM)">&#x1F6C8;</abbr>
-                        </p>
+                        <p class="text-blk position">{{ member.role }} <abbr title="{{ member.role_desc }}">&#x1F6C8;</abbr></p>
                         <div class="social-media-links">
-                            <a href="https://www.tum.de/ueber-die-tum/organisation/hochschulpraesidium" target="_blank">
-                                <i class="fa-solid fa-link fa-2xl"></i>
+                            {% if member.website %}
+                            <a href="{{ member.website }}" target="_blank">
+                                <i class="fa-solid fa-globe fa-2xl"></i>
                             </a>
-                            <a href="https://www.linkedin.com/in/thomas-f-hofmann-164589152/" target="_blank">
+                            {% endif %} {% if member.linkedin %}
+                            <a href="{{ member.linkedin }}" target="_blank">
                                 <i class="fa-brands fa-linkedin fa-2xl"></i>
                             </a>
+                            {% endif %} {% if member.github %}
+                            <a href="{{ member.github }}" target="_blank">
+                                <i class="fa-brands fa-github fa-2xl"></i>
+                            </a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
-
-                <!-- Entrepreneurship Professor -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/holger-patzelt.png">
-                        </div>
-                        <p class="text-blk name">
-                            Prof. Dr. Holger
-                        </p>
-                        <p class="text-blk name">
-                            Patzelt
-                        </p>
-                        <p class="text-blk position">
-                            Faculty Advisor <abbr title="Professorship: Business Administration - Entrepreneurship at the Technical University of Munich (TUM)">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.ie.mgt.tum.de/en/ent/team/holger-patzelt/" target="_blank">
-                                <i class="fa-solid fa-link fa-2xl"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/holger-patzelt-76b501123/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Law Professor -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/philipp-maume.png">
-                        </div>
-                        <p class="text-blk name">
-                            Prof. Dr. iur. Philipp
-                        </p>
-                        <p class="text-blk name">
-                            Maume
-                        </p>
-                        <p class="text-blk position">
-                            Faculty Advisor <abbr title="Prof. Dr. iur. Philipp Maume, S.J.D. (La Trobe) - Associate Professorship Corporate Governance and Capital Markets Law at the Technical University of Munich (TUM)">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.fa.mgt.tum.de/en/law/team/prof-maume/" target="_blank">
-                                <i class="fa-solid fa-link fa-2xl"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/philipp-maume-06877071/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
+                {% endfor %}
             </div>
         </div>
     </div>
+    {% endfor %}
 
-    <style>
-    /* Thick white border */
-    hr {
-      border: 1px solid white;
-    }
-    </style>
-    <hr>
-
-    <div>
-    <h1 style="text-align:center;">THE ELARA AEROSPACE TEAM</h1>
-        <div class="responsive-container-block inner-container">
-            <div class="responsive-container-block">
-
-                <!-- Tom Luca Reinhardt -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/tom-reinhardt.png">
-                        </div>
-                        <p class="text-blk name">
-                            Tom Luca
-                        </p>
-                        <p class="text-blk name">
-                            Reinhardt
-                        </p>
-                        <p class="text-blk position">
-                            Founder and CEO <abbr title="Team Lead and Public Representative of whole Elara Aerospace team, Project Planner & Partner Sponsoring">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://de.linkedin.com/in/tom-luca-reinhardt-43bb791aa" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/Tlr2080" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Adrian Leutner -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/adrian-leutner.png">
-                        </div>
-                        <p class="text-blk name">
-                            Adrian
-                        </p>
-                        <p class="text-blk name">
-                            Leutner
-                        </p>
-                        <p class="text-blk position">
-                            CTO <abbr title="Team Lead of Mechanical and Electrical teams, Virtual Machine Custodian, Sponsoring & Recruiting">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/adrian-jean-ludwig-leutner/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/A-JL" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tobias Jäger -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/tobias-jäger.png">
-                        </div>
-                        <p class="text-blk name">
-                            Tobias
-                        </p>
-                        <p class="text-blk name">
-                            Jäger
-                        </p>
-                        <p class="text-blk position">
-                            Head of Strategy <abbr title="Communication with Sponsoring Partners, Representative for direct Media/Press Communications & Team Lead of Operations team">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://tobias-jaeger.com/" target="_blank">
-                                <i class="fa-solid fa-link fa-2xl"></i>
-                            </a>
-                            <a href="https://de.linkedin.com/in/tobias-jager" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/JaegerTobias13" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <h2 style="text-align:center;">MECHANICAL</h2>
+    <h2 style="text-align: center;">JOIN THE TEAM</h2>
     <div class="responsive-container-block outer-container">
         <!-- Team List (in Alphabetical Order) -->
         <div class="responsive-container-block inner-container">
             <div class="responsive-container-block">
-
-                <!-- Georgiana Daniela Novac -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/georgiana-novac.png">
-                        </div>
-                        <p class="text-blk name">
-                            Georgiana Daniela
-                        </p>
-                        <p class="text-blk name">
-                            Novac
-                        </p>
-                        <p class="text-blk position">
-                            Head of Turbo-Pump <abbr title="Head of Turbo-Pump Development">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/georgiana-daniela-novac-6888452b4/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/GDN1003" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dhrumil Tailor -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/dhrumil-tailor.png">
-                        </div>
-                        <p class="text-blk name">
-                            Dhrumil Hemant
-                        </p>
-                        <p class="text-blk name">
-                            Tailor
-                        </p>
-                        <p class="text-blk position">
-                            Head of Simulations <abbr title="Head of CFD Simulations">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/dhrumil-tailor-84b0a1128/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/dhrumiltailor10" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Rufus Henschek -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/rufus-henschek.png">
-                        </div>
-                        <p class="text-blk name">
-                            Rufus
-                        </p>
-                        <p class="text-blk name">
-                            Henschek
-                        </p>
-                        <p class="text-blk position">
-                            Head of Airframe <abbr title="Head of Airframe Department & Python Simulations">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/rufus-henschek-846b7b307" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/RHenschek" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Theresa Schmitt -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/theresa-schmitt.png">
-                        </div>
-                        <p class="text-blk name">
-                            Theresa
-                        </p>
-                        <p class="text-blk name">
-                            Schmitt
-                        </p>
-                        <p class="text-blk position">
-                            Head of GSE <abbr title="Head of Ground Support Equipment">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/theresa-schmitt-6429842a4/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/Theresa-smtt" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Alexander Hartmann -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/alexander-hartmann.png">
-                        </div>
-                        <p class="text-blk name">
-                            Alexander
-                        </p>
-                        <p class="text-blk name">
-                            Hartmann
-                        </p>
-                        <p class="text-blk position">
-                            Head of CAD <abbr title="Head of Design & CAD">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://github.com/Halma28" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fynn Erik Wolf -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/fynn-wolf.png">
-                        </div>
-                        <p class="text-blk name">
-                            Fynn Erik
-                        </p>
-                        <p class="text-blk name">
-                            Wolf
-                        </p>
-                        <p class="text-blk position">
-                            Engine <abbr title="Rocket Engine Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://github.com/FynnWolf141" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Vincent Bannert -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/vincent-bannert.png">
-                        </div>
-                        <p class="text-blk name">
-                            Vincent
-                        </p>
-                        <p class="text-blk name">
-                            Bannert
-                        </p>
-                        <p class="text-blk position">
-                            GSE <abbr title="Ground Support Equipment Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Filippo Brovelli -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/filippo-brovelli.png">
-                        </div>
-                        <p class="text-blk name">
-                            Filippo
-                        </p>
-                        <p class="text-blk name">
-                            Brovelli
-                        </p>
-                        <p class="text-blk position">
-                            GSE <abbr title="Ground Support Equipment Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/filippo-brovelli-1195782ba" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/Brovelluz" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Dominic Schmid -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/dominik-schmid.png">
-                        </div>
-                        <p class="text-blk name">
-                            Dominik
-                        </p>
-                        <p class="text-blk name">
-                            Schmid
-                        </p>
-                        <p class="text-blk position">
-                            GSE <abbr title="Ground Support Equipment Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/dominik-schmid-a6bb6a255" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/DomiSchmid" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Jeena John -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/jeena-john.png">
-                        </div>
-                        <p class="text-blk name">
-                            Jeena
-                        </p>
-                        <p class="text-blk name">
-                            John
-                        </p>
-                        <p class="text-blk position">
-                            Mechanical <abbr title="Mechanical Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://linkedin.com/in/jeena-john-49b427190" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/jeenasarajohn" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Harshit Shah -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/harshit-shah.png">
-                        </div>
-                        <p class="text-blk name">
-                            Harshit
-                        </p>
-                        <p class="text-blk name">
-                            Shah
-                        </p>
-                        <p class="text-blk position">
-                            Nozzle <abbr title="Rocket Engine Nozzle Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/harshit--shah/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/Thruster55" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Jozef Dubravický -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/jozef-dubravicky.png">
-                        </div>
-                        <p class="text-blk name">
-                            Jozef
-                        </p>
-                        <p class="text-blk name">
-                            Dubravický
-                        </p>
-                        <p class="text-blk position">
-                            Engine <abbr title="Rocket Engine Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/jojo-dubravicky-5876bb332" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/joeoak10" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Chirag Singhvee -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/chirag-singhvee.png">
-                        </div>
-                        <p class="text-blk name">
-                            Chirag
-                        </p>
-                        <p class="text-blk name">
-                            Singhvee
-                        </p>
-                        <p class="text-blk position">
-                            Propulsion System <abbr title="Propulsion Engine, Simulation, Heat Transfer, Expansion Ratio">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/chiragsinghvee/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Tanner Berreth -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/tanner-berreth.png">
-                        </div>
-                        <p class="text-blk name">
-                            Tanner
-                        </p>
-                        <p class="text-blk name">
-                            Berreth
-                        </p>
-                        <p class="text-blk position">
-                            Nose Cone <abbr title="Nose Cone Development">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Pavan Kumar Elangovan -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/pavan-elangovan.png">
-                        </div>
-                        <p class="text-blk name">
-                            Pavan Kumar
-                        </p>
-                        <p class="text-blk name">
-                            Elangovan
-                        </p>
-                        <p class="text-blk position">
-                            Mechanicial <abbr title="#">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/pavankumarelangovan/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- A. T. -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/a-t.png">
-                        </div>
-                        <p class="text-blk name">
-                            A. T.
-                        </p>
-                        <p class="text-blk name">
-                            &#8203;
-                        </p>
-                        <p class="text-blk position">
-                            Advisor <abbr title="Advisor to Mechanical team">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                        
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <h2 style="text-align:center;">ELECTRICAL</h2>
-    <div class="responsive-container-block outer-container">
-        <!-- Team List (in Alphabetical Order) -->
-        <div class="responsive-container-block inner-container">
-            <div class="responsive-container-block">
-
-                <!-- Peter von Grundherr -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/peter-von-grundherr.png">
-                        </div>
-                        <p class="text-blk name">
-                            Peter
-                        </p>
-                        <p class="text-blk name">
-                            von Grundherr
-                        </p>
-                        <p class="text-blk position">
-                            Head of Electrical <abbr title="Head of the Electrical Team">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/peter-von-grundherr-b95721226" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/PeterVonGrundherr" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Benedikt Dawid -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/benedikt-dawid.png">
-                        </div>
-                        <p class="text-blk name">
-                            Benedikt
-                        </p>
-                        <p class="text-blk name">
-                            Dawid
-                        </p>
-                        <p class="text-blk position">
-                            Electrical <abbr title="Electrical Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Yash Kumar Vari -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/yash-vari.png">
-                        </div>
-                        <p class="text-blk name">
-                            Yash Kumar
-                        </p>
-                        <p class="text-blk name">
-                            Vari
-                        </p>
-                        <p class="text-blk position">
-                            Electrical <abbr title="Electrical Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/yashkumarvari" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <h2 style="text-align:center;">SOFTWARE</h2>
-    <div class="responsive-container-block outer-container">
-        <!-- Team List (in Alphabetical Order) -->
-        <div class="responsive-container-block inner-container">
-            <div class="responsive-container-block">
-
-                <!-- Suriyaa Rocky Sundararuban -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/suriyaa-sundararuban.png">
-                        </div>
-                        <p class="text-blk name">
-                            Suriyaa Rocky
-                        </p>
-                        <p class="text-blk name">
-                            Sundararuban
-                        </p>
-                        <p class="text-blk position">
-                            Head of Software <abbr title="Head of Software Department: Software Development, Website Maintainer, System Administration and Cybersecurity of IT Infrastructure">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://about.suriyaa.tk/" target="_blank">
-                                <i class="fa-solid fa-link fa-2xl"></i>
-                            </a>
-                            <a href="https://www.linkedin.com/in/suriyaasundararuban/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/suriyaa" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Linus Eing -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/linus-eing.png">
-                        </div>
-                        <p class="text-blk name">
-                            Linus
-                        </p>
-                        <p class="text-blk name">
-                            Eing
-                        </p>
-                        <p class="text-blk position">
-                            Advisor <abbr title="Rocket Software Engineering">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/linus-eing-9a4065226/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/linuseing" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <h2 style="text-align:center;">OPERATIONS</h2>
-    <div class="responsive-container-block outer-container">
-        <!-- Team List (in Alphabetical Order) -->
-        <div class="responsive-container-block inner-container">
-            <div class="responsive-container-block">
-
-                <!-- Uta Heldt -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/uta-heldt.png">
-                        </div>
-                        <p class="text-blk name">
-                            Uta
-                        </p>
-                        <p class="text-blk name">
-                            Heldt
-                        </p>
-                        <p class="text-blk position">
-                            Head of Recruiting <abbr title="Social Media Marketing, News Announcement Blogger, Application Management & Brand Marketing">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/uta-heldt-a38aa127a/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/hero341" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Luis König -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/luis-koenig.png">
-                        </div>
-                        <p class="text-blk name">
-                            Luis
-                        </p>
-                        <p class="text-blk name">
-                            König
-                        </p>
-                        <p class="text-blk position">
-                            Finance <abbr title="Accounting / Bookkeeping & Budgeting">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/luis-k%C3%B6nig-527346195/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/LuisKoenig" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Marvin Hahn -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/marvin-hahn.png">
-                        </div>
-                        <p class="text-blk name">
-                            Marvin
-                        </p>
-                        <p class="text-blk name">
-                            Hahn
-                        </p>
-                        <p class="text-blk position">
-                            Operations <abbr title="Lead Generation with Industrial Partners">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/marvin-hahn-551949238/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/Mojomarv" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Felix Rieder -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/felix-rieder.png">
-                        </div>
-                        <p class="text-blk name">
-                            Felix Neo
-                        </p>
-                        <p class="text-blk name">
-                            Rieder
-                        </p>
-                        <p class="text-blk position">
-                            Head of Sponsor Relations <abbr title="Lead Generation with Academic Partners">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/felix-neo-rieder-48189a153/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/fexneo" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Michael Tran -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/michael-tran.png">
-                        </div>
-                        <p class="text-blk name">
-                            Michael
-                        </p>
-                        <p class="text-blk name">
-                            Tran
-                        </p>
-                        <p class="text-blk position">
-                            Sponsoring <abbr title="Lead Generation with Corporate Partners and Social Media post creation">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/michael-tran-1823b220a/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            <a href="https://github.com/roterjenks" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Yanis Kimelmann -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/yanis-kimelmann.png">
-                        </div>
-                        <p class="text-blk name">
-                            Yanis
-                        </p>
-                        <p class="text-blk name">
-                            Kimelmann
-                        </p>
-                        <p class="text-blk position">
-                            Media Analysis <abbr title="Social Media">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Fabio Nardi -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/fabio-nardi.png">
-                        </div>
-                        <p class="text-blk name">
-                            Fabio
-                        </p>
-                        <p class="text-blk name">
-                            Nardi
-                        </p>
-                        <p class="text-blk position">
-                            Marketing <abbr title="Social Media Post Creation">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/fabio-nardi-a85b4529b/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Suyash Badiger -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/suyash-badiger.png">
-                        </div>
-                        <p class="text-blk name">
-                            Suyash
-                        </p>
-                        <p class="text-blk name">
-                            Badiger
-                        </p>
-                        <p class="text-blk position">
-                            Marketing <abbr title="Marketing Efforts">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://www.linkedin.com/in/suyashbadiger/" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Shiva, the dog -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="/assets/images/team/shiva.png">
-                        </div>
-                        <p class="text-blk name">
-                            Shiva
-                        </p>
-                        <p class="text-blk name">
-                            &emsp;
-                        </p>
-                        <p class="text-blk position">
-                            Chief Snuggling Officer <abbr title="Chief Happiness Officer who promotes Team's Well-being">&#x1F6C8;</abbr>
-                        </p>
-                        <div class="social-media-links">
-                            <a href="https://tierschutz-marfino.de/" target="_blank">
-                                <i class="fa-solid fa-link fa-2xl"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <h2 style="text-align:center;">JOIN THE TEAM</h2>
-    <div class="responsive-container-block outer-container">
-        <!-- Team List (in Alphabetical Order) -->
-        <div class="responsive-container-block inner-container">
-            <div class="responsive-container-block">
-
                 <!-- We Want You -->
                 <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
                     <div class="team-card">
                         <div class="img-wrapper">
                             <a href="/apply/" target="_blank">
-                                <img class="team-img" src="/assets/images/team/join-us.png">
+                                <img class="team-img" src="/assets/images/team/join-us.png" />
                             </a>
                         </div>
                         <p class="text-blk name">
@@ -1140,15 +223,13 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
                         </p>
                         <div class="social-media-links">
                             <a href="/apply/">
-                                <i class="fa-solid fa-paper-plane fa-2xl"></i>
+                                <i class="fa-solid fa-globe fa-2xl"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
-
 </section>
 

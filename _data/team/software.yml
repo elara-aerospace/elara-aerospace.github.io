@@ -1,0 +1,17 @@
+- first_name: "Suriyaa Rocky"
+  last_name: "Sundararuban"
+  image: "/assets/images/team/suriyaa-sundararuban.png"
+  role: "Head of Software"
+  role_desc: "Head of Software Department: Software Development, Website Maintainer, System Administration and Cybersecurity of IT Infrastructure"
+  website: "https://about.suriyaa.tk/"
+  linkedin: "https://www.linkedin.com/in/suriyaasundararuban"
+  github: "https://github.com/suriyaa"
+
+- first_name: "Linus"
+  last_name: "Eing"
+  image: "/assets/images/team/linus-eing.png"
+  role: "Advisor"
+  role_desc: "Rocket Software Engineering"
+  linkedin: "https://www.linkedin.com/in/linus-eing-9a4065226"
+  github: "https://github.com/linuseing"
+
