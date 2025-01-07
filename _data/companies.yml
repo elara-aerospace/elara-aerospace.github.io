@@ -48,7 +48,7 @@
 
 - name: "Bundeswehr"
   logo: "/assets/images/partners/bundeswehr.png"
-  info: "#"
+  info: ""
   url: "https://www.bundeswehr.de/en/"
   category: "Strategic Partners"
 
