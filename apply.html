@@ -40,7 +40,9 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
             </div>
             <div class="service-text">
                 <h3 class="h2">Aspiration</h3>
-                <p>We are driven by a relentless pursuit of excellence and a forward-thinking mindset. Our team is dedicated to exceeding expectations and achieving greatness in all aspects of our work, from technological advancements to our quest for exploration and discovery.
+                <p>
+                    We are driven by a relentless pursuit of excellence and a forward-thinking mindset. Our team is dedicated to exceeding expectations and achieving greatness in all aspects of our work, from technological advancements to
+                    our quest for exploration and discovery.
                 </p>
             </div>
         </div>
@@ -60,7 +62,16 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
 
     <div class="row about-desc" data-aos="fade-up">
         <div class="col-full">
-            <p><i><q>Since the start, we’ve been trying to build our dream rocket with our own hands: a unique mission we can discover and double-down on our talents and dare greatly alongside people just as obsessive as us. Put bluntly, Elara Aerospace isn't a place for spectators. This is a place you go all-in, and get even more in return.</q></i><br/><b>-Elara Aerospace, your young team of rocket-obsessed entrepreneurs, technologists and creatives redefining how to build and launch rockets</b></p>
+            <p>
+                <i>
+                    <q>
+                        Since the start, we’ve been trying to build our dream rocket with our own hands: a unique mission we can discover and double-down on our talents and dare greatly alongside people just as obsessive as us. Put bluntly,
+                        Elara Aerospace isn't a place for spectators. This is a place you go all-in, and get even more in return.
+                    </q>
+                </i>
+                <br />
+                <b>-Elara Aerospace, your young team of rocket-obsessed entrepreneurs, technologists and creatives redefining how to build and launch rockets</b>
+            </p>
             <a href="/team/"><img src="/assets/images/join-the-team.webp" height="300" alt="Elara Aerospace Founding Team" /></a>
         </div>
     </div>
@@ -168,7 +179,72 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
             padding: 2px 8px; /* Add some padding */
             border-radius: 4px; /* Round the corners */
         }
+
+        /* Style for filter button */
+        #categoryFilter {
+            margin-bottom: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #categoryFilter label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: white;
+        }
+
+        #categorySelect {
+            width: 60%;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: transparent;
+            color: white;
+            font-size: 16px;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22292.4%22%20height%3D%22292.4%22%3E%3Cpath%20fill%3D%22white%22%20d%3D%22M287%2069.4a17.6%2017.6%200%200%200-13-5.4H18.4c-5%200-9.3%201.8-12.9%205.4A17.6%2017.6%200%200%200%200%2082.2c0%205%201.8%209.3%205.4%2012.9l128%20127.9c3.6%203.6%207.8%205.4%2012.8%205.4s9.2-1.8%2012.8-5.4L287%2095c3.5-3.5%205.4-7.8%205.4-12.8%200-5-1.9-9.2-5.5-12.8z%22%2F%3E%3C%2Fsvg%3E");
+            background-repeat: no-repeat;
+            background-position: right 10px top 50%;
+            background-size: 12px auto;
+            display: block;
+        }
+
+        #categorySelect option {
+            background-color: #333;
+            color: white;
+        }
+
+        #categorySelect:hover {
+            border-color: #999;
+        }
+
+        #categorySelect:focus {
+            outline: none;
+            border-color: white;
+            box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
+        }
+
+        @media (max-width: 768px) {
+            #categorySelect {
+                width: 90%;
+            }
+        }
     </style>
+
+    <div id="categoryFilter">
+        <label for="categorySelect">Filter by Department:</label>
+        <select id="categorySelect">
+            <option value="">All Departments</option>
+            {% assign categories = site.data.jobs | map: "category" | uniq %} {% for category in categories %}
+            <option value="{{ category }}">{{ category }}</option>
+            {% endfor %}
+        </select>
+    </div>
 
     <div id="jobAccordion">
         {% if site.data.jobs %} {% for job in site.data.jobs %}
@@ -205,6 +281,23 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
                 $(this).next("div").slideToggle("fast").siblings("div:visible").slideUp("fast");
                 $(this).toggleClass("active");
                 $(this).siblings("h3").removeClass("active");
+            });
+
+            $("#categorySelect").change(function () {
+                var selectedCategory = $(this).val();
+                if (selectedCategory === "") {
+                    $("#jobAccordion h3").show();
+                } else {
+                    $("#jobAccordion h3").each(function () {
+                        var jobCategory = $(this).find(".category-label").text();
+                        if (jobCategory === selectedCategory) {
+                            $(this).show();
+                        } else {
+                            $(this).hide();
+                            $(this).next("div").hide();
+                        }
+                    });
+                }
             });
         });
     </script>
