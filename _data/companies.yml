@@ -12,7 +12,7 @@
   
 - name: "Embry-Riddle Aeronautical University (Daytona Beach)"
   logo: "/assets/images/partners/embry-university.png"
-  info: "#"
+  info: ""
   url: "https://daytonabeach.erau.edu/"
   category: "University Partners"
 
@@ -96,7 +96,7 @@
 
 - name: "JBC Soldering S.L."
   logo: "/assets/images/partners/jbc.png"
-  info: "#"
+  info: ""
   url: "https://www.jbctools.com/"
   category: "Sponsors"
 
