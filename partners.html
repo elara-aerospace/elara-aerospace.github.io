@@ -107,7 +107,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
 
             // Function to sanitize URL
             function sanitizeUrl(url) {
-                const urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
+                const urlPattern = /^(?:https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,63})([\/\w .-]*)\/?$/;
                 return urlPattern.test(url) ? url : "#";
             }
 
