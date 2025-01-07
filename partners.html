@@ -105,15 +105,28 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
             const popup = document.getElementById("popup");
             const closeBtn = document.querySelector(".close");
 
+            // Function to sanitize URL
+            function sanitizeUrl(url) {
+                const urlPattern = /^(https?:\/\/)?([\da-z\.-]+)\.([a-z\.]{2,6})([\/\w \.-]*)*\/?$/;
+                return urlPattern.test(url) ? url : "#";
+            }
+
+            // Function to sanitize text content
+            function sanitizeText(text) {
+                const div = document.createElement("div");
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
             document.querySelectorAll(".company-logo").forEach((item) => {
                 item.addEventListener("click", function () {
-                    const companyName = this.getAttribute("data-company");
-                    const companyInfo = this.getAttribute("data-info");
-                    const companyUrl = this.getAttribute("data-url");
+                    const companyName = sanitizeText(this.getAttribute("data-company"));
+                    const companyInfo = sanitizeText(this.getAttribute("data-info"));
+                    const companyUrl = sanitizeUrl(this.getAttribute("data-url"));
 
-                    document.getElementById("companyName").innerText = companyName;
-                    document.getElementById("companyInfo").innerText = companyInfo;
-                    document.getElementById("companyLink").setAttribute("href", companyUrl);
+                    document.getElementById("companyName").textContent = companyName;
+                    document.getElementById("companyInfo").textContent = companyInfo;
+                    document.getElementById("companyLink").href = companyUrl;
 
                     popup.style.display = "block";
                 });
