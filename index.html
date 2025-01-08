@@ -39,7 +39,9 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
             <div class="col-block stats__col">
                 <a href="/partners/">
 					<h5>Affiliated Universities</h5>
-					<div class="stats__count tektur">3</div>
+          <!-- Automatically count the amount of academic partners at Elara Aerospace -->
+					{% assign university_partners = site.data.companies | where: "category", "University Partners" %}
+					<div class="stats__count tektur">{{ university_partners | size }}</div>
 				</a>
             </div>
             <div class="col-block stats__col">
