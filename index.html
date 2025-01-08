@@ -45,7 +45,15 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
             <div class="col-block stats__col">
                 <a href="/team/">
 					<h5>Total Members</h5>
-					<div class="stats__count tektur">30</div>
+          {% assign team_members = 0 %}
+          {% for file in site.data.team %}
+            <!-- Exclude Advisors & Supporters (and the headers.yml file) -->
+            {% if file[0] != 'advisors' and file[0] != 'headers' %}
+              <!-- Count the amount of members at Elara Aerospace -->
+              {% assign team_members = team_members | plus: file[1].size %}
+            {% endif %}
+          {% endfor %}
+					<div class="stats__count tektur">{{ team_members }}</div>
 				</a>
             </div>
             <div class="col-block stats__col">
