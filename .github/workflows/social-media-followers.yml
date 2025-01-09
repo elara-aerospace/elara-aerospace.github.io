@@ -31,7 +31,6 @@ jobs:
       - name: Run social media scripts
         run: |
           python scripts/social-media/youtube.py
-          python scripts/social-media/github.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
