@@ -32,5 +32,5 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "Update social media follower counts"
-          file_pattern: '*.yml'
+          file_pattern: '_data/social-media.yml'
 
