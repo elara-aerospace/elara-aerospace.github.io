@@ -10,23 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      # Secrets stored at https://github.com/elara-aerospace/elara-aerospace.github.io/settings/secrets/actions
+    env: # Secrets stored at https://github.com/elara-aerospace/elara-aerospace.github.io/settings/secrets/actions
       YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
-      #TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
-      #TWITTER_API_SECRET_KEY: ${{ secrets.TWITTER_API_SECRET_KEY }}
-      #TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
-      #TWITTER_ACCESS_TOKEN_SECRET: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
-      #TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
-      #LINKEDIN_CLIENT_ID: ${{ secrets.LINKEDIN_CLIENT_ID }}
-      #LINKEDIN_CLIENT_SECRET: ${{ secrets.LINKEDIN_CLIENT_SECRET }}
-      #LINKEDIN_REDIRECT_URI: ${{ secrets.LINKEDIN_REDIRECT_URI }}
-      #LINKEDIN_ORGANIZATION_ID: ${{ secrets.LINKEDIN_ORGANIZATION_ID }}
       GITHUB_USERNAME: ${{ secrets.GITHUB_USERNAME }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      #INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
-      #INSTAGRAM_USER_ID: ${{ secrets.INSTAGRAM_USER_ID }}
     steps:
       - uses: actions/checkout@v4
 
@@ -41,12 +29,9 @@ jobs:
           pip install -r requirements.txt
 
       - name: Run social media scripts
-      run: |
-# python scripts/social-media/linkedin.py
-# python scripts/social-media/twitter.py
-# python scripts/social-media/instagram.py
-        python scripts/social-media/youtube.py
-        python scripts/social-media/github.py
+        run: |
+          python scripts/social-media/youtube.py
+          python scripts/social-media/github.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
