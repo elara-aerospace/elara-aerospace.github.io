@@ -9,8 +9,8 @@ from dotenv import load_dotenv
 def get_github_followers():
     load_dotenv()  # Load environment variables from .env file
     
-    username = os.getenv('GITHUB_USERNAME')
-    token = os.getenv('GITHUB_TOKEN')
+    username = os.getenv('GH_USERNAME')
+    token = os.getenv('GH_TOKEN')
     
     url = f'https://api.github.com/users/{username}'
     headers = {
