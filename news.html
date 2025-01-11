@@ -159,9 +159,12 @@ window.addEventListener('wheel', function(evt) {
 							<span class="tag tag-teal">{{ post.categories }}</span>
 							<p>{{ post.title }}</p>
 							<div class="user">
-							  <img src="/assets/images/team/uta-heldt.png" alt="Uta Heldt" />
+							  <img src="{{ post.author-image }}" alt="{{ post.author }}" />
 							  <div class="user-info">
-								<small><b>By {{ post.author }}</b> | On {{ post.date | date: "%-d %B %Y" }}</small>
+							  {% assign name_parts = post.author | split: " " %}
+							  {% assign first_name = name_parts | first %}
+							  {% assign last_name_initial = name_parts | last | slice: 0, 1 %}
+								<small><b>By {{ first_name }} {{ last_name_initial }}.</b> | On {{ post.date | date: "%-d %B %Y" }}</small>
 							  </div>
 							</div>
 						  </div>
