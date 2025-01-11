@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/munich-urban-colab-meeting/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-06-07 22:00:00 +0200
 categories: meetup
 title: "Team building and in person operations meeting 🏗️"

@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/makerspace/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-08-20 10:00:00 +0200
 categories: info
 title: "Elara Aerospace Builds S.P.A.R.K. at Makerspace ✨"

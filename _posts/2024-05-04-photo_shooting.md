@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/photo-shooting/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-05-04 16:00:00 +0200
 categories: meetup
 title: "Elara Aerospace Photoshoot 📸"

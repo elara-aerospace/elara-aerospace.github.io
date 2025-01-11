@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/tum-eship-day/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-07-10 14:00:00 +0200
 categories: event
 title: "TUM Entrepreneurship Day 💡"

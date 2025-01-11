@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/olm-contract/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-11-07 12:00:00 +0200
 categories: milestone
 title: "OLM announces contractual agreement with Elara Aerospace ✍️"

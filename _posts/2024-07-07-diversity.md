@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/diversity/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-07-07 18:00:00 +0200
 categories: info
 title: "Diversity at Elara Aerospace 🌐"

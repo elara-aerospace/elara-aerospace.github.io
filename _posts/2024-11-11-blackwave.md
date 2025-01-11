@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/blackwave/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-11-11 23:00:00 +0200
 categories: tour
 title: "Blackwave Factory Tour in Taufkirchen 🏭"

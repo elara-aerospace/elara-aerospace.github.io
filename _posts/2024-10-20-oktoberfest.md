@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/oktoberfest/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-10-20 23:00:00 +0200
 categories: meetup
 title: "Elara Aerospace at Oktoberfest 2024 🍻"

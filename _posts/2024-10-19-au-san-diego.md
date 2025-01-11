@@ -2,6 +2,7 @@
 layout: post
 permalink: /news/autodesk-university-2024-san-diego/
 author: "Uta Heldt"
+author-image: /assets/images/team/uta-heldt.png
 date: 2024-10-19 21:00:00 +0200
 categories: event
 title: "Elara Aerospace at Autodesk University 2024 (San Diego, USA) 🎓"
