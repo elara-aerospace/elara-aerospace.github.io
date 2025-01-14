@@ -110,6 +110,12 @@
   role_desc: "#"
   linkedin: "https://www.linkedin.com/in/pavankumarelangovan"
 
+- first_name: "Manuel"
+  last_name: "Glück González"
+  image: "/assets/images/team/manuel-gonzalez.png"
+  role: "Tanks"
+  role_desc: "Tank Engineering"
+
 - first_name: "A. T."
   last_name: "&emsp;"
   image: "/assets/images/team/a-t.png"
