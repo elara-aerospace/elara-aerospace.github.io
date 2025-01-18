@@ -46,11 +46,11 @@
   url: "https://www.launch-olm.com/"
   category: "Strategic Partners"
 
-- name: "Bundeswehr"
-  logo: "/assets/images/partners/bundeswehr.png"
-  info: ""
-  url: "https://www.bundeswehr.de/en/"
-  category: "Strategic Partners"
+#- name: "Bundeswehr"
+#  logo: "/assets/images/partners/bundeswehr.png"
+#  info: ""
+#  url: "https://www.bundeswehr.de/en/"
+#  category: "Strategic Partners"
 
 - name: "OKR Institute"
   logo: "/assets/images/partners/okr-institute.png"
@@ -154,7 +154,7 @@
   url: "https://www.hetzner.com/de?mtm_campaign=ignitionaerospace_sponsoring&mtm_medium=referral&mtm_content=sponsoring_link"
   category: "Information Technology Partners"
 
-- name: "Leibniz-Rechenzentrum (LRZ)"
+- name: "Leibniz-Rechenzentrum (LRZ) - CFD Lab Team"
   logo: "/assets/images/partners/lrz.png"
   info: "The Leibniz Supercomputing Centre is a premier German high-performance computing facility that provides cutting-edge Linux clusters and supercomputers for advanced scientific computational tasks, including CFD simulations."
   url: "https://www.lrz.de/"
