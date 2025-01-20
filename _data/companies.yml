@@ -160,11 +160,11 @@
   url: "https://www.lrz.de/"
   category: "Information Technology Partners"
 
-- name: "Github (powered by Microsoft)"
-  logo: "/assets/images/partners/microsoft.png"
-  info: "By partnering with Microsoft, our software team gains access to GitHub's Git repository hosting, powerful automated CI/CD testing workflows, and integrated project management tools that streamline Elara Aerospace's software development across Microsoft's cloud-native environments."
-  url: "https://github.com/"
-  category: "Information Technology Partners"
+#- name: "Github (powered by Microsoft)"
+#  logo: "/assets/images/partners/microsoft.png"
+#  info: "By partnering with Microsoft, our software team gains access to GitHub's Git repository hosting, powerful automated CI/CD testing workflows, and integrated project management tools that streamline Elara Aerospace's software development across Microsoft's cloud-native environments."
+#  url: "https://github.com/"
+#  category: "Information Technology Partners"
 
 - name: "Basler AG"
   logo: "/assets/images/partners/basler.png"
