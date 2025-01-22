@@ -175,7 +175,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
                         <p class="text-blk name">
                             {{ member.last_name }}
                         </p>
-                        <p class="text-blk position">{{ member.role }} <abbr title="{{ member.role_desc }}">&#x1F6C8;</abbr></p>
+                        <p class="text-blk position" style="text-align: center;">{{ member.role }} <abbr title="{{ member.role_desc }}">&#x1F6C8;</abbr>{% if member.website %}<br><i>{{ member.field }}</i>{% endif %}</p>
                         <div class="social-media-links">
                             {% if member.website %}
                             <a href="{{ member.website }}" target="_blank">
