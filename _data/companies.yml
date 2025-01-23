@@ -16,6 +16,12 @@
   url: "https://daytonabeach.erau.edu/"
   category: "University Partners"
   
+- name: "Universität der Bundeswehr München (UniBw)"
+  logo: "/assets/images/partners/unibw.png"
+  info: ""
+  url: "https://www.unibw.de/home-en"
+  category: "University Partners"
+
 - name: "Santa Clara University (SCU)"
   logo: "/assets/images/partners/scu.png"
   info: ""
