@@ -15,6 +15,12 @@
   info: ""
   url: "https://daytonabeach.erau.edu/"
   category: "University Partners"
+  
+- name: "Santa Clara University (SCU)"
+  logo: "/assets/images/partners/scu.png"
+  info: ""
+  url: "https://www.scu.edu/"
+  category: "University Partners"
 
 - name: "Strascheg Center for Entrepreneurship (SCE)"
   logo: "/assets/images/partners/sce.png"
