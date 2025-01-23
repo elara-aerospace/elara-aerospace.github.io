@@ -5,7 +5,7 @@
   field: "Technical University of Munich"
   role_desc: "University President of the Technical University of Munich (TUM)"
   website: "https://www.tum.de/ueber-die-tum/organisation/hochschulpraesidium"
-  linkedin: "https://www.linkedin.com/in/thomas-f-hofmann-164589152"
+  linkedin: "https://www.linkedin.com/in/thomas-f-hofmann-164589152/"
   facilitator: "Tom Luca Reinhardt"
 
 - first_name: "Prof. Dr. rer. nat."
@@ -15,7 +15,7 @@
   field: "Engineering Mathematics"
   role_desc: "Professorship for Engineering Mathematics at Fakultät für Luft- und Raumfahrttechnik - Universität der Bundeswehr München (UniBw)"
   website: "https://www.unibw.de/ingmathe/members/prof-dr-rer-nat-matthias-gerdts"
-  linkedin: "https://www.linkedin.com/in/matthias-gerdts-80710628"
+  linkedin: "https://www.linkedin.com/in/matthias-gerdts-80710628/"
   facilitator: "Suriyaa Rocky Sundararuban"
 
 - first_name: "Prof. Dr.-Ing."
@@ -25,8 +25,18 @@
   field: "Carbon Composites"
   role_desc: "Professorship for Carbon-Composites at TUM School of Engineering and Design - Technical University of Munich (TUM)"
   website: "https://www.professoren.tum.de/en/drechsler-klaus"
-  linkedin: "https://www.linkedin.com/in/klaus-drechsler-67478b138"
+  linkedin: "https://www.linkedin.com/in/klaus-drechsler-67478b138/"
   facilitator: "Michael Tran"
+
+- first_name: "Prof. Mohammad"
+  last_name: "Ali Ayoubi"
+  image: "/assets/images/team/mohammad-ayoubi.png"
+  role: "Faculty Advisor"
+  field: "Intelligent Control Systems + GNC"
+  role_desc: "Associate Professorship for Aerospace Engineering at Department of Mechanical Engineering - Santa Clara University (SCU)"
+  website: "https://www.scu.edu/engineering/faculty/ayoubi-mohammad-ali/"
+  linkedin: "https://www.linkedin.com/in/mohammad-ayoubi-13684317/"
+  facilitator: "Suriyaa Rocky Sundararuban"
 
 - first_name: "Prof. Dr."
   last_name: "Holger Patzelt"
@@ -35,7 +45,7 @@
   field: "Entrepreneurship"
   role_desc: "Professorship for Business Administration - Entrepreneurship at TUM School of Management - Technical University of Munich (TUM)"
   website: "https://www.ie.mgt.tum.de/en/ent/team/holger-patzelt/"
-  linkedin: "https://www.linkedin.com/in/holger-patzelt-76b501123"
+  linkedin: "https://www.linkedin.com/in/holger-patzelt-76b501123/"
   facilitator: "Theresa Schmitt"
 
 - first_name: "Prof. Dr. iur."
@@ -45,6 +55,6 @@
   field: "German Law and EU Regulations"
   role_desc: "Prof. Dr. iur. Philipp Maume, S.J.D. (La Trobe) | Associate Professorship Corporate Governance and Capital Markets Law at TUM School of Management - Technical University of Munich (TUM)"
   website: "https://www.fa.mgt.tum.de/en/law/team/prof-maume/"
-  linkedin: "https://www.linkedin.com/in/philipp-maume-06877071"
+  linkedin: "https://www.linkedin.com/in/philipp-maume-06877071/"
   facilitator: "Felix Rieder"
 
