@@ -10,11 +10,11 @@
   url: "https://www.tum.de/"
   category: "University Partners"
   
-- name: "Embry-Riddle Aeronautical University (Daytona Beach)"
-  logo: "/assets/images/partners/embry-university.png"
-  info: ""
-  url: "https://daytonabeach.erau.edu/"
-  category: "University Partners"
+#- name: "Embry-Riddle Aeronautical University (Daytona Beach)"
+#  logo: "/assets/images/partners/embry-university.png"
+#  info: ""
+#  url: "https://daytonabeach.erau.edu/"
+#  category: "University Partners"
   
 - name: "Universität der Bundeswehr München (UniBw)"
   logo: "/assets/images/partners/unibw.png"
