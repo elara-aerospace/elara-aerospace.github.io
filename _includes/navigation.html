@@ -1,36 +1,44 @@
 <nav class="header-nav">
+    <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
 
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+    <div class="header-nav__content">
+        <h3>Navigation</h3>
+        
+        <ul class="header-nav__list">
+            {% for item in site.data.navigation %}
+                <li>
+                    <a {% if page.url == item.link %}class="current" style="color: purple;"{% endif %} href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a>
+                    {% if item.subitems %}
+                        <ul class="header-nav__sublist">
+                            {% for subitem in item.subitems %}
+                                <li><a {% if page.url == subitem.link %}class="current" style="color: purple;"{% endif %} href="{{ subitem.link }}" title="{{ subitem.name }}">{{ subitem.name }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
 
-            <div class="header-nav__content">
-                <h3>Navigation</h3>
-                
-                <ul class="header-nav__list">
-					{% for item in site.data.navigation %}
-						<li><a {% if page.url == item.link %}class="current" style="color: purple;"{% endif %} href="{{ item.link }}" title="{{ item.name }}">{{ item.name }}</a></li>
-					{% endfor %}
-                </ul>
-    
-				<p>Per aspera ad astra: <a href='/mission/'>Our mission</a>.</p>
-				
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i></a>
-                    </li>
-					<li>
-                        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa-brands fa-x-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa-brands fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.youtube.com/{{ site.youtube_username }}"><i class="fa-brands fa-youtube"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i></a>
-                    </li>
-                </ul>
+        <p>Per aspera ad astra: <a href='/about/mission/'>Our mission</a>.</p>
+        
+        <ul class="header-nav__social">
+            <li>
+                <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa-brands fa-x-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/{{ site.youtube_username }}"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li>
+                <a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i></a>
+            </li>
+        </ul>
 
-            </div> <!-- end header-nav__content -->
+    </div> <!-- end header-nav__content -->
+</nav>  <!-- end header-nav -->
 
-        </nav>  <!-- end header-nav -->

@@ -1,27 +1,24 @@
 - name: Home
   link: /
-- name: About Us
+- name: About
   link: /about/
-- name: Mission
-  link: /mission/
-- name: Our Team
-  link: /team/
-- name: Partners
-  link: /partners/
+  subitems:
+    - name: Our Team
+      link: /team/
+    - name: Our Partners
+      link: /partners/
+    - name: Our Mission
+      link: /mission/
+    - name: What Inspires Us
+      link: /inspiration/
 - name: Technology
-  link: /tech/
-- name: Pitch Deck
-  link: /pitch/
-- name: Join Us
-  link: /apply/
-#- name: Project
-#  link: /project/
-#- name: Experiments
-#  link: /experiments/
-- name: News
+  link: /technology/
+- name: Blog
   link: /news/
 - name: Press
   link: /press/
+- name: Careers
+  link: /apply/
 - name: Contact Us
   link: /contact/
 
