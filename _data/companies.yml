@@ -1,13 +1,13 @@
-- name: "Hochschule München (HM)"
-  logo: "/assets/images/partners/hochschule-muenchen.png"
-  info: "Access to professors and facilities enriches our learning and development journey"
-  url: "https://www.hm.edu/"
-  category: "University Partners"
-
 - name: "Technische Universität München (TUM)"
   logo: "/assets/images/partners/tum.png"
   info: "TUM's support gives us access to esteemed professors and state-of-the-art facilities, furthering our academic pursuits"
   url: "https://www.tum.de/"
+  category: "University Partners"
+
+- name: "Hochschule München (HM)"
+  logo: "/assets/images/partners/hochschule-muenchen.png"
+  info: "Access to professors and facilities enriches our learning and development journey"
+  url: "https://www.hm.edu/"
   category: "University Partners"
   
 #- name: "Embry-Riddle Aeronautical University (Daytona Beach)"
