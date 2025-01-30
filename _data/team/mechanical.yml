@@ -116,6 +116,8 @@
   image: "/assets/images/team/manuel-gonzalez.png"
   role: "Tanks"
   role_desc: "Tank Engineering"
+  linkedin: "https://www.linkedin.com/in/manuel-glück-gonzález/"
+  github: "https://github.com/ManuGG899"
 
 - first_name: "A. T."
   last_name: "&emsp;"
