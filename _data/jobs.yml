@@ -1,16 +1,3 @@
-- title: IT Administration Engineer
-  category: Software
-  description: Manage and maintain IT infrastructure and systems
-  location: Munich, Germany
-  qualifications:
-    - Bachelor's degree in IT, Computer Science, or related field
-    - 3+ years of experience in IT administration, preferably in Linux and Windows (optional)
-    - Certifications in relevant technologies (optional)
-  key_responsibilities:
-    - Maintain Hetzner Virtual Machines and installing/updating software
-    - Maintain GitHub infrastructure
-    - Provide technical support and troubleshooting for team members
-
 - title: Frontend Developer
   category: Software
   description: Create responsive and user-friendly web interfaces
