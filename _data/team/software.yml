@@ -7,13 +7,21 @@
   linkedin: "https://www.linkedin.com/in/suriyaasundararuban/"
   github: "https://github.com/suriyaa"
 
-- first_name: "Hardik"
+- first_name: "Hardik Prakash"
   last_name: "Lokwani"
   image: "/assets/images/team/hardik-lokwani.png"
   role: "IT Administration"
   role_desc: "System Administration of IT Infrastructure"
   linkedin: "https://www.linkedin.com/in/hardik-lokwani/"
   github: "https://github.com/hardiklokwani"
+
+- first_name: "Ankur Arun"
+  last_name: "Giri"
+  image: "/assets/images/team/ankur-giri.png"
+  role: "Systems Engineering"
+  role_desc: "GNC Programming, Sensor Data Processing and Quality Management"
+  linkedin: "https://www.linkedin.com/in/ankurgiri1/"
+  github: "https://github.com/ankurgiri200"
 
 - first_name: "Linus"
   last_name: "Eing"
