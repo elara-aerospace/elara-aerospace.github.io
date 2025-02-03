@@ -22,7 +22,7 @@
 - first_name: "Dennis"
   last_name: "Schad"
   image: "/assets/images/team/dennis-schad.png"
-  role: "CAN bus"
-  role_desc: "Controller Area Network (CAN) bus engineering"
+  role: "CAN-Bus"
+  role_desc: "Controller Area Network-Bus engineering"
   linkedin: "https://www.linkedin.com/in/dennisschad/"
 
