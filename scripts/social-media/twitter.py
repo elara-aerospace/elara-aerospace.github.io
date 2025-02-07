@@ -25,7 +25,7 @@ def get_twitter_followers():
     
     if response.status_code != 200:
         if response.status_code == 429:
-            print("Rate limit exceeded. Skipping update.")
+            print("Rate limit exceeded with X API (v2). Skipping update.")
         else:
             print(f"Error: {response.status_code} - {response.text}")
         return None
@@ -38,7 +38,7 @@ def get_twitter_followers():
     
     if response.status_code != 200:
         if response.status_code == 429:
-            print("Rate limit exceeded. Skipping update.")
+            print("Rate limit exceeded with X API (v2). Skipping update.")
         else:
             print(f"Error: {response.status_code} - {response.text}")
         return None
@@ -65,7 +65,7 @@ if __name__ == "__main__":
     
     if follower_count is not None:
         update_yaml_file(follower_count)
-        print(f"Updated follower count to {follower_count}")
+        print(f"X follower count updated: {follower_count}")
     else:
-        print("Follower count not updated.")
+        print("X follower count not updated.")
 
