@@ -10,6 +10,8 @@ jobs:
     env: # Secrets stored at https://github.com/elara-aerospace/elara-aerospace.github.io/settings/secrets/actions
       YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
       YOUTUBE_CHANNEL_ID: ${{ secrets.YOUTUBE_CHANNEL_ID }}
+      TWITTER_BEARER_TOKEN: ${{ secrets.TWITTER_BEARER_TOKEN }}
+      TWITTER_USERNAME: ${{ secrets.TWITTER_USERNAME }}
       GITHUB_USERNAME: ${{ secrets.GH_USERNAME }}
       GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
     steps:
@@ -27,6 +29,7 @@ jobs:
 
       - name: Run social media scripts
         run: |
+          python scripts/social-media/twitter.py
           python scripts/social-media/youtube.py
 
       - uses: stefanzweifel/git-auto-commit-action@v5
