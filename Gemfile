@@ -32,6 +32,6 @@ gem 'http_parser.rb', '~> 0.6.0', :platforms => [:jruby]
 gem 'liquid', '~> 4.0.4'
 
 # Check-up Tests
-gem 'html-proofer', '~> 5.0', '>= 5.0.9'
+gem 'html-proofer', '~> 5.0'
 gem 'rake', '~> 13.2', '>= 13.2.1'
 gem 'minitest', '~> 5.25'
