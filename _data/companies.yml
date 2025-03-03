@@ -148,6 +148,12 @@
   url: "https://www.teijin.com/"
   category: "Industry Partners"
 
+- name: "The Exploration Company (TEC)"
+  logo: "/assets/images/partners/tec.png"
+  info: "TEC develops, manufactures and operates the Nyx space capsule for various clients, such as space agencies, other aerospace companies or businesses operating in other industries."
+  url: "https://www.exploration.space/"
+  category: "Sponsors"
+
 - name: "Valispace"
   logo: "/assets/images/partners/valispace.png"
   info: "Valispace provides us with powerful software for precise calculations, ensuring the accuracy of our projects."
