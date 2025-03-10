@@ -130,6 +130,12 @@
   url: "https://www.gtisoft.com/"
   category: "Industry Partners"
 
+- name: "Montanstahl"
+  logo: "/assets/images/partners/montanstahl.png"
+  info: "Montanstahl AG is a Swiss company specializing in the production and distribution of high-quality steel and stainless steel profiles."
+  url: "https://www.montanstahl.com/"
+  category: "Industry Partners"
+
 - name: "STMicroelectronics"
   logo: "/assets/images/partners/st-microelectronics.png"
   info: "STMicroelectronics is a valuable industry partner in our ecosystem."
