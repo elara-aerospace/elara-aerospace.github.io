@@ -122,8 +122,8 @@
 - first_name: "Max"
   last_name: "Fischer"
   image: "/assets/images/team/max-fischer.png"
-#  role: "#"
-#  role_desc: "#"
+  role: "Structural Analysis"
+  role_desc: "Structural Analysis/Calculation/Simulation; Tanks, Airframe, Nosecone"
 #  linkedin: "#"
 #  github: "#"
 
