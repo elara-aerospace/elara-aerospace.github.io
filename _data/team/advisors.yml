@@ -38,6 +38,16 @@
   linkedin: "https://www.linkedin.com/in/mohammad-ayoubi-13684317/"
   facilitator: "Suriyaa Rocky Sundararuban"
 
+- first_name: "Prof. Dr.-Ing."
+  last_name: "Johann Dambeck"
+  image: "/assets/images/team/johann-dambeck.png"
+  role: "Faculty Advisor"
+  field: "Flight Navigation"
+  role_desc: "Professorship for Flight Navigation and Data Fusion - Faculty of Aerospace and Geodesy - Technical University of Munich (TUM)"
+  website: "https://www.professoren.tum.de/en/honorary-professors/d/dambeck-johann"
+  linkedin: "https://www.linkedin.com/in/johann-dambeck-058438287/"
+  facilitator: "Adrian Leutner"
+
 - first_name: "Prof. Dr."
   last_name: "Holger Patzelt"
   image: "/assets/images/team/holger-patzelt.png"
