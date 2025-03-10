@@ -18,13 +18,13 @@
   
 - name: "Universität der Bundeswehr München (UniBw)"
   logo: "/assets/images/partners/unibw.png"
-  info: ""
+  info: "The Universität der Bundeswehr München (UniBw), or University of the German Federal Armed Forces, is a modern campus university located in the southeast of Munich, Germany. Founded in 1973, it primarily serves as an institution for the academic education of officer candidates and officers of the German Armed Forces (Bundeswehr)."
   url: "https://www.unibw.de/home-en"
   category: "University Partners"
 
 - name: "Santa Clara University (SCU)"
   logo: "/assets/images/partners/scu.png"
-  info: ""
+  info: "Santa Clara University (SCU) is a private Jesuit university located in Santa Clara, California, USA. It is the oldest operating institution of higher learning in California, founded in 1851. SCU is situated on a 106-acre campus in the heart of Silicon Valley, near San Jose."
   url: "https://www.scu.edu/"
   category: "University Partners"
 
@@ -36,7 +36,7 @@
 
 - name: "TUM Venture Labs"
   logo: "/assets/images/partners/tum-venture-labs.png"
-  info: ""
+  info: "The TUM Venture Labs are entrepreneurial innovation hubs established by the Technical University of Munich (TUM) in collaboration with UnternehmerTUM and other partner institutions. They aim to foster high-tech business creation and scalable technology spin-offs in Munich and beyond, positioning the region as a leading technology hub in Europe."
   url: "https://www.tum-venture-labs.de/"
   category: "Entrepreneurial Partners"
 
@@ -48,7 +48,7 @@
 
 - name: "Makerspace"
   logo: "/assets/images/partners/makerspace.png"
-  info: ""
+  info: "Makerspace is a collaborative workspace equipped with tools and resources for prototyping, fabrication, and innovation. At the Technical University of Munich (TUM) and its associated facilities, several Makerspaces are available, each tailored to different needs and audiences."
   url: "https://www.unternehmertum.de/en/services/makerspace"
   category: "Entrepreneurial Partners"
 
@@ -228,7 +228,7 @@
 
 - name: "JBC Soldering S.L."
   logo: "/assets/images/partners/jbc.png"
-  info: ""
+  info: "JBC Soldering S.L. is a globally recognized company specializing in soldering and rework tools for electronics professionals. Established in 1929, it has over 95 years of experience in developing innovative solutions for soldering operations."
   url: "https://www.jbctools.com/"
   category: "Sponsors"
 
