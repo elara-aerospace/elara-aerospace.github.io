@@ -130,6 +130,12 @@
   url: "https://www.gtisoft.com/"
   category: "Industry Partners"
 
+- name: "LEAP 71"
+  logo: "/assets/images/partners/leap71.png"
+  info: "LEAP 71 is an UAE-based company in Dubai pioneering the field of Computational Engineering, which leverages advanced AI models to autonomously design complex physical products. The company specializes in creating innovative solutions for industries such as aerospace, electric mobility, and bioprinting, with a focus on digital manufacturing processes like industrial 3D printing."
+  url: "https://leap71.com/"
+  category: "Industry Partners"
+
 - name: "Montanstahl"
   logo: "/assets/images/partners/montanstahl.png"
   info: "Montanstahl AG is a Swiss company specializing in the production and distribution of high-quality steel and stainless steel profiles."
