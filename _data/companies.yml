@@ -100,12 +100,6 @@
   url: "https://cfturbo.com/"
   category: "Industry Partners"
 
-- name: "Creality"
-  logo: "/assets/images/partners/creality.png"
-  info: "Creality is a valuable industry partner in our ecosystem."
-  url: "https://www.creality.com/"
-  category: "Industry Partners"
-
 - name: "Epsilon3"
   logo: "/assets/images/partners/epsilon3.png"
   info: "Epsilon 3 software enriches our analytical capabilities, adding depth to our projects."
@@ -130,18 +124,6 @@
   url: "https://www.gtisoft.com/"
   category: "Industry Partners"
 
-- name: "LEAP 71"
-  logo: "/assets/images/partners/leap71.png"
-  info: "LEAP 71 is an UAE-based company in Dubai pioneering the field of Computational Engineering, which leverages advanced AI models to autonomously design complex physical products. The company specializes in creating innovative solutions for industries such as aerospace, electric mobility, and bioprinting, with a focus on digital manufacturing processes like industrial 3D printing."
-  url: "https://leap71.com/"
-  category: "Industry Partners"
-
-- name: "Montanstahl"
-  logo: "/assets/images/partners/montanstahl.png"
-  info: "Montanstahl AG is a Swiss company specializing in the production and distribution of high-quality steel and stainless steel profiles."
-  url: "https://www.montanstahl.com/"
-  category: "Industry Partners"
-
 - name: "STMicroelectronics"
   logo: "/assets/images/partners/st-microelectronics.png"
   info: "STMicroelectronics is a valuable industry partner in our ecosystem."
@@ -154,17 +136,17 @@
   url: "https://www.synera.io/"
   category: "Industry Partners"
 
+- name: "The Exploration Company (TEC)"
+  logo: "/assets/images/partners/tec.png"
+  info: "TEC develops, manufactures and operates the Nyx space capsule for various clients, such as space agencies, other aerospace companies or businesses operating in other industries."
+  url: "https://www.exploration.space/"
+  category: "Industry Partners"
+
 - name: "Teijin"
   logo: "/assets/images/partners/teijin.png"
   info: "Teijin is a valuable industry partner in our ecosystem."
   url: "https://www.teijin.com/"
   category: "Industry Partners"
-
-- name: "The Exploration Company (TEC)"
-  logo: "/assets/images/partners/tec.png"
-  info: "TEC develops, manufactures and operates the Nyx space capsule for various clients, such as space agencies, other aerospace companies or businesses operating in other industries."
-  url: "https://www.exploration.space/"
-  category: "Sponsors"
 
 - name: "Valispace"
   logo: "/assets/images/partners/valispace.png"
@@ -220,6 +202,12 @@
   url: "https://www.craft.do/"
   category: "Sponsors"
 
+- name: "Creality"
+  logo: "/assets/images/partners/creality.png"
+  info: "Creality is a valuable industry partner in our ecosystem."
+  url: "https://www.creality.com/"
+  category: "Sponsors"
+
 - name: "IFM"
   logo: "/assets/images/partners/ifm.png"
   info: "IFM is a valuable sponsor in our ecosystem."
@@ -230,6 +218,18 @@
   logo: "/assets/images/partners/jbc.png"
   info: "JBC Soldering S.L. is a globally recognized company specializing in soldering and rework tools for electronics professionals. Established in 1929, it has over 95 years of experience in developing innovative solutions for soldering operations."
   url: "https://www.jbctools.com/"
+  category: "Sponsors"
+
+- name: "LEAP 71"
+  logo: "/assets/images/partners/leap71.png"
+  info: "LEAP 71 is an UAE-based company in Dubai pioneering the field of Computational Engineering, which leverages advanced AI models to autonomously design complex physical products. The company specializes in creating innovative solutions for industries such as aerospace, electric mobility, and bioprinting, with a focus on digital manufacturing processes like industrial 3D printing."
+  url: "https://leap71.com/"
+  category: "Sponsors"
+
+- name: "Montanstahl"
+  logo: "/assets/images/partners/montanstahl.png"
+  info: "Montanstahl AG is a Swiss company specializing in the production and distribution of high-quality steel and stainless steel profiles."
+  url: "https://www.montanstahl.com/"
   category: "Sponsors"
 
 - name: "Moo"
