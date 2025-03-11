@@ -43,12 +43,14 @@
   role: "Engine"
   role_desc: "Rocket Engine Engineering"
   linkedin: "https://github.com/FynnWolf141"
+#  github: "#"
 
 - first_name: "Vincent"
   last_name: "Bannert"
   image: "/assets/images/team/vincent-bannert.png"
   role: "GSE"
   role_desc: "Ground Support Equipment Engineering"
+#  github: "#"
 
 - first_name: "Filippo"
   last_name: "Brovelli"
@@ -96,6 +98,7 @@
   role: "Propulsion System"
   role_desc: "Propulsion Engine, Simulation, Heat Transfer, Expansion Ratio"
   linkedin: "https://www.linkedin.com/in/chiragsinghvee"
+#  github: "#"
 
 - first_name: "Tanner"
   last_name: "Berreth"
@@ -103,6 +106,7 @@
   role: "Nose Cone"
   role_desc: "Nose Cone Development"
   linkedin: "https://www.linkedin.com/in/tanner-berreth-87668b32b"
+#  github: "#"
 
 - first_name: "Pavan Kumar"
   last_name: "Elangovan"
@@ -110,6 +114,7 @@
   role: "Mechanicial"
   role_desc: "#"
   linkedin: "https://www.linkedin.com/in/pavankumarelangovan"
+#  github: "#"
 
 - first_name: "Manuel"
   last_name: "Glück González"
@@ -124,7 +129,7 @@
   image: "/assets/images/team/max-fischer.png"
   role: "Structural Analysis"
   role_desc: "Structural Analysis/Calculation/Simulation; Tanks, Airframe, Nosecone"
-#  linkedin: "#"
+  linkedin: "https://www.linkedin.com/in/max-fischer-9095102b0/"
 #  github: "#"
 
 - first_name: "Philippe"
@@ -136,11 +141,11 @@
 #  github: "#"
 
 - first_name: "Timothy"
-  last_name: "Schröder"
+  last_name: "Schroeder"
   image: "/assets/images/team/timothy-schroeder.png"
   role: "Turbo-Pump"
   role_desc: "Turbo-Pump Engineering"
-#  linkedin: "#"
+  linkedin: "https://www.linkedin.com/in/timothy-schroeder-5b7a54278/"
 #  github: "#"
 
 - first_name: "A. T."
@@ -148,4 +153,5 @@
   image: "/assets/images/team/a-t.png"
   role: "Advisor"
   role_desc: "Advisor to Mechanical team"
+#  github: "#"
 
