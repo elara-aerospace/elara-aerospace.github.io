@@ -15,14 +15,49 @@ second-button: "<a href='#show-more' class='smoothscroll btn btn--stroke'>Show M
  <!-- igniter
  ================================================== -->
  <section id='show-more' class="s-services">
-	<div class="row section-header has-bottom-sep" data-aos="fade-up">
-		<div class="col-full">
-			<h3 class="subhead">Product Component Simulation</h3>
-			<h1 class="display-2">Igniter Component</h1>
-		</div>
-	</div> <!-- end section-header -->
-
-	<style>
+ 	<style>
+ 	
+    .main-quote-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+    .main-quote-wrapper {
+        max-width: 1000px;
+        text-align: center;
+        position: relative;
+        padding: 30px;
+        background: rgba(115, 14, 162, 0.1);
+        border-radius: 15px;
+        border-left: 5px solid #730ea2;
+    }
+    .quote-icon {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 100px;
+        opacity: 0.2;
+    }
+    .main-quote {
+        font-size: 1.4em;
+        font-style: italic;
+        color: #ddd;
+        position: relative;
+        z-index: 1;
+    }
+    .quote-author {
+        margin-top: 15px;
+        color: #999;
+        font-size: 1em;
+    }
+    .quote {
+        font-style: italic;
+        margin-top: 20px;
+        color: #aaa;
+    }
 		.iframe-container {
 			position: relative;
 			width: 100%;
@@ -41,6 +76,31 @@ second-button: "<a href='#show-more' class='smoothscroll btn btn--stroke'>Show M
 			border: 0;
 		}
 	</style>
+	
+	<div class="row section-header has-bottom-sep">
+		<div class="col-full">
+			<h3 class="subhead">Product Component Simulations</h3>
+			<h1 class="display-2">Featured Components</h1>
+		</div>
+	</div> <!-- end section-header -->
+	    <div class="main-quote-container">
+        <div class="main-quote-wrapper">
+            <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75">
+                <text x="50%" y="50%" text-anchor="middle" fill="#730ea2" font-size="100">"</text>
+            </svg>
+            <p class="main-quote">
+                "Extension brings space, space brings freedom, freedom brings precision.<br />Precision is truth."
+            </p>
+            <div class="quote-author">- <a target="_blank" href="https://www.linkedin.com/in/dennisschad/">Dennis Schad</a></div>
+        </div>
+    </div>
+    
+	<div class="row section-header has-bottom-sep">
+		<div class="col-full">
+			<h1 class="display-3">Igniter Component</h1>
+		</div>
+	</div> <!-- end section-header -->
+	
 	<div class="iframe-container">
 		<iframe style="display:block; margin: 0 auto;" src="https://myhm1102.autodesk360.com/shares/public/SH30dd5QT870c25f12fcfce1eaa075ff9bd3?mode=embed" width="1000" height="600" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true" frameborder="0"></iframe>
 	</div>
