@@ -49,6 +49,60 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
     </div>
 </section>
 
+
+<style>
+    .main-quote-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px 0;
+    }
+    .main-quote-wrapper {
+        max-width: 1000px;
+        text-align: center;
+        position: relative;
+        padding: 30px;
+        background: rgba(115, 14, 162, 0.1);
+        border-radius: 15px;
+        border-left: 5px solid #730ea2;
+    }
+    .quote-icon {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100px;
+        height: 100px;
+        opacity: 0.2;
+    }
+    .main-quote {
+        font-size: 1.4em;
+        font-style: italic;
+        color: #ddd;
+        position: relative;
+        z-index: 1;
+    }
+    .quote-author {
+        margin-top: 15px;
+        color: #999;
+        font-size: 1em;
+    }
+    .quote {
+        font-style: italic;
+        margin-top: 20px;
+        color: #aaa;
+    }
+    .button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #730ea2;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+</style>
+
 <!-- team
     ================================================== -->
 <section id="team" class="s-about">
@@ -60,18 +114,22 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
     </div>
     <!-- end section-header -->
 
+
     <div class="row about-desc" data-aos="fade-up">
         <div class="col-full">
-            <p>
-                <i>
-                    <q>
-                        Since the start, we’ve been trying to build our dream rocket with our own hands: a unique mission we can discover and double-down on our talents and dare greatly alongside people just as obsessive as us. Put bluntly,
-                        Elara Aerospace isn't a place for spectators. This is a place you go all-in, and get even more in return.
-                    </q>
-                </i>
-                <br />
-                <b>-Elara Aerospace, your young team of rocket-obsessed entrepreneurs, technologists and creatives redefining how to build and launch rockets</b>
+        
+    <div class="main-quote-container">
+        <div class="main-quote-wrapper">
+            <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 75">
+                <text x="50%" y="50%" text-anchor="middle" fill="#730ea2" font-size="100">"</text>
+            </svg>
+            <p class="main-quote">
+                "Since the start, we’ve been trying to build our dream rocket with our own hands: a unique mission we can discover and double-down on our talents and dare greatly alongside people just as obsessive as us. Put bluntly,
+                        Elara Aerospace isn't a place for spectators. This is a place you go all-in, and get even more in return."
             </p>
+            <div class="quote-author">- <b>Elara Aerospace</b>, your young team of rocket-obsessed entrepreneurs, technologists and creatives redefining how to build and launch rockets</div>
+        </div>
+    </div>
             <a href="/team/"><img src="/assets/images/join-the-team.webp" height="300" alt="Elara Aerospace Founding Team" /></a>
         </div>
     </div>
