@@ -1,0 +1,42 @@
+- name: "Technische Universität München (TUM)"
+  logo: "/assets/images/press/tum.png"
+  info: ""
+  url: "https://www.linkedin.com/posts/thomas-f-hofmann-164589152_what-a-fantastic-start-into-the-new-week-activity-7180955067972214785-jOWY"
+  category: "Social Media"
+
+- name: "Autodesk University 2024"
+  logo: "/assets/images/press/autodesk.png"
+  info: ""
+  url: "https://www.autodesk.com/products/fusion-360/blog/autodesk-university-2024-digital-pass/"
+  category: "Corporate News"
+
+- name: "David Döbele (Influencer)"
+  logo: "/assets/images/press/david-döbele.jpg"
+  info: ""
+  url: "https://youtu.be/HXILj1t33Ek"
+  category: "Social Media"
+
+- name: "First Momentum Ventures"
+  logo: "/assets/images/press/first-momentum-ventures.png"
+  info: ""
+  url: "https://www.linkedin.com/posts/firstmomentum_firstmomentum-venturecapital-venturescouts-activity-7229047385644032000-LulU/"
+  category: "Social Media"
+
+- name: "TNG Consulting - Big Techday 2024 (Pitch)"
+  logo: "/assets/images/press/tng-consulting.png"
+  info: ""
+  url: "https://youtu.be/ttd6Fw2I0WI"
+  category: "Events"
+
+- name: "OKR Institute"
+  logo: "/assets/images/press/okr-institute.png"
+  info: ""
+  url: "https://okrinstitute.org/okr-institute-partners-with-elara-aerospace/"
+  category: "Corporate News"
+
+- name: "Autodesk (Best of AU)"
+  logo: "/assets/images/press/autodesk.png"
+  info: ""
+  url: "https://www.autodesk.com/autodesk-university/blog/best-au-2024-awards-top-rated-classes-and-speakers"
+  category: "Corporate News"
+

@@ -43,39 +43,142 @@ second-button: "<a href='#news' class='smoothscroll btn btn--stroke'>Show More</
 		</center>
     </section> <!-- end s-about -->
 
-    <!-- clients
+<!-- press
     ================================================== -->
-    <section id="news" class="s-clients">
+<section id="news" class="s-clients">
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Press Coverage</h3>
+            <h1 class="display-2">Featured On</h1>
+        </div>
+    </div>
+    <!-- end section-header -->
 
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <!-- DEACTIVATED: <h3 class="subhead">...</h3> -->
-                <h1 class="display-2">Featured On</h1>
+    <style>
+        /* Popup CSS */
+        .popup {
+            display: none; /* Hidden by default */
+            position: fixed; /* Stay in place */
+            z-index: 1000; /* Sit on top */
+            left: 0;
+            top: 0;
+            width: 100%; /* Full width */
+            height: 100%; /* Full height */
+            overflow: auto; /* Enable scroll if needed */
+            background-color: rgb(0, 0, 0); /* Fallback color */
+            background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+        }
+
+        .popup-title {
+            color: black;
+        }
+
+        .popup-content {
+            background-color: #fefefe;
+            margin: 15% auto; /* 15% from the top and centered */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* Could be more or less, depending on screen size */
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Additional styling for gallery */
+        .gallery img {
+            cursor: pointer;
+            margin: 10px;
+            width: 100px; /* Adjust size as needed */
+            width: 300px; /* Set width to 300px */
+            height: 300px; /* Set height to 300px */
+        }
+    </style>
+
+    <!-- Gallery Section -->
+    <div class="row clients-outer" data-aos="fade-up">
+        <div class="col-full">
+            {% assign grouped_press = site.data.press | group_by: "category" %} {% for category in grouped_press %}
+            <h2>{{ category.name }}</h2>
+            <div class="responsive">
+                <div class="gallery">
+                    {% for press in category.items %}
+                    <img src="{{ press.logo }}" alt="{{ press.name }}" data-press="{{ press.name }}" data-info="{{ press.info }}" data-url="{{ press.url }}" class="press-logo" /> {% endfor %}
+                </div>
             </div>
-        </div> <!-- end section-header -->
+            {% endfor %}
+        </div>
+    </div>
 
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    <a target="_blank" href="https://www.linkedin.com/posts/thomas-f-hofmann-164589152_what-a-fantastic-start-into-the-new-week-activity-7180955067972214785-jOWY" title="Technische Universität München (TUM)" class="clients__slide"><img src="/assets/images/press/tum.png" /></a>
-                    <a target="_blank" href="https://www.autodesk.com/products/fusion-360/blog/autodesk-university-2024-digital-pass/" title="Autodesk University 2024" class="clients__slide"><img src="/assets/images/press/autodesk.png" /></a>
-                    <a target="_blank" href="https://www.youtube.com/watch?v=HXILj1t33Ek" title="David Döbele (Influencer)" class="clients__slide"><img src="/assets/images/press/david-döbele.jpg" /></a>
-                    <a target="_blank" href="https://www.linkedin.com/posts/firstmomentum_firstmomentum-venturecapital-venturescouts-activity-7229047385644032000-LulU/?utm_source=share&utm_medium=website" title="First Momentum Ventures" class="clients__slide"><img src="/assets/images/press/first-momentum-ventures.png" /></a>
-                    <a target="_blank" href="https://www.youtube.com/watch?v=ttd6Fw2I0WI" title="TNG Consulting - Big Techday 2024 (Pitch)" class="clients__slide"><img src="/assets/images/press/tng-consulting.png" /></a>
-                    <a target="_blank" href="https://okrinstitute.org/okr-institute-partners-with-elara-aerospace/" title="OKR Institute" class="clients__slide"><img src="/assets/images/press/okr-institute.png" /></a>
-                    <a target="_blank" href="https://www.autodesk.com/autodesk-university/blog/best-au-2024-awards-top-rated-classes-and-speakers" title="Autodesk (Best of AU)" class="clients__slide"><img src="/assets/images/press/autodesk.png" /></a>
-                    <!-- DEACTIVATED:
-					<a target="_blank" href="https://www.hm.edu/" title="Hochschule München (HM)" class="clients__slide"><img src="/assets/images/clients/hochschule-muenchen.png" /></a>
-					-->
-                </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
+    <!-- Popup Section -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close">&times;</span>
+            <h2 class="popup-title" id="pressName"></h2>
+            <p id="pressInfo"></p>
+            <a id="pressLink" href="#" target="_blank" class="btn btn--primary">Read the News</a>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const popup = document.getElementById("popup");
+            const closeBtn = document.querySelector(".close");
+
+            // Function to sanitize URL
+            function sanitizeUrl(url) {
+                const urlPattern = /^(?:https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,63})([\/\w .-]*)\/?$/;
+                return urlPattern.test(url) ? url : "#";
+            }
+
+            // Function to sanitize text content
+            function sanitizeText(text) {
+                const div = document.createElement("div");
+                div.textContent = text;
+                return div.innerHTML;
+            }
+
+            document.querySelectorAll(".press-logo").forEach((item) => {
+                item.addEventListener("click", function () {
+                    const pressName = sanitizeText(this.getAttribute("data-press"));
+                    const pressInfo = sanitizeText(this.getAttribute("data-info"));
+                    const pressUrl = sanitizeUrl(this.getAttribute("data-url"));
+
+                    document.getElementById("pressName").textContent = pressName;
+                    document.getElementById("pressInfo").textContent = pressInfo;
+                    document.getElementById("pressLink").href = pressUrl;
+
+                    popup.style.display = "block";
+                });
+            });
+
+            closeBtn.onclick = function () {
+                popup.style.display = "none";
+            };
+
+            window.onclick = function (event) {
+                if (event.target == popup) {
+                    popup.style.display = "none";
+                }
+            };
+        });
+    </script>
 		<br />
 		<center>
 			<a href='https://iaspace-my.sharepoint.com/:f:/g/personal/tomluca_reinhardt_elara-aerospace_com/EsVe1e_UZM1LrPn6IMI5BOEBI7A4RXRWPU4JVSlH1dAH7Q?e=825U0L' class='btn btn--secondary'>Download Press Kit (incl. logo, team photos, etc.)</a>
 		</center>
 
-					<!-- DEACTIVATED:
+<!-- DEACTIVATED QUOTES:
         <div class="row clients-testimonials" data-aos="fade-up">
             <div class="col-full">
                 <div class="testimonials">
@@ -125,7 +228,7 @@ second-button: "<a href='#news' class='smoothscroll btn btn--stroke'>Show More</
             </div> <!-- end col-full -->
         </div> <!-- end client-testimonials -->
 
-    </section> <!-- end s-clients -->
+    </section> <!-- end s-press -->
 
 <!-- contact
     ================================================== -->
