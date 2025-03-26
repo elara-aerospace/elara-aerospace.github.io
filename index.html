@@ -12,226 +12,246 @@ first-button: "<a href='/apply/' class='btn btn--primary'>Join Us</a>"
 second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>"
 ---
 
-    <!-- about
+<!-- about
     ================================================== -->
-    <section id='about' class="s-about">
+<section id='about' class="s-about">
 
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--dark">Hello There! We Are</h3>
-                <h1 class="display-1 display-1--light"><div class="tektur">Elara Aerospace</div></h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-				<p>
-                Welcoming you to Elara Aerospace, our team of ambitious students hailing from various backgrounds brings innovation to the table through diversity. Our unmatched combination of abilities and enthusiasms for aerospace propels us to surpass limitations and reestablish potentialities. Become a part of our vibrant community, where insatiable inquisitiveness and unwavering resolve unite in order to mould the trajectory of aerospace exploration. Explore your role in our dynamic expedition as we seek to surpass limitations and establish fresh territories.
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-		<br />
-		<center>
-			<a href='/about/' class='btn btn--secondary' data-aos="fade-up">About Us</a>
-		</center>
-
-        <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
-            <div class="col-block stats__col">
-                <a href="/partners/">
-					<h5>Affiliated Universities</h5>
-          <!-- Automatically count the amount of academic partners at Elara Aerospace -->
-					{% assign university_partners = site.data.companies | where: "category", "University Partners" %}
-					<div class="stats__count tektur">{{ university_partners | size }}</div>
-				</a>
-            </div>
-            <div class="col-block stats__col">
-                <a href="/team/">
-					<h5>Total Members</h5>
-          {% assign team_members = 0 %}
-          {% for file in site.data.team %}
-            <!-- Exclude Advisors & Supporters (and the headers.yml file) -->
-            {% if file[0] != 'advisors' and file[0] != 'headers' %}
-              <!-- Automatically count the amount of members at Elara Aerospace -->
-              {% assign team_members = team_members | plus: file[1].size %}
-            {% endif %}
-          {% endfor %}
-					<div class="stats__count tektur">{{ team_members }}</div>
-				</a>
-            </div>
-            <div class="col-block stats__col">
-                <a href="/partners/">
-					<h5>Supportive Partners</h5>
-              <!-- Automatically count the amount of external partners at Elara Aerospace -->
-					<div class="stats__count tektur">{{ site.data.companies | size }}</div>
-				</a>
-            </div>
-            <div class="col-block stats__col">
-                <a href="/about/">
-					<h5>Founded in</h5> 
-					<div class="stats__nocount tektur">2024</div>
-				</a>
-            </div>
-        </div> <!-- end about-stats -->
-
-		<center>
-        <div data-aos="fade-up">
-          <a href="/mission/">
-				    <h5>Rocket Launch in</h5>
-					  <div class="stats__nocount tektur" id="countdown"></div>
-				  </a>
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead subhead--dark">Hello There! We Are</h3>
+            <h1 class="display-1 display-1--light">
+                <div class="tektur">Elara Aerospace</div>
+            </h1>
         </div>
-		</center>
+    </div>
+    <!-- end section-header -->
+
+    <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+            <p>
+                Welcoming you to Elara Aerospace, our team of ambitious students hailing from various backgrounds brings innovation to the table through diversity. Our unmatched combination of abilities and enthusiasms for aerospace propels us to surpass limitations and reestablish potentialities. Become a part of our vibrant community, where insatiable inquisitiveness and unwavering resolve unite in order to mould the trajectory of aerospace exploration. Explore your role in our dynamic expedition as we seek to surpass limitations and establish fresh territories.
+            </p>
+        </div>
+    </div>
+    <!-- end about-desc -->
+    <br />
+    <center>
+        <a href='/about/' class='btn btn--secondary' data-aos="fade-up">About Us</a>
+        <a href='/inspiration/' class='btn btn--secondary' data-aos="fade-up">What Inspires Us</a>
+    </center>
+
+    <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+        <div class="col-block stats__col">
+            <a href="/partners/">
+                <h5>Affiliated Universities</h5>
+                <!-- Automatically count the amount of academic partners at Elara Aerospace -->
+                {% assign university_partners = site.data.companies | where: "category", "University Partners" %}
+                <div class="stats__count tektur">{{ university_partners | size }}</div>
+            </a>
+        </div>
+        <div class="col-block stats__col">
+            <a href="/team/">
+                <h5>Total Members</h5>
+                {% assign team_members = 0 %} {% for file in site.data.team %}
+                <!-- Exclude Advisors & Supporters (and the headers.yml file) -->
+                {% if file[0] != 'advisors' and file[0] != 'headers' %}
+                <!-- Automatically count the amount of members at Elara Aerospace -->
+                {% assign team_members = team_members | plus: file[1].size %} {% endif %} {% endfor %}
+                <div class="stats__count tektur">{{ team_members }}</div>
+            </a>
+        </div>
+        <div class="col-block stats__col">
+            <a href="/partners/">
+                <h5>Supportive Partners</h5>
+                <!-- Automatically count the amount of external partners at Elara Aerospace -->
+                <div class="stats__count tektur">{{ site.data.companies | size }}</div>
+            </a>
+        </div>
+        <div class="col-block stats__col">
+            <a href="/about/">
+                <h5>Founded in</h5>
+                <div class="stats__nocount tektur">2024</div>
+            </a>
+        </div>
+    </div>
+    <!-- end about-stats -->
+
+    <center>
+        <div data-aos="fade-up">
+            <a href="/mission/">
+                <h5>Rocket Launch in</h5>
+                <div class="stats__nocount tektur" id="countdown"></div>
+            </a>
+        </div>
+    </center>
 
     <br/><br/><br/>
 
-		<center>
+    <center>
         <div data-aos="fade-up">
-          <a target="_blank" href="https://www.deutschland.de/en/topic/business/made-in-germany-where-it-comes-from-and-what-it-means">
-          	<img src="https://www.kelch.de/wp-content/uploads/2019/07/germany2_transparent.png" alt="Learn more about the Made in Germany initiative" width="200" />
-          </a>
+            <a target="_blank" href="https://www.deutschland.de/en/topic/business/made-in-germany-where-it-comes-from-and-what-it-means">
+                <img src="https://www.kelch.de/wp-content/uploads/2019/07/germany2_transparent.png" alt="Learn more about the Made in Germany initiative" width="200" />
+            </a>
         </div>
-		</center>
+    </center>
 
-        <div class="about__line"></div>
+    <div class="about__line"></div>
 
-    </section> <!-- end s-about -->
+</section>
+<!-- end s-about -->
 
-
-    <!-- services
+<!-- services
     ================================================== -->
-    <section id='services' class="s-services">
-        <div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Want To Do</h3>
-                <h1 class="display-2">We’ve got everything you need to launch your payload into space</h1>
-            </div>
-        </div> <!-- end section-header -->
+<section id='services' class="s-services">
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Our Philosophy</h3>
+            <h1 class="display-2">What We Want To Do</h1>
+        </div>
+    </div>
+    <!-- end section-header -->
+    <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+            <p>
+                We’ve got everything you need to launch your payload into space:
+            </p>
+        </div>
+    </div>
+    <!-- end about-desc -->
 
-		<div class="row services-list block-1-2 block-tab-full">
+    <div class="row services-list block-1-2 block-tab-full">
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-lego-block"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Additive Manufacturing</h3>
-                    <p>Create a easily Modifiable Design that takes advantage of additive Manufacturing
-                    </p>
-                </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-lego-block"></i>
             </div>
+            <div class="service-text">
+                <h3 class="h2">Additive Manufacturing</h3>
+                <p>Develop a design that is easily adjustable and leverages the benefits of Additive Manufacturing
+                </p>
+            </div>
+        </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-group"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Reusability</h3>
-                    <p>Reduce the cost per Launch, by making the parts reusable
-                    </p>
-                </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-group"></i>
             </div>
+            <div class="service-text">
+                <h3 class="h2">Reusability</h3>
+                <p>Repurpose boosters and salvage compnents for future launches, all while reducing expenses
+                </p>
+            </div>
+        </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-megaphone"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h2">High Launch Cadence</h3>
-                    <p>1 launch per month
-                    </p>
-                </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-megaphone"></i>
             </div>
+            <div class="service-text">
+                <h3 class="h2">High Launch Cadence</h3>
+                <p>1 launch per month to maintain Europe's competitiveness in aerospace in a competitive world
+                </p>
+            </div>
+        </div>
 
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon">
-                    <i class="icon-earth"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h2">Sustainability</h3>
-                    <p>Create complex parts, lighter and cheaper
-                    </p>
-                </div>
+        <div class="col-block service-item" data-aos="fade-up">
+            <div class="service-icon">
+                <i class="icon-earth"></i>
             </div>
-        </div> <!-- end services-list -->
-	</section>
-	
-    <!-- services
+            <div class="service-text">
+                <h3 class="h2">Sustainability</h3>
+                <p>Using clean burning fuels, with 50% of exhaust product being water
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- end services-list -->
+    <br/><br/>
+    <center>
+        <a href='/tech/' class='btn btn--primary' data-aos="fade-up">The Technology Behind Our Rockets</a>
+    </center>
+</section>
+
+<!-- services
     ================================================== -->
-    <section id='timeline' class="s-services">
+<section id='timeline' class="s-services">
 
-		<div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Timeline</h3>
-                <h1 class="display-2">Our plan to achieve the impossible</h1>
-            </div>
-        </div> <!-- end section-header -->
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Timeline - Project Starlight</h3>
+            <h1 class="display-2 tektur">Our plan to achieve the <span style="color: #7f02fc; font-weight: bold; text-decoration: underline;">impossible</span></h1>
+        </div>
+    </div>
+    <!-- end section-header -->
 
-		<div class="row half-bottom" data-aos="fade-up">
-            <div class="col-six tab-full">
-                <h3>Goals in Sight</h3>
-                <dl>
-                    <dt><strong>Brainstorm</strong></dt>
-                        <dd>Establishing Objectives and a Mission Statement</dd>
-                    <dt><strong>Planning</strong></dt>
-                        <dd>Generating Initial Drafts and Concepts</dd>
-                    <dt><strong>Prototype</strong></dt>
-                        <dd>Manufacture and test each subsystem</dd>
-                    <dt><strong>Launch</strong></dt>
-                        <dd>Launching the rocket at end of Q2 2025</dd>
-                </dl>
-            </div>
-			<br><br>
-			<div class="col-six tab-full" data-aos="fade-up">
-				<ul class="skill-bars">
-                    <li>
+    <div class="row half-bottom" data-aos="fade-up">
+        <div class="col-six tab-full">
+            <h3>Goals in Sight</h3>
+            <dl>
+                <dt><strong>Brainstorm</strong></dt>
+                <dd>Establishing Objectives and a Mission Statement</dd>
+                <dt><strong>Planning</strong></dt>
+                <dd>Generating Initial Drafts and Concepts</dd>
+                <dt><strong>Prototype</strong></dt>
+                <dd>Manufacture and test each subsystem</dd>
+                <dt><strong>Launch</strong></dt>
+                <dd>Launching the rocket at end of Q3 2025</dd>
+            </dl>
+        </div>
+        <br><br>
+        <div class="col-six tab-full" data-aos="fade-up">
+            <ul class="skill-bars">
+                <li>
                     <div class="progress percent100"><span>100%</span></div>
                     <strong>Brainstorm</strong>
-                    </li>
-                    <li>
+                </li>
+                <li>
                     <div class="progress percent100"><span>100%</span></div>
                     <strong>Planning</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent60"><span>60%</span></div>
+                </li>
+                <li>
+                    <div class="progress percent90"><span>90%</span></div>
                     <strong>Prototype</strong>
-                    </li>
-                    <li>
-                    <div class="progress percent40"><span>40%</span></div>
+                </li>
+                <li>
+                    <div class="progress percent60"><span>60%</span></div>
                     <strong>Launch</strong>
-                    </li>
-                </ul>
-			</div>
-		</div>
-		<center>
-			<a href='/mission/' class='btn btn--primary' data-aos="fade-up">Our Mission</a>
-      <a href='/partners/' class='btn' data-aos="fade-up">Partner With Us</a>
-		</center>
-	</section> <!-- end s-services -->
-	
-	
-	<!-- team
+                </li>
+            </ul>
+        </div>
+    </div>
+    <center>
+        <a href='/mission/' class='btn btn--primary' data-aos="fade-up">Our Mission</a>
+        <a href='/partners/' class='btn' data-aos="fade-up">Partner With Us</a>
+    </center>
+</section>
+<!-- end s-services -->
+
+<!-- team
     ================================================== -->
-    <section id='team' class="s-about">
-	<div class="row section-header has-bottom-sep" data-aos="fade-up">
-            <div class="col-full">
-				<h3 class="subhead subhead--dark">Bring the brightest students together from different disciplines</h3>
-				<h1 class="display-1 display-1--light"><div class="tektur">Dream big with us</div></h1>
-            </div>
-        </div> <!-- end section-header -->
+<section id='team' class="s-about">
+    <div class="row section-header has-bottom-sep" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead subhead--dark">Bring the brightest students together from different disciplines</h3>
+            <h1 class="display-1 display-1--light">
+                <div class="tektur">Dream big with us</div>
+            </h1>
+        </div>
+    </div>
+    <!-- end section-header -->
 
-        <div class="row about-desc" data-aos="fade-up">
-            <div class="col-full">
-				<a href="/team/"><img loading="lazy" src="/assets/images/team-may_2024.webp" alt="Elara Aerospace Team (May 2024)"></a>
-			</div>
-		</div>
-		<br/><br/>
-		<center>
-			<a href='/team/' class='btn' data-aos="fade-up">Our Team</a>
-			<a href='/apply/' class='btn' data-aos="fade-up">Choose Your Mission <span class="badge">Apply Now!</span></a>
-		</center>
-	</div>
-	</section>
-
+    <div class="row about-desc" data-aos="fade-up">
+        <div class="col-full">
+            <a href="/team/"><img loading="lazy" src="/assets/images/team-may_2024.webp" alt="Elara Aerospace Team (May 2024)"></a>
+        </div>
+    </div>
+    <br/><br/>
+    <center>
+        <a href='/team/' class='btn' data-aos="fade-up">Our Team</a>
+        <a href='/apply/' class='btn' data-aos="fade-up">Choose Your Mission <span class="badge">Apply Now!</span></a>
+    </center>
+    </div>
+</section>
 
 <!-- highlights
     ================================================== -->
@@ -251,7 +271,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
     <div class="row works-content">
         <div class="col-full masonry-wrap">
             <div class="masonry">
-                
+
                 <!-- Autodesk Workshop -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -311,7 +331,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-               
+
                 <!-- MMK event -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -491,7 +511,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
+
                 <!-- AU San Diego -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -521,8 +541,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
-                
+
                 <!-- EA x Autodesk in San Diego -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -552,7 +571,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
+
                 <!-- AU Award -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -582,8 +601,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
-                
+
                 <!-- Blackwave -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -613,7 +631,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
+
                 <!-- MT Aerospace -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -673,7 +691,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
+
                 <!-- Ansys Event -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -703,7 +721,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                
+
                 <!-- Recruiting with Peter -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -733,7 +751,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-                 
+
                 <!-- Tech Meeting -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -763,7 +781,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
 
                     </div>
                 </div>
-               
+
                 <!-- Munich Security Conference -->
                 <div class="masonry__brick" data-aos="fade-up">
                     <div class="item-folio">
@@ -799,47 +817,51 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
     </div>
 </section>
 
-    <!-- clients
+<!-- clients
     ================================================== -->
-    <section id="sponsors" class="s-clients">
+<section id="sponsors" class="s-clients">
 
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Lets Reach Space Together</h3>
-                <h1 class="display-2">Partner with Elara Aerospace and help us to shape the future of aerospace</h1>
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Lets Reach Space Together</h3>
+            <h1 class="display-2">Partner with Elara Aerospace and help us to shape the future of aerospace</h1>
+        </div>
+    </div>
+    <!-- end section-header -->
+
+    <div class="row clients-outer" data-aos="fade-up">
+        <div class="col-full">
+            <div class="clients">
+                <a target="_blank" href="https://www.tum.de/" title="Technische Universität München" class="clients__slide"><img loading="lazy" alt="Technische Universität München" src="/assets/images/partners/tum.png" /></a>
+                <a target="_blank" href="https://www.hm.edu/" title="Hochschule München" class="clients__slide"><img loading="lazy" alt="Hochschule München" src="/assets/images/partners/hochschule-muenchen.png" /></a>
+                <!-- <a target="_blank" href="https://daytonabeach.erau.edu/" title="Embry-Riddle Aeronautical University (Daytona Beach)" class="clients__slide"><img alt="Embry-Riddle Aeronautical University (Daytona Beach)" src="/assets/images/partners/embry-university.png" /></a> -->
+                <a target="_blank" href="https://www.unibw.de/home-en" title="Universität der Bundeswehr München (UniBw)" class="clients__slide"><img loading="lazy" alt="Universität der Bundeswehr München (UniBw)" src="/assets/images/partners/unibw.png" /></a>
+                <a target="_blank" href="https://www.launch-olm.com/" title="OLM Launch" class="clients__slide"><img loading="lazy" alt="OLM Launch" src="/assets/images/partners/olm.png" /></a>
+                <a target="_blank" href="https://www.autodesk.com/" title="Autodesk" class="clients__slide"><img loading="lazy" alt="Autodesk" src="/assets/images/partners/autodesk.png" /></a>
+                <a target="_blank" href="https://www.ansys.com/" title="Ansys" class="clients__slide"><img loading="lazy" alt="Ansys" src="/assets/images/partners/ansys.png" /></a>
+                <a target="_blank" href="https://formlabs.com/" title="Formlabs" class="clients__slide"><img loading="lazy" alt="Formlabs" src="/assets/images/partners/formlabs.png" /></a>
+                <a target="_blank" href="https://www.stokefusion.com/" title="Fusion by Stoke Space" class="clients__slide"><img loading="lazy" alt="Fusion by Stoke Space" src="/assets/images/partners/stoke-space.png" /></a>
+                <a target="_blank" href="https://www.unternehmertum.de/en/services/makerspace" title="Makerspace" class="clients__slide"><img loading="lazy" alt="Makerspace" src="/assets/images/partners/makerspace.png" /></a>
+                <a target="_blank" href="https://thevirtualfoundry.com/" title="The Virtual Foundry" class="clients__slide"><img loading="lazy" alt="The Virtual Foundry" src="/assets/images/partners/the-virtual-foundry.png" /></a>
+                <a target="_blank" href="https://www.boellhoff.com/de-en/locations-worldwide/" title="Böllhoff" class="clients__slide"><img loading="lazy" alt="Böllhoff" src="/assets/images/partners/boellhoff.png" /></a>
+                <a target="_blank" href="https://accelleron-industries.com/" title="Accelleron Switzerland Ltd" class="clients__slide"><img loading="lazy" alt="Accelleron Switzerland Ltd" src="/assets/images/partners/accelleron.png" /></a>
+                <a target="_blank" href="https://www.creality.com/" title="Shenzhen Creality 3D Technology Co., Ltd." class="clients__slide"><img loading="lazy" alt="Shenzhen Creality 3D Technology Co., Ltd." src="/assets/images/partners/creality.png" /></a>
             </div>
-        </div> <!-- end section-header -->
+            <!-- end clients -->
+        </div>
+        <!-- end col-full -->
+    </div>
+    <!-- end clients-outer -->
+    <center>
+        <a href='/partners/' class='btn btn--primary' data-aos="fade-up">List of all our Partners</a>
+        <a href='/contact/' class='btn' data-aos="fade-up">Get In Touch</a>
+    </center>
 
-        <div class="row clients-outer" data-aos="fade-up">
-            <div class="col-full">
-                <div class="clients">
-                    <a target="_blank" href="https://www.tum.de/" title="Technische Universität München" class="clients__slide"><img loading="lazy" alt="Technische Universität München" src="/assets/images/partners/tum.png" /></a>
-                    <a target="_blank" href="https://www.hm.edu/" title="Hochschule München" class="clients__slide"><img loading="lazy" alt="Hochschule München" src="/assets/images/partners/hochschule-muenchen.png" /></a>
-					<!-- <a target="_blank" href="https://daytonabeach.erau.edu/" title="Embry-Riddle Aeronautical University (Daytona Beach)" class="clients__slide"><img alt="Embry-Riddle Aeronautical University (Daytona Beach)" src="/assets/images/partners/embry-university.png" /></a> -->
-                    <a target="_blank" href="https://www.unibw.de/home-en" title="Universität der Bundeswehr München (UniBw)" class="clients__slide"><img loading="lazy" alt="Universität der Bundeswehr München (UniBw)" src="/assets/images/partners/unibw.png" /></a>
-                    <a target="_blank" href="https://www.launch-olm.com/" title="OLM Launch" class="clients__slide"><img loading="lazy" alt="OLM Launch" src="/assets/images/partners/olm.png" /></a>
-					<a target="_blank" href="https://www.autodesk.com/" title="Autodesk" class="clients__slide"><img loading="lazy" alt="Autodesk" src="/assets/images/partners/autodesk.png" /></a>
-					<a target="_blank" href="https://www.ansys.com/" title="Ansys" class="clients__slide"><img loading="lazy" alt="Ansys" src="/assets/images/partners/ansys.png" /></a>
-					<a target="_blank" href="https://formlabs.com/" title="Formlabs" class="clients__slide"><img loading="lazy" alt="Formlabs" src="/assets/images/partners/formlabs.png" /></a>
-					<a target="_blank" href="https://www.stokefusion.com/" title="Fusion by Stoke Space" class="clients__slide"><img loading="lazy" alt="Fusion by Stoke Space" src="/assets/images/partners/stoke-space.png" /></a>
-					<a target="_blank" href="https://www.unternehmertum.de/en/services/makerspace" title="Makerspace" class="clients__slide"><img loading="lazy" alt="Makerspace" src="/assets/images/partners/makerspace.png" /></a>
-					<a target="_blank" href="https://thevirtualfoundry.com/" title="The Virtual Foundry" class="clients__slide"><img loading="lazy" alt="The Virtual Foundry" src="/assets/images/partners/the-virtual-foundry.png" /></a>
-					<a target="_blank" href="https://www.boellhoff.com/de-en/locations-worldwide/" title="Böllhoff" class="clients__slide"><img loading="lazy" alt="Böllhoff" src="/assets/images/partners/boellhoff.png" /></a>
-					<a target="_blank" href="https://accelleron-industries.com/" title="Accelleron Switzerland Ltd" class="clients__slide"><img loading="lazy" alt="Accelleron Switzerland Ltd" src="/assets/images/partners/accelleron.png" /></a>
-					<a target="_blank" href="https://www.creality.com/" title="Shenzhen Creality 3D Technology Co., Ltd." class="clients__slide"><img loading="lazy" alt="Shenzhen Creality 3D Technology Co., Ltd." src="/assets/images/partners/creality.png" /></a>
-                </div> <!-- end clients -->
-            </div> <!-- end col-full -->
-        </div> <!-- end clients-outer -->
-		<center>
-			<a href='/partners/' class='btn btn--primary' data-aos="fade-up">Our Complete Partner List</a>
-      <a href='/contact/' class='btn' data-aos="fade-up">Get In Touch</a>
-		</center>
+    <div class="row clients-testimonials" data-aos="fade-up">
+        <div class="col-full">
+            <div class="testimonials">
 
-        <div class="row clients-testimonials" data-aos="fade-up">
-            <div class="col-full">
-                <div class="testimonials">
-
-				<!-- DEACTIVATED:
+                <!-- DEACTIVATED:
 					<div class="testimonials__slide">
 
                         <p>&#x201c;Elara Aerospace is oafach krass! <br>Des Team dahinta san de besdn.&#x201d;</p>
@@ -879,150 +901,146 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
                     </div>
 				-->
 
-                </div>
-				<!-- end testimonials -->
-                
-            </div> <!-- end col-full -->
-        </div> <!-- end client-testimonials -->
-
-    </section> <!-- end s-clients -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="overlay"></div>
-        <div class="contact__line"></div>
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Contact Us</h3>
-                <h1 class="display-2 display-2--light">Reach out to Elara Aerospace</h1>
             </div>
+            <!-- end testimonials -->
+
         </div>
+        <!-- end col-full -->
+    </div>
+    <!-- end client-testimonials -->
 
-        <div class="row contact-content" data-aos="fade-up">
-            
-            <div class="contact-primary">
-				<script>
-				if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-					// true for mobile device
-					document.write('');
-				} else {
-					// false for not mobile device
-					document.write('<center><b>Location of HM branch</b></center>');
-					document.write('<iframe title="Embedded OpenStreetMap Map - HM" width="560" height="440" src="https://www.openstreetmap.org/export/embed.html?bbox=11.545954942703249%2C48.151084563095544%2C11.561490297317507%2C48.15743326599005&amp;layer=mapnik&amp;marker=48.154259%2C11.553723" style="border: 1px solid black"></iframe>');
-				}
-				</script>
-				<script>
-				if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-					// true for mobile device
-					document.write('');
-				} else {
-					// false for not mobile device
-					document.write('<center><b>Location of TUM branch</b></center>');
-					document.write('<iframe title="Embedded OpenStreetMap Map - TUM" width="560" height="440" src="https://www.openstreetmap.org/export/embed.html?bbox=11.562734842300417%2C48.146954263636836%2C11.572777032852175%2C48.15145677479453&amp;layer=mapnik&amp;marker=48.149205568593786%2C11.567755937576294" style="border: 1px solid black"></iframe>');
-				}
-				</script>
-            </div> <!-- end contact-primary -->
+</section>
+<!-- end s-clients -->
 
-            <div class="contact-secondary">
-                <div class="contact-info">
+<!-- contact
+    ================================================== -->
+<section id="contact" class="s-contact">
 
-                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+    <div class="overlay"></div>
+    <div class="contact__line"></div>
 
-                    <div class="cinfo">
-                        <h5>Email Us At</h5>
-                        <p>
-                            team@elara-aerospace.com
-                        </p>
-                    </div>
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Contact Us</h3>
+            <h1 class="display-2 display-2--light">Reach out to Elara Aerospace</h1>
+        </div>
+    </div>
 
-                    <div class="cinfo">
-                        <h5>Shipping Address</h5>
-                        <p>
-                            <b>Makerspace GmbH</b><br>
-                            c/o Elara Aerospace<br>
-                            Lichtenbergstr. 6<br>
-                            85748 Garching bei München<br>
-                            Germany<br>
+    <div class="row contact-content" data-aos="fade-up">
+
+        <div class="contact-primary">
+            <script>
+                if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                					// true for mobile device
+                					document.write('');
+                				} else {
+                					// false for not mobile device
+                					document.write('<center><b>Location of HM branch</b></center>');
+                					document.write('<iframe title="Embedded OpenStreetMap Map - HM" width="560" height="440" src="https://www.openstreetmap.org/export/embed.html?bbox=11.545954942703249%2C48.151084563095544%2C11.561490297317507%2C48.15743326599005&amp;layer=mapnik&amp;marker=48.154259%2C11.553723" style="border: 1px solid black"></iframe>');
+                				}
+            </script>
+            <script>
+                if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+                					// true for mobile device
+                					document.write('');
+                				} else {
+                					// false for not mobile device
+                					document.write('<center><b>Location of TUM branch</b></center>');
+                					document.write('<iframe title="Embedded OpenStreetMap Map - TUM" width="560" height="440" src="https://www.openstreetmap.org/export/embed.html?bbox=11.562734842300417%2C48.146954263636836%2C11.572777032852175%2C48.15145677479453&amp;layer=mapnik&amp;marker=48.149205568593786%2C11.567755937576294" style="border: 1px solid black"></iframe>');
+                				}
+            </script>
+        </div>
+        <!-- end contact-primary -->
+
+        <div class="contact-secondary">
+            <div class="contact-info">
+
+                <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                <div class="cinfo">
+                    <h5>Email Us At</h5>
+                    <p>
+                        team@elara-aerospace.com
+                    </p>
+                </div>
+
+                <div class="cinfo">
+                    <h5>Shipping Address</h5>
+                    <p>
+                        <b>Makerspace GmbH</b><br> c/o Elara Aerospace<br> Lichtenbergstr. 6<br> 85748 Garching bei München<br> Germany
+                        <br>
                         <br>
                         <h5>Where to Find Us</h5>
-                            <b>HM Branch:</b><br>
-                            Hochschule München<br>
-                            c/o Elara Aerospace<br>
-                            Lothstr. 21<br>
-                            80335 München<br>
-                            Germany<br>
+                        <b>HM Branch:</b><br> Hochschule München<br> c/o Elara Aerospace<br> Lothstr. 21<br> 80335 München<br> Germany
                         <br>
-                            <b>TUM Branch:</b><br>
-                            Technische Universität München<br>
-                            c/o Elara Aerospace<br>
-                            Arcisstr. 21<br>
-                            80333 München<br>
-                            Germany
-                        </p>
-                    </div>
+                        <br>
+                        <b>TUM Branch:</b><br> Technische Universität München<br> c/o Elara Aerospace<br> Arcisstr. 21<br> 80333 München<br> Germany
+                    </p>
+                </div>
 
-                    <ul class="contact-social">
-                        <li>
-                            <a aria-label="Follow Us on LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-                        </li>
-						<li>
-                            <a aria-label="Follow Us on X" href="https://x.com/{{ site.twitter_username }}"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a aria-label="Follow Us on Instagram" href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a aria-label="Subscribe Us on YouTube" href="https://www.youtube.com/{{ site.youtube_username }}"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
-                        </li>
-                        <li>
-                            <a aria-label="Follow Us on GitHub" href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-                        </li>
-                    </ul> <!-- end contact-social -->
+                <ul class="contact-social">
+                    <li>
+                        <a aria-label="Follow Us on LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="Follow Us on X" href="https://x.com/{{ site.twitter_username }}"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="Follow Us on Instagram" href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="Subscribe Us on YouTube" href="https://www.youtube.com/{{ site.youtube_username }}"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                    </li>
+                    <li>
+                        <a aria-label="Follow Us on GitHub" href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+                    </li>
+                </ul>
+                <!-- end contact-social -->
 
-                </div> <!-- end contact-info -->
-            </div> <!-- end contact-secondary -->
+            </div>
+            <!-- end contact-info -->
+        </div>
+        <!-- end contact-secondary -->
 
-        </div> <!-- end contact-content -->
+    </div>
+    <!-- end contact-content -->
 
-    </section> <!-- end s-contact -->
-
+</section>
+<!-- end s-contact -->
 
 <script>
-// Set the date we're counting down to
-var countDownDate = new Date("May 10, 2025 10:00:00").getTime();
-
-// Update the count down every 1 second
-var x = setInterval(function() {
-
-  // Get today's date and time
-  var now = new Date().getTime();
+    // Set the date we're counting down to
+    var countDownDate = new Date("May 10, 2025 10:00:00").getTime();
     
-  // Find the distance between now and the count down date
-  var distance = countDownDate - now;
+    // Update the count down every 1 second
+    var x = setInterval(function() {
     
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-    
-  // Output the result in an element with id="countdown"
-  if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-	// true for mobile device
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + "<br>" + minutes + "m " + seconds + "s ";
-  } else {
-	// false for not mobile device
-	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-  }
-    
-  // If the count down is over, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("countdown").innerHTML = "3, 2, 1...<br> LIFT OFF!";
-  }
-}, 1000);
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="countdown"
+      if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+    	// true for mobile device
+    	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + "<br>" + minutes + "m " + seconds + "s ";
+      } else {
+    	// false for not mobile device
+    	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+      }
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("countdown").innerHTML = "3, 2, 1...<br> LIFT OFF!";
+      }
+    }, 1000);
 </script>
+
