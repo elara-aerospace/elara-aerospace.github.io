@@ -247,5 +247,11 @@
   logo: "/assets/images/partners/tng.png"
   info: "TNG Technology Consulting's support brings us 5 tickets to BTD24, an opportunity to speak on stage, and financial support to fuel our progress."
   url: "https://www.tngtech.com/"
-  category: "Sponsors"
+  category: "Event Partnerships"
+
+- name: "MYLE Festival"
+  logo: "/assets/images/partners/myle.png"
+  info: "The MYLE Festival is an innovative mobility event in Munich (Germany) and Zurich (Switzerland). It combines the presentation of modern automotive concepts and products with a diverse program of lifestyle, music, and interactive activities."
+  url: "https://www.myle-festival.com/"
+  category: "Event Partnerships"
 
