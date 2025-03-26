@@ -98,7 +98,7 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Conta
         <h2>Bank Account Details</h2>
         <table class="invisible">
             <tr>
-                <td><strong>Account holder:</strong> Elara Aerospace</td>
+                <td><strong>Account holder:</strong> Elara Aerospace GmbH</td>
             </tr>
             <tr>
                 <td><strong>Bank:</strong> to be announced</td>
@@ -117,10 +117,9 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Conta
         <table class="invisible">
             <tr>
                 <td>
-                    Elara Aerospace is a non-registered <a target="_blank" href="https://de.wikipedia.org/wiki/Gesellschaft_b%C3%BCrgerlichen_Rechts_(Deutschland)">Gesellschaft bürgerlichen Rechts</a> and a student working group at the Munich University of Applied Sciences and Technical University of Munich (TUM).
+                    Elara Aerospace is a registered <a target="_blank" href="https://en.wikipedia.org/wiki/GmbH">German limited liability company</a> (with nonprofit status) and a student working group at the Munich University of Applied Sciences and Technical University of Munich (TUM).
                 </td>
             </tr>
-            <!-- DEACTIVATED:
             <tr>
                 <td>
                     <strong>Registergericht:</strong> Amtsgericht München<br>
@@ -128,7 +127,123 @@ second-button: "<a href='#learn-more' class='smoothscroll btn btn--stroke'>Conta
                     <strong>Steuernummer:</strong> XXX/XXX/XXXXX
                 </td>
             </tr>
-            -->
         </table>
     </div>
+    
+<br /><br /><br /><br /><br /><br />
+
+<!-- contact
+    ================================================== -->
+<style>
+    .contact-section {
+          background-color: #f9f9f9;
+          padding: 20px;
+          border: 1px solid #ddd;
+          max-width: 800px;
+          margin: 20px auto;
+          border-radius: 8px;
+          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+    
+        .contact-header {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+    
+        .contact-header h2 {
+          margin: 0;
+          color: #333;
+        }
+    
+        .contact-people {
+          display: flex;
+          justify-content: space-between;
+          gap: 20px;
+        }
+    
+        .contact-person {
+          background-color: #fff;
+          border-radius: 8px;
+          padding: 15px;
+          flex: 1;
+          text-align: center; /* Center-align content */
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    
+        .contact-image img {
+          width: 100px;
+          height: 100px;
+          border-radius: 50%;
+          object-fit: cover;
+        }
+    
+        .contact-info {
+          margin-top: 10px; /* Space between image and text */
+        }
+    
+        .contact-info h3 {
+          margin: 5px 0;
+          font-size: 1.2em;
+          color: #444;
+        }
+    
+        .contact-info a {
+          color: #007BFF;
+          text-decoration: none;
+        }
+    
+        .contact-info a:hover {
+          text-decoration: underline;
+        }
+        
+        @media (max-width: 768px) {
+          .contact-people {
+            flex-direction: column; /* Stack contacts vertically on smaller screens */
+            gap: 15px; 
+          }
+        }
+</style>
+<section id="contact" class="s-contact">
+
+    <div class="overlay"></div>
+    <div class="contact__line"></div>
+
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Contact Us</h3>
+            <h1 class="display-2 display-2--light">General Inquiries</h1>
+        </div>
+    </div>
+
+    <div class="row contact-content" data-aos="fade-up">
+
+        <div class="contact-section">
+            <div class="contact-header">
+                <h2>Contact the Founder</h2>
+            </div>
+
+            <div class="contact-people">
+                <!-- Contact Person #1 -->
+                <div class="contact-person">
+                    <div class="contact-image">
+                        <img src="/assets/images/team/tom-reinhardt.png" alt="Tom Luca Reinhardt">
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Tom Luca Reinhardt</h3>
+                        <p><a href="mailto:tomluca.reinhardt@elara-aerospace.com">tomluca.reinhardt@elara-aerospace.com</a></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!-- end contact-primary -->
+
+    </div>
+    <!-- end contact-content -->
+
+</section>
+<!-- end s-contact -->
 
