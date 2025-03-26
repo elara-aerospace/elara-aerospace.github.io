@@ -1,3 +1,271 @@
+- title: Electrical Team Manager
+  category: Electrical
+  description: Oversee and guide the electrical engineering team, ensuring reliable, efficient, and safe electrical systems for our rockets.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Experience in leading electrical engineering teams
+    - Ability to oversee project timelines, deliverables, and team performance
+    - Professional training or degree in Electrical Engineering or related fields
+    - An advanced degree (e.g., Master's in Electrical Engineering) is preferred
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered
+    - Strong foundation in electrical engineering principles and practices
+    - Expertise in electrical system design and implementation, preferably in aerospace
+    - Proficiency with design software, simulation tools, and test methodologies
+    - Strong leadership and communication skills
+    - Strategic and analytical thinking with a focus on quality
+  key_responsibilities:
+    - Lead and mentor the electrical engineering team
+    - Collaborate on designing and integrating electrical systems for rockets
+    - Oversee testing and validation for regulatory compliance
+    - Implement innovative solutions for optimal performance
+    - Manage project timelines, budgets, and resources
+    - Foster a collaborative and learning-focused team culture
+    - Stay updated on emerging technologies and industry trends
+
+- title: Computational Fluid Dynamics (CFD) Analyst
+  category: Mechanical
+  description: Optimize rocket aerodynamic performance through CFD analyses and simulations.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience in performing computational fluid dynamics (CFD) analysis
+    - Degree in mechanical engineering, physics, environmental engineering, or related field
+    - An advanced degree (e.g., Master's in a related field) is preferred
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered
+    - Strong proficiency in using CFD software (e.g., ANSYS) and fluid flow modeling techniques
+    - Proficiency in CFD software and fluid flow modeling
+    - Strong mathematical foundation and problem-solving skills
+    - Effective communication and collaboration abilities
+    - Ability to manage multiple projects in a fast-paced environment
+  key_responsibilities:
+    - Perform CFD analysis to optimize rocket components
+    - Integrate CFD results into design and development
+    - Use CFD software (Ansys Discovery, Fluent, Simscale, etc.) for fluid flow modeling
+    - Conduct CFD-based topology optimization
+    - Analyze results to inform design decisions
+    - Stay updated on CFD technologies and practices
+    - Communicate findings and recommendations
+
+- title: Finite Element Method (FEM) Specialist
+  category: Mechanical
+  description: Ensure optimal performance and structural integrity of rocket systems through FEM analyses.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience in performing finite element method (FEM) analysis 
+    - Bachelor's degree in mechanical, civil, aerospace engineering, or a related field  
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Strong proficiency in using Ansys software for FEM analysis 
+    - Proficiency in Ansys software for FEM analysis. 
+    - Strong mathematical and structural mechanics knowledge. 
+    - Experience in non-linear and transient analysis preferred. 
+    - Effective communication and collaboration skills. 
+    - Ability to manage multiple projects in a fast-paced environment.
+  key_responsibilities:
+    - Perform FEM and modal analysis for rocket components. 
+    - Use Ansys software to model mechanical, thermal, and dynamic responses. 
+    - Conduct CFD-based topology optimization. 
+    - Integrate FEM results into design and development. 
+    - Evaluate destructive test data and adjust models. 
+    - Analyze FEM results to inform design decisions. 
+    - Perform parametric studies and sensitivity analyses. 
+    - Stay updated on FEM technologies and best practices. 
+    - Communicate findings through reports and design reviews.
+
+- title: Quality Supervisor (QS)
+  category: Mechanical
+  description: Ensure the highest quality in aerospace engineering tasks, specializing in SYNERA and FEM for quality supervision and topology optimization.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience in quality control or a related field 
+    - Bachelor's degree in quality management, industrial engineering, production engineering, systems engineering, or a related field 
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Proficiency in SYNERA software and quality control processes. 
+    - Competence in FEM and topology optimization for aerospace projects. 
+    - Strong analytical and problem-solving skills. 
+    - Attention to detail and commitment to high standards. 
+    - Effective communication and interpersonal skills. 
+    - Preferred experience in aerospace or manufacturing quality assurance. 
+  key_responsibilities:
+    - Use SYNERA software for quality monitoring and management. 
+    - Apply FEM and topology optimization to enhance structural integrity. 
+    - Develop and implement quality assurance processes. 
+    - Conduct inspections and audits to identify and address quality issues. 
+    - Work with teams to establish quality standards and metrics. 
+    - Analyze data to track and improve quality performance. 
+    - Train and mentor team members on quality control methods. 
+
+- title: Vibration Analyst
+  category: Mechanical
+  description: Improve durability and stability of aerospace structures through advanced vibration analysis techniques.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience in performing vibration analysis. 
+    - Bachelor's degree in civil, mechanical, acoustics, automotive engineering, or a related field  
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Specialization in vibration analysis for civil and mechanical engineering. 
+    - Strong analytical and problem-solving skills. 
+    - Knowledge of vibration analysis techniques and tools. 
+    - Experience with FEA software and structural dynamics simulation preferred. 
+    - Effective communication and interpersonal skills. 
+    - Ability to manage multiple projects in a fast-paced environment. 
+  key_responsibilities:
+    - Perform vibration analysis on aerospace structures and components. 
+    - Use techniques like modal analysis, frequency response, and operational deflection shape analysis. 
+    - Integrate vibration analysis into design and development. 
+    - Develop predictive maintenance strategies using vibration data. 
+    - Analyze and interpret vibration data for performance optimization. 
+    - Stay updated on vibration analysis technologies and practices. 
+    - Communicate findings and recommendations through reports and design reviews.
+
+- title: Material Science Expert
+  category: Mechanical
+  description: Drive progress in aerospace engineering through material innovation.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience in materials science or a related field 
+    - Bachelor's degree in materials science, engineering, chemistry, or a related field 
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Specialized knowledge in aerospace materials. 
+    - Strong analytical and problem-solving skills. 
+    - Experience with materials testing and analysis techniques. 
+    - Knowledge of materials processing techniques. 
+    - Effective communication and interpersonal skills. 
+    - Ability to manage multiple projects in a fast-paced environment. 
+  key_responsibilities:
+    - Lead R&D efforts to optimize materials for aerospace applications. 
+    - Analyze material properties and performance under extreme conditions. 
+    - Collaborate with engineering teams to integrate materials into designs. 
+    - Conduct material testing, analysis, and characterization. 
+    - Develop material qualification and certification procedures. 
+    - Investigate material failure modes and develop corrective actions. 
+    - Stay updated on emerging materials and process technologies. 
+    - Present findings and recommendations in reports and design reviews.
+
+- title: Composite Materials Engineer
+  category: Mechanical
+  description: Crucial in developing composite materials for cutting-edge aerospace applications.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience working with composite materials or in a related field 
+    - Bachelor's degree in chemical engineering, materials science, physics, mechanical engineering, or a related field 
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Expertise in the chemistry and engineering of composite materials, with a focus on aerospace applications. 
+    - Strong analytical and problem-solving skills for designing and optimizing composite structures. 
+    - Experience with materials testing, analysis, and validation techniques, including mechanical testing, thermal analysis, and non-destructive testing. 
+    - Knowledge of composite manufacturing processes, including lay-up, curing, and quality control. 
+    - Excellent communication and interpersonal skills for effective collaboration with cross-functional teams. 
+    - Ability to manage multiple projects in a fast-paced, dynamic environment. 
+  key_responsibilities:
+    - Design, develop, and optimize composite structures and components for rockets, including airframes, payload fairings, and propulsion systems. 
+    - Use chemical and engineering expertise to select and characterize composite materials based on strength, weight, and thermal properties. 
+    - Conduct materials testing, analysis, and validation to evaluate performance and reliability under simulated aerospace conditions. 
+    - Collaborate with cross-functional teams to integrate composite structures into overall rocket designs. 
+    - Develop and implement manufacturing processes and procedures for composite structures, including lay-up, curing, and quality control. 
+    - Investigate and troubleshoot composite problems, identifying root causes and implementing corrective actions. 
+    - Stay updated on emerging technologies and best practices in composite materials and manufacturing. 
+    - Communicate findings and recommendations to stakeholders, presenting technical reports and participating in design reviews. 
+
+- title: Hydraulic and Pneumatics Systems Engineer
+  category: Mechanical
+  description: 
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Demonstrated experience with hydraulic and pneumatic systems 
+    - Bachelor's degree in mechanical engineering, process engineering, environmental engineering, automation engineering, or a related field  
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Specialization in hydraulics and process engineering with a focus on aerospace applications. 
+    - Strong analytical and problem-solving skills for designing and optimizing hydraulic and pneumatic systems. 
+    - Experience with hydraulic and pneumatic system design, analysis, and simulation tools and methodologies, preferably GT Suite. 
+    - Knowledge of hydraulic and pneumatic components and subsystems, including pumps, valves, actuators, and control systems. 
+    - Excellent communication and interpersonal skills for effective collaboration with cross-functional teams and stakeholders. 
+    - Ability to manage multiple projects in a fast-paced, dynamic environment. 
+  key_responsibilities:
+    - Design, develop, and optimize hydraulic and pneumatic systems for aerospace applications, including propulsion, control, and actuation systems. 
+    - Select, specify, and integrate components and subsystems into overall rocket designs using expertise in hydraulic and process engineering. 
+    - Perform analysis and simulation of hydraulic and pneumatic systems using GT Suite to evaluate performance, identify potential problems, and optimize system design. 
+    - Collaborate with cross-functional teams to ensure compatibility, reliability, and performance of hydraulic and pneumatic systems within overall rocket designs. 
+    - Develop and implement test and validation procedures to verify performance and reliability under simulated aerospace conditions. 
+    - Investigate and troubleshoot hydraulic and pneumatic system problems, identifying root causes and implementing corrective actions. 
+    - Stay updated on emerging technologies and best practices in hydraulic and pneumatic systems, incorporating new developments into engineering practices and methodologies. 
+    - Communicate findings and recommendations to stakeholders, presenting technical reports and participating in design reviews.
+
+- title: Thermal Engineer
+  category: Mechanical
+  description: Responsible for ensuring precise temperature regulation systems in rockets, enhancing reliability, efficiency, and safety.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Perform temperature analysis and thermal modelling of aerospace systems, including rocket propulsion, avionics, and thermal protection systems. 
+    - Design and optimize thermal management solutions using expertise in thermal engineering, including insulation, cooling systems, and heat exchangers. 
+    - Collaborate with cross-functional teams to integrate thermal management solutions into rocket designs, ensuring compatibility, reliability, and performance. 
+    - Develop and implement test and validation procedures to verify thermal performance and reliability under simulated space conditions. 
+    - Investigate and resolve thermal problems like gradients, hot spots, and thermal stress, implementing corrective actions. 
+    - Stay updated on emerging technologies and best practices in thermal engineering, integrating new developments into engineering methodologies. 
+    - Communicate findings and recommendations to stakeholders through technical reports and participation in design reviews.
+  key_responsibilities:
+    - Demonstrated experience in temperature analysis or a related field 
+    - Bachelor's degree in thermodynamics, energy engineering, physical engineering, or a related field is required 
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Expertise in temperature analysis and thermal engineering with a focus on aerospace applications. 
+    - Strong analytical and problem-solving skills for complex thermal dynamics and innovative solutions. 
+    - Experience with thermal analysis and simulation tools like Finite Element Analysis (FEA) and Computational Fluid Dynamics (CFD). 
+    - Knowledge of thermal management solutions, including insulation materials, cooling systems, and heat transfer mechanisms. 
+    - Excellent communication and interpersonal skills for effective collaboration with cross-functional teams and stakeholders. 
+    - Ability to manage multiple projects in a fast-paced, dynamic environment
+
+- title: Mechatronics Engineer
+  category: Mechanical
+  description: Responsible for optimizing aerospace systems' performance, reliability, and efficiency through integrated mechanical and electronic systems.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Demonstrated experience in mechatronics, robotics, or automation 
+    - Bachelor's degree in mechatronics, robotics, automation, or a related field 
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Specialization in mechatronics engineering with a focus on aerospace applications. 
+    - Strong analytical and problem-solving skills for designing and optimizing mechatronic systems. 
+    - Experience with mechanical and electronic design tools like Eplan (similar software), CAD/CAM, and PCB design. 
+    - Knowledge of control systems, sensors, actuators, and embedded systems programming. 
+    - Excellent communication and interpersonal skills to collaborate effectively with cross-functional teams and stakeholders. 
+    - Ability to thrive in a fast-paced, dynamic environment and manage multiple projects concurrently. 
+  key_responsibilities:
+    - Design, develop, and test mechatronic systems for aerospace applications, including propulsion, control, and avionics. 
+    - Utilize mechatronics engineering expertise to integrate mechanical and electronic components into rocket designs. 
+    - Collaborate with cross-functional teams to develop mechatronic solutions meeting performance, reliability, and safety standards. 
+    - Conduct tests and validations of mechatronic systems under simulated aerospace conditions. 
+    - Investigate and resolve mechatronic system issues, implementing corrective actions. 
+    - Stay updated on emerging mechatronics technologies and best practices, integrating innovations into engineering practices. 
+    - Communicate findings and recommendations to stakeholders through technical reports and design reviews.
+
+- title: Senior Software Engineer
+  category: Software
+  description: Crucial in advancing aerospace technologies through software development for rocket simulations.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Proven experience in software development or a related field. 
+    - Bachelor's degree in computer science, software engineering, electrical engineering, mathematics, or a related field 
+    - An advanced degree (e.g., Master's in a related field) is preferred 
+    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
+    - Proficiency in programming languages such as C, C++, Assembly, and possibly VHDL or MATLAB. 
+    - Specialization in rocket simulation and data analysis software, with a passion for aerospace engineering. 
+    - Strong analytical and problem-solving skills. 
+    - Familiarity with software development methodologies, tools, and best practices. 
+    - Excellent communication and interpersonal skills. 
+    - Ability to manage multiple projects in a fast-paced environment.
+  key_responsibilities:
+    - Design, develop, and maintain software for rocket simulation, trajectory analysis, propulsion modeling, and performance optimization. 
+    - Implement rocket simulation algorithms and models using programming languages such as C, C++, Assembly, and potentially VHDL or MATLAB. 
+    - Collaborate with aerospace engineers to translate simulation requirements into software specifications. 
+    - Test, validate, and verify software applications to ensure accuracy, reliability, and performance. 
+    - Analyze simulation data to evaluate rocket performance and inform design decisions. 
+    - Stay updated on emerging technologies and best practices in software development. 
+    - Provide technical leadership and mentorship to junior software engineers.
+
 - title: Frontend Developer
   category: Software
   description: Create responsive and user-friendly web interfaces
