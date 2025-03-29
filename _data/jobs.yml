@@ -1,26 +1,180 @@
-- title: Electrical Team Manager
+- title: Electrical Engineer Manager
   category: Electrical
-  description: Oversee and guide the electrical engineering team, ensuring reliable, efficient, and safe electrical systems for our rockets.
+  description: As an Electrical Engineer, you will contribute to the design, integration, and testing of reliable and high-performance electrical systems critical to our launch vehicles. You will work alongside interdisciplinary teams to ensure mission success through robust engineering and innovation.
   location: Munich, Germany (remote possible)
   qualifications:
-    - Experience in leading electrical engineering teams
-    - Ability to oversee project timelines, deliverables, and team performance
-    - Professional training or degree in Electrical Engineering or related fields
-    - An advanced degree (e.g., Master's in Electrical Engineering) is preferred
-    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered
-    - Strong foundation in electrical engineering principles and practices
-    - Expertise in electrical system design and implementation, preferably in aerospace
-    - Proficiency with design software, simulation tools, and test methodologies
-    - Strong leadership and communication skills
-    - Strategic and analytical thinking with a focus on quality
+    - Degree or vocational training in Electrical Engineering, Mechatronics, or a related field
+    - Solid foundation in electrical engineering fundamentals and system design
+    - Experience with schematic capture, PCB design, and simulation tools
+    - Familiarity with testing methodologies and lab instrumentation
+    - Knowledge of safety standards and electrical compliance (aerospace/automotive/industrial)
+    - Strong problem-solving skills and attention to detail
+    - Effective communication and teamwork skills
+    - Ability to work in a dynamic, project-based environment
+    - (optional) Experience with embedded systems, sensors/actuators, or power electronics
+    - (optional) Exposure to high-voltage or high-frequency systems
+    - (optional) Prior work on aerospace, robotics, or automotive applications
+    - (optional) Understanding of EMI/EMC design practices and environmental testing
   key_responsibilities:
-    - Lead and mentor the electrical engineering team
-    - Collaborate on designing and integrating electrical systems for rockets
-    - Oversee testing and validation for regulatory compliance
-    - Implement innovative solutions for optimal performance
-    - Manage project timelines, budgets, and resources
-    - Foster a collaborative and learning-focused team culture
-    - Stay updated on emerging technologies and industry trends
+    - Design and integrate electrical systems for rocket subsystems
+    - Support testing, validation, and troubleshooting of electrical components
+    - Contribute to the continuous improvement of electrical architectures
+    - Collaborate across mechanical, software, and propulsion teams
+    - Assist in documentation, system reviews, and risk assessments
+    - Stay informed about new technologies, standards, and best practices
+    - Foster a collaborative and solution-oriented engineering culture
+
+- title: Battery Systems Engineer
+  category: Electrical
+  description: As a Battery Systems Engineer, you will contribute to the design, integration, and testing of reliable, efficient, and safe battery systems powering critical rocket subsystems. You will work alongside interdisciplinary teams to ensure mission success through robust power management solutions.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Electrical Engineering, Mechatronics, or a related field
+    - Solid foundation in electrical engineering fundamentals and battery technology
+    - Experience with schematic capture, PCB design, and battery simulation tools
+    - Familiarity with testing methodologies and lab instrumentation
+    - Knowledge of battery safety standards and compliance (aerospace/automotive/industrial)
+    - Strong problem-solving skills and attention to detail
+    - Effective communication and teamwork skills
+    - Ability to work in a dynamic, project-based environment
+    - (optional) Experience with battery management systems (BMS), lithium-ion battery packs
+    - (optional) Exposure to high-voltage DC systems
+    - (optional) Prior work on aerospace, robotics, or automotive battery applications
+    - (optional) Understanding of thermal management and EMI/EMC design practices
+  key_responsibilities:
+    - Design and integrate battery modules and management systems
+    - Support testing, validation, and troubleshooting of battery systems
+    - Contribute to battery thermal management and safety strategies
+    - Collaborate across mechanical, software, and propulsion teams
+    - Assist in documentation, system reviews, and risk assessments
+    - Stay informed about new battery technologies, standards, and best practices
+    - Foster a collaborative and solution-oriented engineering culture
+
+- title: Communications Systems Engineer
+  category: Electrical
+  description: As a Communications Systems Engineer, you will design, integrate, and test robust communication solutions essential for telemetry, tracking, and command operations. You will collaborate closely with interdisciplinary teams to deliver reliable data exchange during critical rocket mission phases.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Electrical Engineering, Mechatronics, Telecommunications, or a related field
+    - Solid foundation in RF communication fundamentals and system design
+    - Experience with schematic capture, PCB layout, and RF simulation tools
+    - Familiarity with testing methodologies, spectrum analyzers, and oscilloscopes
+    - Knowledge of communication standards and compliance (aerospace/automotive)
+    - Strong problem-solving skills and attention to detail
+    - Effective communication and teamwork skills
+    - Ability to work in a dynamic, project-based environment
+    - (optional) Experience with telemetry systems, antennas, transceivers, or software-defined radios (SDR)
+    - (optional) Exposure to high-frequency design (GHz range)
+    - (optional) Prior aerospace, drone, or high-speed automotive experience
+    - (optional) Understanding of EMI/EMC and environmental testing procedures
+  key_responsibilities:
+    - Design and integrate communication hardware and RF systems
+    - Support testing, validation, and troubleshooting of communication links
+    - Contribute to enhancing system reliability and signal integrity
+    - Collaborate across mechanical, software, and avionics teams
+    - Assist in documentation, system reviews, and risk assessments
+    - Stay updated on communication standards, RF technologies, and best practices
+    - Foster a collaborative and solution-oriented engineering culture
+
+- title: Control Systems Engineer
+  category: Electrical
+  description: As a Control Systems Engineer, you will be responsible for designing, integrating, and testing electronic systems that manage rocket control functions and safety-critical operations. You will ensure precision, reliability, and real-time responsiveness, working alongside interdisciplinary teams.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Electrical Engineering, Mechatronics, or related fields
+    - Solid foundation in electronic control systems, embedded electronics, and system design
+    - Experience with schematic capture, PCB layout, and simulation tools
+    - Familiarity with testing methodologies and lab instrumentation
+    - Knowledge of safety-critical system compliance (aerospace/automotive)
+    - Strong problem-solving skills and attention to detail
+    - Effective communication and teamwork skills
+    - Ability to work in a dynamic, project-based environment
+    - (optional) Experience with embedded controllers, microprocessors, FPGA systems
+    - (optional) Exposure to redundant or fail-safe electronics systems
+    - (optional) Prior aerospace or automotive control system experience
+    - (optional) Understanding of EMI/EMC design practices and standards
+  key_responsibilities:
+    - Design and integrate embedded control systems and electronics
+    - Support testing, validation, and troubleshooting of control circuits and components
+    - Contribute to robust, fail-safe designs
+    - Collaborate across software, propulsion, and mechanical teams
+    - Assist in documentation, system reviews, and risk assessments
+    - Stay informed about new technologies, standards, and best practices
+    - Foster a collaborative and solution-oriented engineering culture
+
+- title: Electric Motor Systems Engineer
+  category: Electrical
+  description: As an Electric Motor Systems Engineer, you will contribute to the design, integration, and testing of electric motor systems, actuators, and associated drives essential to rocket actuation and propulsion components. You will ensure high performance, reliability, and robustness of motor-driven subsystems.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Electrical Engineering, Mechatronics, or related fields
+    - Solid foundation in motor technology, motor drives, and electrical system design
+    - Experience with motor control electronics, PCB design, and simulation tools
+    - Familiarity with testing methodologies and lab instrumentation
+    - Knowledge of motor compliance and safety standards (aerospace/automotive/industrial)
+    - Strong problem-solving skills and attention to detail
+    - Effective communication and teamwork skills
+    - Ability to work in a dynamic, project-based environment
+    - (optional) Experience with brushless DC motors, servo drives, or actuator systems
+    - (optional) Exposure to high-torque/high-speed motor designs
+    - (optional) Prior aerospace, robotics, or automotive motor experience
+    - (optional) Understanding of EMI/EMC and environmental testing
+  key_responsibilities:
+    - Design and integrate electrical motor systems and motor controllers
+    - Support testing, validation, and troubleshooting of motors and actuators
+    - Contribute to optimizing efficiency, reliability, and thermal management
+    - Collaborate across mechanical, propulsion, and avionics teams
+    - Assist in documentation, system reviews, and risk assessments
+    - Stay informed about new motor technologies, standards, and best practices
+    - Foster a collaborative and solution-oriented engineering culture
+
+- title: Sensor Integration Engineer
+  category: Electrical
+  description: As a Sensor Integration Engineer, you will design, integrate, and test sensor systems critical to the rocket’s guidance, navigation, and system monitoring. You will ensure accuracy, reliability, and durability under challenging aerospace conditions.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Electrical Engineering, Mechatronics, or related fields
+    - Solid foundation in sensor technology, signal processing, and electronics design
+    - Experience with sensor integration, PCB design, and data acquisition systems
+    - Familiarity with testing methodologies and lab instrumentation
+    - Knowledge of sensor-related compliance standards (aerospace/automotive)
+    - Strong problem-solving skills and attention to detail
+    - Effective communication and teamwork skills
+    - Ability to work in a dynamic, project-based environment
+    - (optional) Experience with accelerometers, gyroscopes, pressure/temperature sensors
+    - (optional) Exposure to precision measurement systems and noise reduction techniques
+    - (optional) Prior aerospace or automotive sensor integration experience
+    - (optional) Understanding of EMI/EMC and environmental testing practices
+  key_responsibilities:
+    - Design and integrate sensor systems and sensor interfaces
+    - Support testing, validation, and troubleshooting of sensor data acquisition
+    - Contribute to optimizing sensor placement and data accuracy
+    - Collaborate across software, avionics, and mechanical teams
+    - Assist in documentation, system reviews, and risk assessments
+    - Stay informed about new sensor technologies, standards, and best practices
+    - Foster a collaborative and solution-oriented engineering culture
+
+- title: Quality Engineer – Electrical Systems
+  category: Electrical
+  description: As a Quality Engineer for Electrical Systems, you will ensure exceptional quality and reliability of electrical components and systems integral to our rockets, guaranteeing compliance with stringent aerospace standards.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Electrical Engineering, Mechatronics, or related fields
+    - Solid understanding of quality management principles related to electrical systems
+    - Experience with electrical testing, measurement instrumentation, and quality standards (ISO 9001, EN9100, IPC standards)
+    - Excellent analytical, structured, and detail-oriented approach
+    - Strong communication skills and ability to collaborate effectively with multidisciplinary teams
+    - Ability to thrive in dynamic, project-driven environments
+    - (optional) Experience with EMC testing and electronics for safety-critical applications
+    - (optional) Knowledge of Six Sigma, Lean Management, or similar methodologies
+  key_responsibilities:
+    - Develop, implement, and maintain quality assurance procedures for electrical systems
+    - Plan and conduct inspections, testing, and quality audits of electrical components
+    - Perform failure analyses and identify corrective actions to resolve electrical quality issues
+    - Support the qualification and evaluation of suppliers for electrical components
+    - Prepare and maintain accurate quality documentation, including inspection and audit reports
+    - Continuously improve electrical quality control processes and methodologies
+    - Collaborate closely with electrical, mechanical, and software teams
 
 - title: Computational Fluid Dynamics (CFD) Analyst
   category: Mechanical
@@ -71,30 +225,6 @@
     - Stay updated on FEM technologies and best practices. 
     - Communicate findings through reports and design reviews.
 
-- title: Quality Supervisor (QS)
-  category: Mechanical
-  description: Ensure the highest quality in aerospace engineering tasks, specializing in SYNERA and FEM for quality supervision and topology optimization.
-  location: Munich, Germany (remote possible)
-  qualifications:
-    - Proven experience in quality control or a related field 
-    - Bachelor's degree in quality management, industrial engineering, production engineering, systems engineering, or a related field 
-    - An advanced degree (e.g., Master's in a related field) is preferred 
-    - Candidates with a bachelor's degree in other fields, relevant vocational training (e.g., Meisterschulen), or equivalent practical experience will also be considered 
-    - Proficiency in SYNERA software and quality control processes. 
-    - Competence in FEM and topology optimization for aerospace projects. 
-    - Strong analytical and problem-solving skills. 
-    - Attention to detail and commitment to high standards. 
-    - Effective communication and interpersonal skills. 
-    - Preferred experience in aerospace or manufacturing quality assurance. 
-  key_responsibilities:
-    - Use SYNERA software for quality monitoring and management. 
-    - Apply FEM and topology optimization to enhance structural integrity. 
-    - Develop and implement quality assurance processes. 
-    - Conduct inspections and audits to identify and address quality issues. 
-    - Work with teams to establish quality standards and metrics. 
-    - Analyze data to track and improve quality performance. 
-    - Train and mentor team members on quality control methods. 
-
 - title: Vibration Analyst
   category: Mechanical
   description: Improve durability and stability of aerospace structures through advanced vibration analysis techniques.
@@ -143,6 +273,28 @@
     - Investigate material failure modes and develop corrective actions. 
     - Stay updated on emerging materials and process technologies. 
     - Present findings and recommendations in reports and design reviews.
+
+- title: Quality & Process Optimization Engineer (General)
+  category: Mechanical
+  description: As a Quality & Process Optimization Engineer, you will enhance operational effectiveness through process analysis, continuous improvement initiatives, and general quality management throughout our organization.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Quality Management, Industrial Engineering, or related fields
+    - Strong background in process optimization and quality improvement methods (Lean, Six Sigma, Kaizen)
+    - Familiarity with quality management standards (ISO 9001, EN9100, process management standards)
+    - Excellent analytical skills with a systematic and solution-oriented approach
+    - Strong communication, interpersonal skills, and ability to lead change initiatives
+    - Ability to work effectively in a multidisciplinary and dynamic environment
+    - (optional) Certifications in Quality Management or Process Optimization (Six Sigma Black Belt, CQE)
+    - (optional) Experience in aerospace, automotive, or other technology-intensive industries
+  key_responsibilities:
+    - Analyze existing workflows and identify opportunities for process improvements
+    - Implement and monitor optimization strategies across engineering and operational processes
+    - Conduct quality audits and reviews across various departments
+    - Establish and maintain organization-wide quality standards and methodologies
+    - Coach and support teams in adopting best practices for quality assurance
+    - Document and continuously refine quality management processes
+    - Collaborate across mechanical, electrical, and software teams to ensure integrated process improvements
 
 - title: Composite Materials Engineer
   category: Mechanical
@@ -241,6 +393,29 @@
     - Investigate and resolve mechatronic system issues, implementing corrective actions. 
     - Stay updated on emerging mechatronics technologies and best practices, integrating innovations into engineering practices. 
     - Communicate findings and recommendations to stakeholders through technical reports and design reviews.
+
+- title: Quality Engineer – Mechanical Systems
+  category: Mechanical
+  description: As a Quality Engineer for Mechanical Systems, you will ensure the highest quality and reliability standards for mechanical components and assemblies critical to the safety and success of our rocket missions.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Mechanical Engineering, Aerospace Engineering, or related fields
+    - Solid foundation in quality assurance and mechanical engineering principles
+    - Experience with inspection methods, measurement techniques, and mechanical testing
+    - Knowledge of quality standards (e.g., ISO 9001, EN9100)
+    - Strong analytical thinking, structured approach, and problem-solving skills
+    - Excellent communication and teamwork abilities
+    - Ability to perform well in a fast-paced, project-oriented environment
+    - (optional) Experience in aerospace or automotive mechanical quality assurance
+    - (optional) Knowledge of Six Sigma, Lean Management, or related quality methodologies
+  key_responsibilities:
+    - Develop and implement quality assurance processes for mechanical systems
+    - Plan and conduct tests, inspections, and audits of mechanical components
+    - Identify and analyze defects, perform root cause analysis, and propose corrective actions
+    - Collaborate closely with engineering teams to improve manufacturing and assembly processes
+    - Maintain detailed documentation of quality records, test reports, and audits
+    - Foster a culture of continuous improvement and quality awareness within the team
+    - Monitor industry standards, compliance requirements, and best practices in mechanical systems
 
 - title: Senior Software Engineer
   category: Software
@@ -408,6 +583,29 @@
     - Create interactive and informative data visualizations
     - Develop custom visualization tools and dashboards
     - Collaborate with data scientists and engineers to present complex data
+
+- title: Quality Engineer – Software Systems
+  category: Software
+  description: As a Quality Engineer for Software Systems, you will ensure the reliability, robustness, and quality of our mission-critical software, essential for the safe operation of our rockets.
+  location: Munich, Germany (remote possible)
+  qualifications:
+    - Degree or vocational training in Software Engineering, Computer Science, or related fields
+    - Solid foundation in software testing methodologies and software quality assurance principles
+    - Familiarity with software quality standards (ISO/IEC 25010, DO-178C, Automotive SPICE)
+    - Experience with automated testing, continuous integration tools, and agile methodologies
+    - Strong analytical skills, structured working methods, and attention to detail
+    - Excellent communication and teamwork skills
+    - Ability to adapt to dynamic project requirements
+    - (optional) Experience with embedded software, real-time systems, or aerospace software applications
+    - (optional) Knowledge of safety-critical software development and certification processes
+  key_responsibilities:
+    - Develop, implement, and oversee software quality assurance processes and standards
+    - Plan and execute software testing (unit, integration, system-level)
+    - Identify software defects, analyze root causes, and support corrective actions
+    - Guide software teams in adhering to safety and quality standards
+    - Prepare comprehensive quality documentation and regular reports
+    - Promote continuous improvement practices across software development teams
+    - Collaborate effectively with interdisciplinary engineering groups
 
 - title: Sponsoring
   category: Operations
