@@ -58,6 +58,13 @@
   role_desc: "Marketing Efforts"
   linkedin: "https://www.linkedin.com/in/suyashbadiger"
 
+- first_name: "Takemi"
+  last_name: "Ando"
+  image: "/assets/images/team/takemi-ando.png"
+  role: "Sponsoring"
+  role_desc: "Sponsoring and Finance"
+  linkedin: "http://www.linkedin.com/in/takemiando"
+
 - first_name: "Shiva"
   last_name: "&emsp;"
   image: "/assets/images/team/shiva.png"
