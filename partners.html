@@ -82,7 +82,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
             <div class="responsive">
                 <div class="gallery">
                     {% for company in category.items %}
-                    <img src="{{ company.logo }}" alt="{{ company.name }}" data-company="{{ company.name }}" data-info="{{ company.info }}" data-url="{{ company.url }}" class="company-logo" /> {% endfor %}
+                    <img loading="lazy" src="{{ company.logo }}" alt="{{ company.name }}" data-company="{{ company.name }}" data-info="{{ company.info }}" data-url="{{ company.url }}" class="company-logo" /> {% endfor %}
                 </div>
             </div>
             {% endfor %}
@@ -239,7 +239,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
                 <!-- Contact Person #1 -->
                 <div class="contact-person">
                     <div class="contact-image">
-                        <img src="/assets/images/team/tom-reinhardt.png" alt="Tom Luca Reinhardt">
+                        <img loading="lazy" src="/assets/images/team/tom-reinhardt.png" alt="Tom Luca Reinhardt">
                     </div>
 
                     <div class="contact-info">
@@ -251,7 +251,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
                 <!-- Contact Person #2 -->
                 <div class="contact-person">
                     <div class="contact-image">
-                        <img src="/assets/images/team/tobias-jäger.png" alt="Tobias Jäger">
+                        <img loading="lazy" src="/assets/images/team/tobias-jäger.png" alt="Tobias Jäger">
                     </div>
 
                     <div class="contact-info">

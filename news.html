@@ -153,13 +153,13 @@ window.addEventListener('wheel', function(evt) {
 					  <a href="{{ post.url }}">
 						<div class="card">
 						  <div class="card-header">
-							<img src="{{ post.header-image }}" alt="{{ post.header-title }}" />
+							<img loading="lazy" src="{{ post.header-image }}" alt="{{ post.header-title }}" />
 						  </div>
 						  <div class="card-body">
 							<span class="tag tag-teal">{{ post.categories }}</span>
 							<p>{{ post.title }}</p>
 							<div class="user">
-							  <img src="{{ post.author-image }}" alt="{{ post.author }}" />
+							  <img loading="lazy" src="{{ post.author-image }}" alt="{{ post.author }}" />
 							  <div class="user-info">
 							  {% assign name_parts = post.author | split: " " %}
 							  {% assign first_name = name_parts | first %}
@@ -285,7 +285,7 @@ window.addEventListener('wheel', function(evt) {
                 <!-- Contact Person #1 -->
                 <div class="contact-person">
                     <div class="contact-image">
-                        <img src="/assets/images/team/fabio-nardi.png" alt="Fabio Nardi">
+                        <img loading="lazy" src="/assets/images/team/fabio-nardi.png" alt="Fabio Nardi">
                     </div>
 
                     <div class="contact-info">
@@ -297,7 +297,7 @@ window.addEventListener('wheel', function(evt) {
                 <!-- Contact Person #2 -->
                 <div class="contact-person">
                     <div class="contact-image">
-                        <img src="/assets/images/team/suriyaa-sundararuban.png" alt="Suriyaa Sundararuban">
+                        <img loading="lazy" src="/assets/images/team/suriyaa-sundararuban.png" alt="Suriyaa Sundararuban">
                     </div>
 
                     <div class="contact-info">
