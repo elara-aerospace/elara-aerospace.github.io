@@ -29,7 +29,7 @@ Germany
 
 ## Represented by
 
-Tom Luca Reinhardt
+Tom Luca Reinhardt (on behalf of Elara Aerospace, Handelsregister No.: 301580)
 
 ## Contact
 
