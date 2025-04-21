@@ -155,3 +155,11 @@
   role_desc: "Advisor to Mechanical team"
 #  github: "#"
 
+- first_name: "Yotam"
+  last_name: "Barr"
+  image: "/assets/images/team/yotam-barr.png"
+  role: "Mechanical"
+  role_desc: "Mechanical"
+  linkedin: "https://www.linkedin.com/in/yotam-barr/"
+  github: "https://github.com/YotamBarr"
+
