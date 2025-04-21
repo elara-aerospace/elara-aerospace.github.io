@@ -52,6 +52,12 @@
   url: "https://www.unternehmertum.de/en/services/makerspace"
   category: "Entrepreneurial Partners"
 
+- name: "Kanzlei - Tergau and Walkenhorst (Patent Lawyers)"
+  logo: "/assets/images/partners/twip.png"
+  info: ""
+  url: "https://www.tergau-walkenhorst.com/"
+  category: "Entrepreneurial Partners"
+
 - name: "OLM"
   logo: "/assets/images/partners/olm.png"
   info: "OLM is a key strategic partner supporting the launch of our rocket."
@@ -128,6 +134,12 @@
   logo: "/assets/images/partners/st-microelectronics.png"
   info: "STMicroelectronics is a valuable industry partner in our ecosystem."
   url: "https://www.st.com/"
+  category: "Industry Partners"
+
+- name: "Simscale"
+  logo: "/assets/images/partners/simscale.png"
+  info: ""
+  url: ""
   category: "Industry Partners"
 
 - name: "Synera"
@@ -226,6 +238,12 @@
   url: "https://leap71.com/"
   category: "Sponsors"
 
+- name: "Mein Lagerraum³ GmbH"
+  logo: "/assets/images/partners/m3.png"
+  info: ""
+  url: "https://m3.company/"
+  category: "Sponsors"
+
 - name: "Montanstahl"
   logo: "/assets/images/partners/montanstahl.png"
   info: "Montanstahl AG is a Swiss company specializing in the production and distribution of high-quality steel and stainless steel profiles."
@@ -241,6 +259,12 @@
   logo: "/assets/images/partners/myposter.png"
   info: "With the help of MYPOSTER, we are equipped with high-quality posters that stand out and make a lasting impression."
   url: "https://www.myposter.de/"
+  category: "Sponsors"
+
+- name: "Xometry"
+  logo: "/assets/images/partners/xometry.png"
+  info: ""
+  url: "https://xometry.eu/en/"
   category: "Sponsors"
 
 - name: "TNG Technology Consulting"
