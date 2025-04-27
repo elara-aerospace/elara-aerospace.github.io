@@ -1,3 +1,11 @@
+- first_name: "Peter"
+  last_name: "von Grundherr"
+  image: "/assets/images/team/peter-von-grundherr.png"
+  role: "Head of Electrical"
+  role_desc: "Head of the Electrical Team"
+  linkedin: "https://www.linkedin.com/in/peter-von-grundherr-b95721226"
+  github: "https://github.com/PeterVonGrundherr"
+
 - first_name: "Suriyaa Rocky"
   last_name: "Sundararuban"
   image: "/assets/images/team/suriyaa-sundararuban.png"
@@ -6,6 +14,26 @@
   website: "https://suriyaasundararuban.com/"
   linkedin: "https://www.linkedin.com/in/suriyaasundararuban/"
   github: "https://github.com/suriyaa"
+
+- first_name: "Benedikt"
+  last_name: "Dawid"
+  image: "/assets/images/team/benedikt-dawid.png"
+  role: "Electrical"
+  role_desc: "Electrical Engineering"
+
+- first_name: "Yash Kumar"
+  last_name: "Vari"
+  image: "/assets/images/team/yash-vari.png"
+  role: "Electrical"
+  role_desc: "Electrical Engineering"
+  linkedin: "https://www.linkedin.com/in/yashkumarvari"
+
+- first_name: "Dennis"
+  last_name: "Schad"
+  image: "/assets/images/team/dennis-schad.png"
+  role: "CAN-Bus"
+  role_desc: "Controller Area Network-Bus engineering"
+  linkedin: "https://www.linkedin.com/in/dennisschad/"
 
 - first_name: "Hardik Prakash"
   last_name: "Lokwani"
