@@ -261,6 +261,12 @@
   url: "https://www.myposter.de/"
   category: "Sponsors"
 
+- name: "Seto"
+  logo: "/assets/images/partners/seto.png"
+  info: ""
+  url: "https://www.setolite.com/en/"
+  category: "Sponsors"
+
 - name: "Xometry"
   logo: "/assets/images/partners/xometry.png"
   info: ""
