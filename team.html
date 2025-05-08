@@ -156,7 +156,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
 <!-- advisors and team
     ================================================== -->
 <section id="list">
-    {% assign categories = "advisors,board,mechanical,electrical-software,operations" | split: "," %} {% for category in categories %}
+    {% assign categories = "advisors,board,mechanical,electrical-software,operations,project-studies" | split: "," %} {% for category in categories %}
     <h2 style="text-align: center;">{{ site.data.team.headers[category] | upcase }}</h2>
     <div class="responsive-container-block outer-container">
         <!-- Team List (in Alphabetical Order) -->
@@ -175,7 +175,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
                         <p class="text-blk name">
                             {{ member.last_name }}
                         </p>
-                        <p class="text-blk position" style="text-align: center;">{{ member.role }} <abbr title="{{ member.role_desc }}">&#x1F6C8;</abbr>{% if member.website %}<br><i>{{ member.field }}</i>{% endif %}</p>
+                        <p class="text-blk position" style="text-align: center;">{{ member.role }} {% if member.role_desc %}<abbr title="{{ member.role_desc }}">&#x1F6C8;</abbr>{% endif %}{% if member.website %}<br><i>{{ member.field }}</i>{% endif %}</p>
                         <div class="social-media-links">
                             {% if member.website %}
                             <a href="{{ member.website }}" target="_blank">

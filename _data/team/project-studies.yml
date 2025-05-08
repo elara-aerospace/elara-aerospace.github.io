@@ -1,0 +1,21 @@
+- first_name: "Zalán"
+  last_name: "Dianovszky"
+  image: "/assets/images/team/zalan-dianovszky.png"
+  role: "Project Studies"
+  linkedin: "https://www.linkedin.com/in/zal%C3%A1n-dianovszky-08a68a296/"
+#  github: ""
+
+- first_name: "Elif Ada"
+  last_name: "German"
+  image: "/assets/images/team/elif-german.png"
+  role: "Project Studies"
+  linkedin: "https://www.linkedin.com/in/elif-ada-german-8125aa27b/"
+#  github: ""
+
+- first_name: "Selin"
+  last_name: "Asker"
+  image: "/assets/images/team/selin-asker.png"
+  role: "Project Studies"
+  linkedin: "https://www.linkedin.com/in/selin-asker-933528280/"
+#  github: ""
+
