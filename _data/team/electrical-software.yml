@@ -59,6 +59,14 @@
   role: "Electrical"
   role_desc: "Electrical Engineering"
 
+- first_name: "Saumya"
+  last_name: "Desai"
+  image: "/assets/images/team/saumya-desai.png"
+  role: "Space Engineer"
+  role_desc: "Rocket Software Engineering"
+  linkedin: "https://www.linkedin.com/in/saumya-desai-8bb949a7/"
+  github: "https://github.com/Saumya290400"
+
 - first_name: "Linus"
   last_name: "Eing"
   image: "/assets/images/team/linus-eing.png"
