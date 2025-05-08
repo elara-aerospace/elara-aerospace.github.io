@@ -163,3 +163,11 @@
   linkedin: "https://www.linkedin.com/in/yotam-barr/"
   github: "https://github.com/YotamBarr"
 
+- first_name: "Valentin"
+  last_name: "Pfiz"
+  image: "/assets/images/team/valentin-pfiz.png"
+  role: "Mechanical"
+  role_desc: "Mechanical"
+  linkedin: "https://www.linkedin.com/in/valentin-pfiz-172a97215/"
+#  github: ""
+
