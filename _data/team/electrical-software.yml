@@ -67,6 +67,14 @@
   linkedin: "https://www.linkedin.com/in/saumya-desai-8bb949a7/"
   github: "https://github.com/Saumya290400"
 
+- first_name: "Renan"
+  last_name: "Oliveira"
+  image: "/assets/images/team/renan-oliveira.png"
+  role: "Electrical Engineer"
+  role_desc: "Electrical Engineering"
+  linkedin: "https://www.linkedin.com/in/renanmellocoliveira/"
+#  github: ""
+
 - first_name: "Linus"
   last_name: "Eing"
   image: "/assets/images/team/linus-eing.png"
