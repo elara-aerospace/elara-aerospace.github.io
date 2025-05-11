@@ -2,14 +2,14 @@
 - first_name: "Dhrumil Hemant"
   last_name: "Tailor"
   image: "/assets/images/team/dhrumil-tailor.png"
-  role: "Engine & CFD"
+  role: "Simulations Lead"
   linkedin: "https://www.linkedin.com/in/dhrumil-tailor-84b0a1128"
   github: "https://github.com/dhrumiltailor10"
 
 - first_name: "Alexander"
   last_name: "Hartmann"
   image: "/assets/images/team/alexander-hartmann.png"
-  role: "CAD"
+  role: "CAD Lead"
   role_desc: "Head of Design & CAD"
   github: "https://github.com/Halma28"
 
@@ -24,7 +24,7 @@
 - first_name: "Theresa"
   last_name: "Schmitt"
   image: "/assets/images/team/theresa-schmitt.png"
-  role: "GSE"
+  role: "GSE Lead"
   linkedin: "https://www.linkedin.com/in/theresa-schmitt-6429842a4"
   github: "https://github.com/Theresa-smtt"
 
@@ -38,7 +38,7 @@
 - first_name: "Rufus"
   last_name: "Henschek"
   image: "/assets/images/team/rufus-henschek.png"
-  role: "Airframe"
+  role: "Airframe Lead"
   linkedin: "https://www.linkedin.com/in/rufus-henschek-846b7b307"
   github: "https://github.com/RHenschek"
 
@@ -67,7 +67,7 @@
 - first_name: "Georgiana Daniela"
   last_name: "Novac"
   image: "/assets/images/team/georgiana-novac.png"
-  role: "Fluid & Thermodynamics"
+  role: "Turbo Pumps Lead"
   linkedin: "https://www.linkedin.com/in/georgiana-daniela-novac-6888452b4/"
   github: "https://github.com/GDN1003"
 
