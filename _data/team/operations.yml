@@ -25,13 +25,6 @@
   linkedin: "https://www.linkedin.com/in/felix-neo-rieder-48189a153"
   github: "https://github.com/fexneo"
 
-- first_name: "Michael"
-  last_name: "Tran"
-  image: "/assets/images/team/michael-tran.png"
-  role: "Sponsoring"
-  linkedin: "https://www.linkedin.com/in/michael-tran-1823b220a"
-  github: "https://github.com/roterjenks"
-
 - first_name: "Suyash"
   last_name: "Badiger"
   image: "/assets/images/team/suyash-badiger.png"
@@ -43,18 +36,6 @@
   image: "/assets/images/team/fabio-nardi.png"
   role: "Marketing"
   linkedin: "https://www.linkedin.com/in/fabio-nardi-a85b4529b"
-
-- first_name: "Yanis"
-  last_name: "Kimelmann"
-  image: "/assets/images/team/yanis-kimelmann.png"
-  role: "Media Analysis"
-
-- first_name: "Marvin"
-  last_name: "Hahn"
-  image: "/assets/images/team/marvin-hahn.png"
-  role: "Operations"
-  linkedin: "https://www.linkedin.com/in/marvin-hahn-551949238"
-  github: "https://github.com/Mojomarv"
 
 - first_name: "Shiva"
   last_name: "&emsp;"
