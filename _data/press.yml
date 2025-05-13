@@ -1,3 +1,9 @@
+- name: " L’agenzia di stampa sull’energia e le infrastrutture (AGEEI)"
+  logo: "/assets/images/press/ageei.png"
+  info: ""
+  url: "https://ageei.eu/spazio-elara-aerospace-e-olm-per-il-lancio-di-satelliti-dalla-sardegna-a-breve-le-prove-del-nuovo-razzo-starlight/"
+  category: "News"
+
 - name: "Technische Universität München (TUM)"
   logo: "/assets/images/press/tum.png"
   info: ""
