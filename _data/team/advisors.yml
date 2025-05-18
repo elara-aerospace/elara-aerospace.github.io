@@ -58,6 +58,16 @@
   linkedin: "https://www.linkedin.com/in/prof-dr-tobias-dickhut-757887153/"
   facilitator: "Adrian Leutner"
 
+- first_name: "Prof. Dr.-Ing."
+  last_name: "Daniel Ossmann"
+  image: "/assets/images/team/daniel-ossmann.png"
+  role: "Faculty Advisor"
+  field: "Guidance, Navigation & Control"
+  role_desc: "Professor of Control Engineering, Flight Mechanics and Flight Control - Faculty of Mechanical Engineering, Automotive Engineering, Aeronautical Engineering - Munich University of Applied Sciences (HM)"
+  website: "https://hm.edu/kontakte_de/contact_detail_41224.de.html"
+  linkedin: "https://www.linkedin.com/in/daniel-ossmann-2bb1b3a0/"
+  facilitator: "Tom Luca Reinhardt"
+
 - first_name: "Prof. Dr."
   last_name: "Holger Patzelt"
   image: "/assets/images/team/holger-patzelt.png"
