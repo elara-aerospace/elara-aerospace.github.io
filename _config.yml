@@ -25,6 +25,32 @@ plugins:
   - jekyll-seo-tag
   - jekyll-loading-lazy
 
+# Sitemap configuration
+sitemap:
+  exclude:
+    - /404.html
+    - /about.html
+    - /pitch-deck.html
+    - /apply.html
+  priorities:
+    - /: 1.0
+    - /about/: 0.9
+    - /mission/: 0.9
+    - /technology/: 0.8
+    - /team/: 0.8
+    - /partners/: 0.7
+    - /news/: 0.7
+    - /press/: 0.6
+  changefreq:
+    - /: weekly
+    - /about/: monthly
+    - /mission/: monthly
+    - /technology/: monthly
+    - /team/: monthly
+    - /partners/: monthly
+    - /news/: weekly
+    - /press/: monthly
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to the internal "default list".

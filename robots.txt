@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Sitemap: https://elara-aerospace.com/sitemap.xml
+
+# Allow crawling of all pages except these specific paths
+Disallow: /apply/
+Disallow: /pitch-deck/
+
+# Crawl-delay in seconds
+Crawl-delay: 10
