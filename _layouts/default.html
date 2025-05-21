@@ -77,62 +77,23 @@
     <link rel="preconnect" href="https://js-eu1.hs-analytics.net" />
     <link rel="preconnect" href="https://code.jquery.com" />
 
-    <!-- Critical CSS - Load first -->
-    <style>
-      /* Critical CSS for above-the-fold content */
-      :root {
-        --primary-color: #000000;
-        --background-color: #ffffff;
-      }
-      body {
-        margin: 0;
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-        line-height: 1.6;
-        color: var(--primary-color);
-        background-color: var(--background-color);
-      }
-      .tektur { font-family: 'Tektur', sans-serif; }
-    </style>
+	<!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/vendor.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet"> 
+	<style>
+		.tektur { font-family: 'Tektur', sans-serif; }
+	</style>
 
-    <!-- Non-critical CSS - Load asynchronously -->
-    <link rel="stylesheet" href="/assets/css/base.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/assets/css/vendor.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="/assets/css/main.css" media="print" onload="this.media='all'">
-    <noscript>
-      <link rel="stylesheet" href="/assets/css/base.css">
-      <link rel="stylesheet" href="/assets/css/vendor.css">
-      <link rel="stylesheet" href="/assets/css/main.css">
-    </noscript>
-
-    <!-- Font Awesome - Load asynchronously -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
-    <noscript>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    </noscript>
-
-    <!-- Font loading optimization -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-      <link href="https://fonts.googleapis.com/css2?family=Tektur:wght@500&display=swap" rel="stylesheet">
-    </noscript>
-
-    <!-- JavaScript optimization -->
-    <script async src="/assets/js/modernizr.js"></script>
-    <script async src="/assets/js/pace.min.js"></script>
-    
-    <!-- Third-party scripts -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-YEBDGT1478"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-YEBDGT1478');
-    </script>
-
-    <!-- Preload important third-party scripts -->
-    <link rel="preload" href="https://www.googletagmanager.com/gtag/js?id=G-YEBDGT1478" as="script">
-    <link rel="preload" href="https://js-eu1.hscollectedforms.net/" as="script">
-    <link rel="preload" href="https://js-eu1.hs-analytics.net/" as="script">
+    <!-- script
+    ================================================== -->
+    <script src="/assets/js/modernizr.js"></script>
+    <script src="/assets/js/pace.min.js"></script>
 
 
     <!-- preload loader

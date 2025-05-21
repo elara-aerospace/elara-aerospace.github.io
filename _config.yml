@@ -24,33 +24,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-loading-lazy
-  - jekyll-minifier
-  - jekyll-include-cache
-
-# Performance settings
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  startings: []
-  blanklines: false
-  ignore:
-    envs: []
-
-# Asset optimization
-minify:
-  css: true
-  js: true
-  html: true
-
-# Image optimization
-image:
-  quality: 80
-  progressive: true
-  sizes: "100vw"
-  format: webp
-  lazyload: true
 
 # Sitemap configuration
 sitemap:

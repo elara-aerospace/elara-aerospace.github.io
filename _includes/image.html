@@ -1,31 +1,5 @@
 {% if include.alt %}
-  <picture>
-    {% if include.src contains '.jpg' %}
-      <source type="image/webp" srcset="{{ include.src | replace: '.jpg', '.webp' | absolute_url }}" loading="lazy">
-    {% elsif include.src contains '.png' %}
-      <source type="image/webp" srcset="{{ include.src | replace: '.png', '.webp' | absolute_url }}" loading="lazy">
-    {% endif %}
-    <img src="{{ include.src | absolute_url }}" 
-         alt="{{ include.alt }}" 
-         loading="lazy" 
-         decoding="async" 
-         width="{{ include.width | default: 'auto' }}" 
-         height="{{ include.height | default: 'auto' }}"
-         class="lazyload">
-  </picture>
+  <img src="{{ include.src | absolute_url }}" alt="{{ include.alt }}" loading="lazy">
 {% else %}
-  <picture>
-    {% if include.src contains '.jpg' %}
-      <source type="image/webp" srcset="{{ include.src | replace: '.jpg', '.webp' | absolute_url }}" loading="lazy">
-    {% elsif include.src contains '.png' %}
-      <source type="image/webp" srcset="{{ include.src | replace: '.png', '.webp' | absolute_url }}" loading="lazy">
-    {% endif %}
-    <img src="{{ include.src | absolute_url }}" 
-         alt="{{ include.caption | default: 'Elara Aerospace' }}" 
-         loading="lazy" 
-         decoding="async" 
-         width="{{ include.width | default: 'auto' }}" 
-         height="{{ include.height | default: 'auto' }}"
-         class="lazyload">
-  </picture>
+  <img src="{{ include.src | absolute_url }}" alt="{{ include.caption | default: 'Elara Aerospace' }}" loading="lazy">
 {% endif %}
