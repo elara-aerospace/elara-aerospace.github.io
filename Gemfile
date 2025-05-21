@@ -39,3 +39,8 @@ gem 'minitest', '~> 5.25'
 # Performance
 gem 'jekyll-loading-lazy'
 
+
+gem "faraday-retry", "~> 2.3"
+
+gem "image_optim", "~> 0.31.4"
+gem "image_optim_pack", "~> 0.12.1"
