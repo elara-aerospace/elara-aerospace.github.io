@@ -296,8 +296,8 @@ second-button: "<a href='/team/' class='btn btn--stroke'>Our team</a>"
     </style>
 
     <div id="categoryFilter">
-        <label for="categorySelect">Filter by Department:</label>
-        <select id="categorySelect">
+        <label for="categorySelect" id="categorySelectLabel">Filter by Department:</label>
+        <select id="categorySelect" aria-labelledby="categorySelectLabel" aria-label="Select department to filter job positions">
             <option value="">All Departments</option>
             {% assign categories = site.data.jobs | map: "category" | uniq %} {% for category in categories %}
             <option value="{{ category }}">{{ category }}</option>
