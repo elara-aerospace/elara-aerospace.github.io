@@ -7,6 +7,15 @@ jobs:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
       - checkout
+      
+      # Configure Git to ignore LFS files
+      - run:
+          name: Configure Git LFS
+          command: |
+            git config --global filter.lfs.process "git-lfs filter-process"
+            git config --global filter.lfs.required false
+            git config --global filter.lfs.skip true
+            
       - restore_cache:
           keys:
             - rubygems-v1-{{ checksum "Gemfile.lock" }}
