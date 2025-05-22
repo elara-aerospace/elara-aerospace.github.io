@@ -29,7 +29,7 @@ Germany
 
 ## Represented by
 
-Tom Luca Reinhardt (on behalf of Elara Aerospace, Handelsregister No.: 301580)
+Tom Luca Reinhardt (on behalf of Elara Aerospace, Handelsregister No.: 301580, USt No.: DE454057716)
 
 ## Contact
 
