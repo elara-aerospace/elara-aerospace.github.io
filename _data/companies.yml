@@ -220,6 +220,12 @@
   url: "https://www.creality.com/"
   category: "Sponsors"
 
+- name: "Dassault Systems"
+  logo: "/assets/images/partners/dassault-systems.png"
+  info: ""
+  url: "https://www.3ds.com/"
+  category: "Sponsors"
+
 - name: "IFM"
   logo: "/assets/images/partners/ifm.png"
   info: "IFM is a valuable sponsor in our ecosystem."
@@ -232,6 +238,12 @@
   url: "https://www.jbctools.com/"
   category: "Sponsors"
 
+- name: "Kollmorgen"
+  logo: "/assets/images/partners/kollmorgen.png"
+  info: ""
+  url: "https://www.kollmorgen.com/en-us"
+  category: "Sponsors"
+
 - name: "LEAP 71"
   logo: "/assets/images/partners/leap71.png"
   info: "LEAP 71 is an UAE-based company in Dubai pioneering the field of Computational Engineering, which leverages advanced AI models to autonomously design complex physical products. The company specializes in creating innovative solutions for industries such as aerospace, electric mobility, and bioprinting, with a focus on digital manufacturing processes like industrial 3D printing."
@@ -242,6 +254,12 @@
   logo: "/assets/images/partners/m3.png"
   info: ""
   url: "https://m3.company/"
+  category: "Sponsors"
+
+- name: "Micron"
+  logo: "/assets/images/partners/micron.png"
+  info: ""
+  url: "https://www.micron.com/"
   category: "Sponsors"
 
 - name: "Montanstahl"
@@ -265,6 +283,12 @@
   logo: "/assets/images/partners/seto.png"
   info: ""
   url: "https://www.setolite.com/en/"
+  category: "Sponsors"
+
+- name: "Thomson"
+  logo: "/assets/images/partners/thomson.png"
+  info: ""
+  url: "https://www.thomsonlinear.com/en/index"
   category: "Sponsors"
 
 - name: "Xometry"
