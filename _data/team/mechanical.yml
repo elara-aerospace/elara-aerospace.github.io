@@ -10,7 +10,6 @@
   last_name: "Hartmann"
   image: "/assets/images/team/alexander-hartmann.png"
   role: "CAD Lead"
-  role_desc: "Head of Design & CAD"
   github: "https://github.com/Halma28"
 
 ### STRUCTURE ###
@@ -82,7 +81,6 @@
   last_name: "Pfiz"
   image: "/assets/images/team/valentin-pfiz.png"
   role: "Mechanical"
-  role_desc: "Mechanical"
   linkedin: "https://www.linkedin.com/in/valentin-pfiz-172a97215/"
 #  github: ""
 
@@ -113,6 +111,4 @@
   last_name: "&emsp;"
   image: "/assets/images/team/a-t.png"
   role: "Advisor"
-  role_desc: "Advisor to Mechanical team"
-#  github: "#"
 

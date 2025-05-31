@@ -44,7 +44,6 @@
   last_name: "Ghare"
   image: "/assets/images/team/renuka-ghare.png"
   role: "DevOps"
-  role_desc: "IT Operations"
   linkedin: "https://www.linkedin.com/in/renuka-ghare-devopsengineer/"
   github: "https://github.com/renuka-ghare"
 
@@ -52,5 +51,10 @@
   last_name: "Dawid"
   image: "/assets/images/team/benedikt-dawid.png"
   role: "Electrical"
-  role_desc: "Electrical Engineering"
+
+- first_name: "Max"
+  last_name: "Uttendorfer"
+  image: "/assets/images/team/max-uttendorfer.png"
+  role: "Electrical"
+  linkedin: "https://www.linkedin.com/in/max-uttendorfer-6b082a1b6/"
 
