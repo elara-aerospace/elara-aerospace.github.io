@@ -40,6 +40,11 @@
   linkedin: "https://www.linkedin.com/in/ankurgiri1/"
   github: "https://github.com/ankurgiri200"
 
+- first_name: "Benedikt"
+  last_name: "Dawid"
+  image: "/assets/images/team/benedikt-dawid.png"
+  role: "Electrical"
+
 - first_name: "Renuka"
   last_name: "Ghare"
   image: "/assets/images/team/renuka-ghare.png"
@@ -47,14 +52,23 @@
   linkedin: "https://www.linkedin.com/in/renuka-ghare-devopsengineer/"
   github: "https://github.com/renuka-ghare"
 
-- first_name: "Benedikt"
-  last_name: "Dawid"
-  image: "/assets/images/team/benedikt-dawid.png"
-  role: "Electrical"
-
 - first_name: "Max"
   last_name: "Uttendorfer"
   image: "/assets/images/team/max-uttendorfer.png"
   role: "Electrical"
   linkedin: "https://www.linkedin.com/in/max-uttendorfer-6b082a1b6/"
+
+- first_name: "Anakin"
+  last_name: "Pregitzer"
+  image: "/assets/images/team/anakin-pregitzer.png"
+  role: "Software"
+  linkedin: "https://www.linkedin.com/in/anakin-pregitzer-927555368/"
+  github: "https://github.com/4n4k1n"
+
+- first_name: "Frederick"
+  last_name: "Charbonnier"
+  image: "/assets/images/team/frederick-charbonnier.png"
+  role: "Software"
+  linkedin: "https://www.linkedin.com/in/fred-charbonnier/"
+  github: "https://github.com/fredch16"
 
