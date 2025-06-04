@@ -15,16 +15,9 @@ last_updated: September 28, 2024
 
 ## In Accordance with Section 5 TMG
 
-**HM Branch:**\\
-Elara Aerospace GmbH\\
-Lothstraße 21\\
-80335 Munich\\
-Germany
-
-**TUM Branch:**\\
-Elara Aerospace GmbH\\
-Arcisstrasse 21\\
-80333 Munich\\
+Elara Aerospace gGmbH\\
+Feldstr. 28\\
+82140 Olching\\
 Germany
 
 ## Represented by
