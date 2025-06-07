@@ -107,6 +107,13 @@
   linkedin: "https://www.linkedin.com/in/yotam-barr/"
   github: "https://github.com/YotamBarr"
 
+- first_name: "Ruben"
+  last_name: "Sykora"
+  image: "/assets/images/team/ruben-sykora.png"
+  role: "General Tech"
+  linkedin: "https://www.linkedin.com/in/ruben-sykora-18a112364/"
+  github: "https://github.com/rubensykora"
+
 - first_name: "A. T."
   last_name: "&emsp;"
   image: "/assets/images/team/a-t.png"
