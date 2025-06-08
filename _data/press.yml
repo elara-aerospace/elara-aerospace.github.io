@@ -46,3 +46,9 @@
   url: "https://www.autodesk.com/autodesk-university/blog/best-au-2024-awards-top-rated-classes-and-speakers"
   category: "Corporate News"
 
+- name: "Hetzner"
+  logo: "/assets/images/press/hetzner.png"
+  info: ""
+  url: "https://www.hetzner.com/de/customers/elara-aerospace/"
+  category: "Corporate News"
+
