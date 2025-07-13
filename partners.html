@@ -145,6 +145,150 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
 </section>
 <!-- end s-clients -->
 
+<!-- donation
+    ================================================== -->
+<style>
+    .donation-section {
+        background-color: #f9f9f9;
+        padding: 40px 20px 60px 20px;
+        border: 1px solid #ddd;
+        max-width: 800px;
+        margin: 0 auto 80px auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .donation-header {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .donation-header h2 {
+        margin: 0;
+        color: #333;
+        font-size: 2em;
+    }
+
+    .donation-header p {
+        color: #666;
+        margin-top: 10px;
+        font-size: 1.1em;
+    }
+
+    .bank-details {
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 25px;
+        margin: 20px 0;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .bank-details h3 {
+        color: #333;
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
+    .bank-info {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+
+    .bank-info-item {
+        padding: 10px;
+        border-bottom: 1px solid #eee;
+    }
+
+    .bank-info-item strong {
+        color: #333;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .bank-info-item span {
+        color: #666;
+        font-family: monospace;
+        font-size: 1.1em;
+    }
+
+    .donation-note {
+        background-color: #e8f4fd;
+        border-left: 4px solid #007BFF;
+        padding: 15px;
+        margin-top: 20px;
+        border-radius: 4px;
+    }
+
+    .donation-note p {
+        margin: 0;
+        color: #333;
+        font-style: italic;
+    }
+
+    @media (max-width: 768px) {
+        .bank-info {
+            grid-template-columns: 1fr;
+        }
+        
+        .donation-section {
+            margin: 20px 10px;
+        }
+    }
+</style>
+
+<section id="donation" class="s-donation">
+    <div class="row section-header" data-aos="fade-up">
+        <div class="col-full">
+            <h3 class="subhead">Support Us</h3>
+            <h1 class="display-2">Make a Donation</h1>
+        </div>
+    </div>
+
+    <div class="row donation-content" data-aos="fade-up">
+        <div class="donation-section">
+            <div class="donation-header">
+                <h2>Bank Transfer Details</h2>
+                <p>Support our mission to advance aerospace technology and education</p>
+            </div>
+
+            <div class="bank-details">
+                <h3>Bank Account Information</h3>
+                <div class="bank-info">
+                    <div class="bank-info-item">
+                        <strong>Account Holder:</strong>
+                        <span>Elara Aerospace gGmbH</span>
+                    </div>
+                    <div class="bank-info-item">
+                        <strong>Bank:</strong>
+                        <span>VR Bank München Land</span>
+                    </div>
+                    <div class="bank-info-item">
+                        <strong>IBAN:</strong>
+                        <span>DE27 7016 6486 0000 7777 22</span>
+                    </div>
+                    <div class="bank-info-item">
+                        <strong>BIC:</strong>
+                        <span>GENODEF1OHC</span>
+                    </div>
+                    <div class="bank-info-item">
+                        <strong>BLZ:</strong>
+                        <span>70166486</span>
+                    </div>
+                </div>
+
+                <div class="donation-note">
+                    <p><strong>Note:</strong> Please include your name and purpose of donation in the transfer reference for proper acknowledgment.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<div style="height: 80px;"></div>
+<!-- end s-donation -->
+
 <!-- contact
     ================================================== -->
 <style>
@@ -271,4 +415,4 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>Learn More<
 
 </section>
 <!-- end s-contact -->
-
+ 
