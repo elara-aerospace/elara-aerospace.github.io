@@ -1,0 +1,121 @@
+/* Team Page Styles */
+
+.team-container * {
+    font-family: Nunito, sans-serif;
+}
+
+.team-container .text-blk {
+    margin: 0;
+    line-height: 25px;
+}
+
+.team-container .responsive-cell-block {
+    min-height: 75px;
+}
+
+.team-container .responsive-container-block {
+    min-height: 75px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.team-container .outer-container {
+    padding: 10px 50px;
+}
+
+.team-container .inner-container {
+    max-width: 1320px;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+.team-container .section-head-text {
+    margin: 0 0 5px 0;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    color: rgb(70, 0, 175);
+}
+
+.team-container .section-subhead-text {
+    font-size: 25px;
+    color: rgb(153, 153, 153);
+    line-height: 35px;
+    max-width: 470px;
+    text-align: center;
+    margin: 0 0 60px 0;
+}
+
+.team-container .img-wrapper {
+    width: 100%;
+}
+
+.team-container .team-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.team-container .name {
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(143, 89, 224);
+    margin: 0 0 5px 0;
+}
+
+.team-container .position {
+    font-size: large;
+    font-weight: 700;
+    color: rgb(240, 244, 255);
+    margin: 0 0 20px 0;
+    text-align: center;
+}
+
+.team-container .team-img {
+    width: 100%;
+    height: 100%;
+}
+
+.team-container .team-card-container {
+    width: 280px;
+    margin: 0 0 40px;
+}
+
+.team-container .social-media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.team-container .social-media-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: inline-block;
+}
+
+.team-container .social-media-links a:hover {
+    transform: scale(1.1);
+}
+
+.team-container .social-media-links i {
+    font-size: 1.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 500px) {
+    .team-container .outer-container {
+        padding: 10px 20px;
+    }
+
+    .team-container .section-head-text {
+        text-align: center;
+    }
+} 

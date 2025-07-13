@@ -27,135 +27,12 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
 </ul>
 -->
 
-<style>
-    * {
-        font-family: Nunito, sans-serif;
-    }
-
-    .text-blk {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        line-height: 25px;
-    }
-
-    .responsive-cell-block {
-        min-height: 75px;
-    }
-
-    .responsive-container-block {
-        min-height: 75px;
-        height: fit-content;
-        width: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        margin-top: 0px;
-        margin-right: auto;
-        margin-bottom: 0px;
-        margin-left: auto;
-        justify-content: space-evenly;
-    }
-
-    .outer-container {
-        padding-top: 10px;
-        padding-right: 50px;
-        padding-bottom: 10px;
-        padding-left: 50px;
-    }
-
-    .inner-container {
-        max-width: 1320px;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 50px;
-        margin-right: auto;
-        margin-bottom: 50px;
-        margin-left: auto;
-    }
-
-    .section-head-text {
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 5px;
-        margin-left: 0px;
-        font-size: 35px;
-        font-weight: 700;
-        line-height: 48px;
-        color: rgb(70, 0, 175);
-    }
-
-    .section-subhead-text {
-        font-size: 25px;
-        color: rgb(153, 153, 153);
-        line-height: 35px;
-        max-width: 470px;
-        text-align: center;
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 60px;
-        margin-left: 0px;
-    }
-
-    .img-wrapper {
-        width: 100%;
-    }
-
-    .team-card {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .name {
-        font-size: 25px;
-        font-weight: 700;
-        color: rgb(143, 89, 224);
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 5px;
-        margin-left: 0px;
-    }
-
-    .position {
-        font-size: 25px;
-        font-size: large;
-        font-weight: 700;
-        color: rgb(240, 244, 255);
-        margin-top: 0px;
-        margin-right: 0px;
-        margin-bottom: 20px; /* distance between job position text and social media icons */
-        margin-left: 0px;
-    }
-
-    .team-img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .team-card-container {
-        width: 280px;
-        margin: 0 0 40px;
-    }
-
-    @media (max-width: 500px) {
-        .outer-container {
-            padding: 10px 20px;
-        }
-
-        .section-head-text {
-            text-align: center;
-        }
-    }
-
-    .social-media-links {
-        letter-spacing: 10px; /* space between icons */
-    }
-</style>
+<!-- Team page styles -->
+<link rel="stylesheet" href="/assets/css/team.css">
 
 <!-- advisors and team
     ================================================== -->
-<section id="list">
+<section id="list" class="team-container">
     {% assign categories = "advisors,board,mechanical,electrical-software,operations" | split: "," %} {% for category in categories %}
     <h2 style="text-align: center;">{{ site.data.team.headers[category] | upcase }}</h2>
     <div class="responsive-container-block outer-container">
@@ -164,35 +41,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
             <div class="responsive-container-block">
                 {% assign team_members = site.data.team[category] %} {% for member in team_members %}
                 <!-- {{ member.first_name }} {{ member.last_name }} -->
-                <div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
-                    <div class="team-card">
-                        <div class="img-wrapper">
-                            <img class="team-img" src="{{ member.image }}" />
-                        </div>
-                        <p class="text-blk name">
-                            {{ member.first_name }}
-                        </p>
-                        <p class="text-blk name">
-                            {{ member.last_name }}
-                        </p>
-                        <p class="text-blk position" style="text-align: center;">{{ member.role }} {% if member.role_desc %}<abbr title="{{ member.role_desc }}">&#x1F6C8;</abbr>{% endif %}{% if member.website %}<br><i>{{ member.field }}</i>{% endif %}</p>
-                        <div class="social-media-links">
-                            {% if member.website %}
-                            <a href="{{ member.website }}" target="_blank">
-                                <i class="fa-solid fa-globe fa-2xl"></i>
-                            </a>
-                            {% endif %} {% if member.linkedin %}
-                            <a href="{{ member.linkedin }}" target="_blank">
-                                <i class="fa-brands fa-linkedin fa-2xl"></i>
-                            </a>
-                            {% endif %} {% if member.github %}
-                            <a href="{{ member.github }}" target="_blank">
-                                <i class="fa-brands fa-github fa-2xl"></i>
-                            </a>
-                            {% endif %}
-                        </div>
-                    </div>
-                </div>
+                {% include team-member-card.html member=member %}
                 {% endfor %}
             </div>
         </div>
@@ -221,9 +70,9 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
                         <p class="text-blk position">
                             Join Us on a Historic Journey
                         </p>
-                        <div class="social-media-links">
-                            <a href="/apply/">
-                                <i class="fa-solid fa-globe fa-2xl"></i>
+                        <div class="social-media-links" style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 10px;">
+                            <a href="/apply/" style="color: inherit; text-decoration: none; display: inline-block; transition: all 0.3s ease;">
+                                <i class="fa-solid fa-globe fa-2xl" style="color: #7f02fc; font-size: 1.5em;"></i>
                             </a>
                         </div>
                     </div>

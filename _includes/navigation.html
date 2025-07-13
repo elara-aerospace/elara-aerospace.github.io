@@ -23,23 +23,7 @@
 
         <p>Per aspera ad astra: <a href='/about/mission/'>Our mission</a>.</p>
         
-        <ul class="header-nav__social">
-            <li>
-                <a href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin"></i></a>
-            </li>
-            <li>
-                <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa-brands fa-x-twitter"></i></a>
-            </li>
-            <li>
-                <a href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/{{ site.youtube_username }}"><i class="fa-brands fa-youtube"></i></a>
-            </li>
-            <li>
-                <a href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github"></i></a>
-            </li>
-        </ul>
+        {% include social-media.html class="header-nav__social" %}
 
     </div> <!-- end header-nav__content -->
 </nav>  <!-- end header-nav -->

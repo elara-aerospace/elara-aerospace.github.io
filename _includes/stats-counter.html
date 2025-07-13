@@ -1,0 +1,19 @@
+{% comment %}
+  Statistics Counter Component
+  Usage: {% include stats-counter.html title="Title" count=count link=link %}
+  Parameters:
+  - title: Title for the stat
+  - count: The number to display
+  - link: Optional link for the stat (default: "#")
+  - class: Optional CSS class (default: "stats__count tektur")
+{% endcomment %}
+
+{% assign link = include.link | default: "#" %}
+{% assign class = include.class | default: "stats__count tektur" %}
+
+<div class="col-block stats__col">
+    <a href="{{ link }}">
+        <h5>{{ include.title }}</h5>
+        <div class="{{ class }}">{{ include.count }}</div>
+    </a>
+</div> 

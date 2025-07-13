@@ -1,0 +1,46 @@
+{% comment %}
+  Team Member Card Component
+  Usage: {% include team-member-card.html member=member %}
+  Parameters:
+  - member: team member object from _data/team/
+{% endcomment %}
+
+<div class="responsive-cell-block wk-desk-3 wk-ipadp-3 wk-tab-6 wk-mobile-12 team-card-container">
+    <div class="team-card">
+        <div class="img-wrapper">
+            <img class="team-img" src="{{ include.member.image }}" alt="{{ include.member.first_name }} {{ include.member.last_name }}" loading="lazy" />
+        </div>
+        <p class="text-blk name">
+            {{ include.member.first_name }}
+        </p>
+        <p class="text-blk name">
+            {{ include.member.last_name }}
+        </p>
+        <p class="text-blk position" style="text-align: center;">
+            {{ include.member.role }}
+            {% if include.member.role_desc %}
+                <abbr title="{{ include.member.role_desc }}">&#x1F6C8;</abbr>
+            {% endif %}
+            {% if include.member.website %}
+                <br><i>{{ include.member.field }}</i>
+            {% endif %}
+        </p>
+        <div class="social-media-links" style="display: flex; justify-content: center; align-items: center; gap: 15px; margin-top: 10px;">
+            {% if include.member.website %}
+                <a href="{{ include.member.website }}" target="_blank" aria-label="Visit {{ include.member.first_name }}'s website" style="color: inherit; text-decoration: none; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fa-solid fa-globe fa-2xl" style="color: #7f02fc; font-size: 1.5em;"></i>
+                </a>
+            {% endif %}
+            {% if include.member.linkedin %}
+                <a href="{{ include.member.linkedin }}" target="_blank" aria-label="Visit {{ include.member.first_name }}'s LinkedIn" style="color: inherit; text-decoration: none; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fa-brands fa-linkedin fa-2xl" style="color: #0077b5; font-size: 1.5em;"></i>
+                </a>
+            {% endif %}
+            {% if include.member.github %}
+                <a href="{{ include.member.github }}" target="_blank" aria-label="Visit {{ include.member.first_name }}'s GitHub" style="color: inherit; text-decoration: none; display: inline-block; transition: all 0.3s ease;">
+                    <i class="fa-brands fa-github fa-2xl" style="color: #333; font-size: 1.5em;"></i>
+                </a>
+            {% endif %}
+        </div>
+    </div>
+</div> 

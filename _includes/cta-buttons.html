@@ -1,0 +1,23 @@
+{% comment %}
+  Call-to-Action Buttons Component
+  Usage: {% include cta-buttons.html %}
+  Optional parameters:
+  - primary_text: Text for primary button (default: "Join Us")
+  - primary_link: Link for primary button (default: "/apply/")
+  - secondary_text: Text for secondary button (default: "Learn More")
+  - secondary_link: Link for secondary button (default: "/about/")
+  - primary_class: CSS class for primary button (default: "btn btn--primary")
+  - secondary_class: CSS class for secondary button (default: "btn btn--stroke")
+{% endcomment %}
+
+{% assign primary_text = include.primary_text | default: "Join Us" %}
+{% assign primary_link = include.primary_link | default: "/apply/" %}
+{% assign secondary_text = include.secondary_text | default: "Learn More" %}
+{% assign secondary_link = include.secondary_link | default: "/about/" %}
+{% assign primary_class = include.primary_class | default: "btn btn--primary" %}
+{% assign secondary_class = include.secondary_class | default: "btn btn--stroke" %}
+
+<center>
+    <a href="{{ primary_link }}" class="{{ primary_class }}" data-aos="fade-up">{{ primary_text }}</a>
+    <a href="{{ secondary_link }}" class="{{ secondary_class }}" data-aos="fade-up">{{ secondary_text }}</a>
+</center> 

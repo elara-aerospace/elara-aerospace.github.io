@@ -984,23 +984,7 @@ second-button: "<a href='/partners/' class='btn btn--stroke'>Partner With Us</a>
                     </p>
                 </div>
 
-                <ul class="contact-social">
-                    <li>
-                        <a aria-label="Follow Us on LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin_username }}"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a aria-label="Follow Us on X" href="https://x.com/{{ site.twitter_username }}"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a aria-label="Follow Us on Instagram" href="https://www.instagram.com/{{ site.instagram_username }}/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a aria-label="Subscribe Us on YouTube" href="https://www.youtube.com/{{ site.youtube_username }}"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
-                    </li>
-                    <li>
-                        <a aria-label="Follow Us on GitHub" href="https://github.com/{{ site.github_username }}"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
-                    </li>
-                </ul>
+                {% include social-media.html class="contact-social" %}
                 <!-- end contact-social -->
 
             </div>

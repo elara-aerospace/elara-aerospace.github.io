@@ -1,0 +1,45 @@
+{% comment %}
+  Social Media Links Component
+  Usage: {% include social-media.html %}
+  Optional parameters:
+  - show_labels: true/false (default: false)
+  - class: CSS class for the container
+  - icon_class: CSS class for icons (default: fa-brands)
+{% endcomment %}
+
+{% assign show_labels = include.show_labels | default: false %}
+{% assign container_class = include.class | default: "social-links" %}
+{% assign icon_class = include.icon_class | default: "fa-brands" %}
+
+<ul class="{{ container_class }}">
+    <li>
+        <a aria-label="Follow Us on LinkedIn" href="https://www.linkedin.com/company/{{ site.linkedin_username }}">
+            <i class="{{ icon_class }} fa-linkedin" aria-hidden="true"></i>
+            {% if show_labels %}<span>LinkedIn</span>{% endif %}
+        </a>
+    </li>
+    <li>
+        <a aria-label="Follow Us on X (Twitter)" href="https://x.com/{{ site.twitter_username }}">
+            <i class="{{ icon_class }} fa-x-twitter" aria-hidden="true"></i>
+            {% if show_labels %}<span>X</span>{% endif %}
+        </a>
+    </li>
+    <li>
+        <a aria-label="Follow Us on Instagram" href="https://www.instagram.com/{{ site.instagram_username }}/">
+            <i class="{{ icon_class }} fa-instagram" aria-hidden="true"></i>
+            {% if show_labels %}<span>Instagram</span>{% endif %}
+        </a>
+    </li>
+    <li>
+        <a aria-label="Subscribe Us on YouTube" href="https://www.youtube.com/{{ site.youtube_username }}{% if show_labels %}?sub_confirmation=1{% endif %}">
+            <i class="{{ icon_class }} fa-youtube" aria-hidden="true"></i>
+            {% if show_labels %}<span>YouTube</span>{% endif %}
+        </a>
+    </li>
+    <li>
+        <a aria-label="Follow Us on GitHub" href="https://github.com/{{ site.github_username }}">
+            <i class="{{ icon_class }} fa-github" aria-hidden="true"></i>
+            {% if show_labels %}<span>GitHub</span>{% endif %}
+        </a>
+    </li>
+</ul> 

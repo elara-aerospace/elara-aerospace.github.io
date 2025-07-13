@@ -42,29 +42,7 @@
 	<meta property="twitter:description" content="{{ page.description | default: site.description }}">
 	<meta property="twitter:image" content="{{ page.image | default: site.logo | absolute_url }}">
 
-	<!-- Schema.org markup -->
-	<script type="application/ld+json">
-	{
-	  "@context": "https://schema.org",
-	  "@type": "Organization",
-	  "name": "{{ site.title }}",
-	  "url": "{{ site.url }}",
-	  "logo": "{{ site.logo | absolute_url }}",
-	  "description": "{{ site.description }}",
-	  "contactPoint": {
-	    "@type": "ContactPoint",
-	    "email": "{{ site.email }}",
-	    "contactType": "customer service"
-	  },
-	  "sameAs": [
-	    "https://www.linkedin.com/company/{{ site.linkedin_username }}",
-	    "https://github.com/{{ site.github_username }}",
-	    "https://twitter.com/{{ site.twitter_username }}",
-	    "https://instagram.com/{{ site.instagram_username }}",
-	    "https://youtube.com/{{ site.youtube_username }}"
-	  ]
-	}
-	</script>
+	{% include schema-org.html %}
 
 	<!-- mobile specific metas
     ================================================== -->
@@ -126,38 +104,6 @@
 
     <!-- Schema.org Snippet (for Search Engines)
     ================================================== -->
-	<script type="application/ld+json">
-		{
-			"@context": "https://schema.org",
-			"@type": "Organization",
-			"name": "Elara Aerospace",
-			"alternateName": "Elara Aerospace",
-			"description": "{{ site.description }}",
-			"url": "https://elara-aerospace.com/",
-			"logo": "https://elara-aerospace.com/assets/images/favicon/android-icon-192x192.png",
-			"image": [
-  			"https://elara-aerospace.com/assets/images/team-may_2024.webp",
-				"https://elara-aerospace.com/assets/images/highlights/mmk.webp",
-				"https://elara-aerospace.com/assets/images/highlights/1712073103303.jpeg",
-				"https://elara-aerospace.com/assets/images/highlights/IMG_9006.jpg"
-			],
-			"address": {
-				"@type": "PostalAddress",
-				"addressCountry": "DE",
-				"addressLocality": "Munich",
-				"postalCode": "80333",
-				"streetAddress": " Arcisstrasse 21"
-			},
-			"sameAs": [
-				"https://www.linkedin.com/company/elara-aerospace",
-				"https://www.instagram.com/elara_aerospace/",
-				"https://github.com/elara-aerospace",
-				"https://twitter.com/Elara_Aerospace",
-				"https://www.youtube.com/@Elara-Aerospace",
-				"https://elara-aerospace.com/"
-			]
-		}
-	</script>
 	
 	{% if jekyll.environment == "production" %}
 		<!-- Google tag (gtag.js) -->

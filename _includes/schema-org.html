@@ -1,0 +1,42 @@
+{% comment %}
+  Schema.org Organization Markup Component
+  Usage: {% include schema-org.html %}
+{% endcomment %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "{{ site.title }}",
+  "alternateName": "Elara Aerospace",
+  "description": "{{ site.description }}",
+  "url": "{{ site.url }}/",
+  "logo": "{{ site.url }}/assets/images/favicon/android-icon-192x192.png",
+  "image": [
+    "{{ site.url }}/assets/images/team-may_2024.webp",
+    "{{ site.url }}/assets/images/highlights/mmk.webp",
+    "{{ site.url }}/assets/images/highlights/1712073103303.jpeg",
+    "{{ site.url }}/assets/images/highlights/IMG_9006.jpg"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "DE",
+    "addressLocality": "Munich",
+    "postalCode": "80333",
+    "streetAddress": "Arcisstrasse 21"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "email": "{{ site.email }}",
+    "contactType": "customer service"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/company/{{ site.linkedin_username }}",
+    "https://github.com/{{ site.github_username }}",
+    "https://twitter.com/{{ site.twitter_username }}",
+    "https://instagram.com/{{ site.instagram_username }}",
+    "https://youtube.com/{{ site.youtube_username }}",
+    "{{ site.url }}/"
+  ]
+}
+</script> 
