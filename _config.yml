@@ -32,6 +32,27 @@ sitemap:
     - /about.html
     - /pitch-deck.html
     - /apply.html
+    - /pitch/
+    - /apply/
+    - /assets/pdfs/
+    - /assets/slides/
+    - /assets/images/
+    - /assets/css/
+    - /assets/js/
+    - /assets/fonts/
+    - /assets/favicon/
+    - /COMPONENTS.html
+    - /LFS_BUDGET_SOLUTION.html
+    - /SECURITY.html
+    - /CODE_OF_CONDUCT.md
+    - /CONTRIBUTING.md
+    - /LICENSE.md
+    - /README.md
+    - /Rakefile
+    - /appveyor.yml
+    - /requirements.txt
+    - /Gemfile
+    - /Gemfile.lock
   priorities:
     - /: 1.0
     - /about/: 0.9
@@ -41,6 +62,12 @@ sitemap:
     - /partners/: 0.7
     - /news/: 0.7
     - /press/: 0.6
+    - /contact/: 0.5
+    - /inspiration/: 0.5
+    - /project/: 0.4
+    - /experiments/: 0.4
+    - /policy/: 0.3
+    - /imprint/: 0.3
   changefreq:
     - /: weekly
     - /about/: monthly
@@ -50,6 +77,12 @@ sitemap:
     - /partners/: monthly
     - /news/: weekly
     - /press/: monthly
+    - /contact/: monthly
+    - /inspiration/: monthly
+    - /project/: monthly
+    - /experiments/: monthly
+    - /policy/: yearly
+    - /imprint/: yearly
 
 # Exclude from processing.
 # The following items will not be processed, by default.
