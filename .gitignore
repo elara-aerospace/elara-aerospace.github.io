@@ -6,3 +6,35 @@ _site
 .env
 vendor
 
+# Large media files that exceed Git LFS budget
+assets/videos/
+assets/videos/*
+assets/slides/
+assets/slides/*
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.flv
+
+# Large image files
+*.psd
+*.ai
+*.eps
+*.tiff
+*.tif
+
+# Large documents
+*.pdf
+*.doc
+*.docx
+*.ppt
+*.pptx
+*.xls
+*.xlsx
+
+# Backup files
+*.bak
+*.backup
+*~
