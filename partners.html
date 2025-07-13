@@ -95,7 +95,7 @@ second-button: "<a href='#donation' class='smoothscroll btn btn--stroke'>Donate<
             <span class="close">&times;</span>
             <h2 class="popup-title" id="companyName"></h2>
             <p id="companyInfo"></p>
-            <a id="companyLink" href="#" target="_blank" class="btn btn--primary">Visit Website</a>
+            <a id="companyLink" href="#" target="_blank" class="btn btn--primary" style="display: none;">View LinkedIn Page</a>
         </div>
     </div>
 
@@ -125,7 +125,14 @@ second-button: "<a href='#donation' class='smoothscroll btn btn--stroke'>Donate<
 
                     document.getElementById("companyName").textContent = companyName;
                     document.getElementById("companyInfo").textContent = companyInfo;
-                    document.getElementById("companyLink").href = companyUrl;
+                    
+                    const linkButton = document.getElementById("companyLink");
+                    if (companyUrl && companyUrl !== "#") {
+                        linkButton.href = companyUrl;
+                        linkButton.style.display = "inline-block";
+                    } else {
+                        linkButton.style.display = "none";
+                    }
 
                     popup.style.display = "block";
                 });
