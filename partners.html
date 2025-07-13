@@ -65,12 +65,80 @@ second-button: "<a href='#donation' class='smoothscroll btn btn--stroke'>Donate<
         }
 
         /* Additional styling for gallery */
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 20px;
+            padding: 20px 0;
+        }
+        
         .gallery img {
             cursor: pointer;
-            margin: 10px;
-            width: 100px; /* Adjust size as needed */
-            width: 300px; /* Set width to 300px */
-            height: 300px; /* Set height to 300px */
+            width: 100%;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 8px;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            background-color: #fff;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        
+        .gallery img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+        
+        /* Tablet adjustments */
+        @media (max-width: 1024px) {
+            .gallery {
+                grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+                gap: 15px;
+            }
+            
+            .gallery img {
+                height: 120px;
+                padding: 12px;
+            }
+        }
+        
+        /* Mobile adjustments */
+        @media (max-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 12px;
+            }
+            
+            .gallery img {
+                height: 100px;
+                padding: 10px;
+            }
+        }
+        
+        /* Small mobile adjustments */
+        @media (max-width: 480px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 10px;
+            }
+            
+            .gallery img {
+                height: 80px;
+                padding: 8px;
+            }
+        }
+        
+        /* Extra small mobile adjustments */
+        @media (max-width: 320px) {
+            .gallery {
+                grid-template-columns: repeat(1, 1fr);
+                gap: 8px;
+            }
+            
+            .gallery img {
+                height: 70px;
+                padding: 6px;
+            }
         }
     </style>
 
