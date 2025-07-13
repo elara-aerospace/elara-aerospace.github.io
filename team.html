@@ -9,7 +9,7 @@ header-image-height: 1271
 header-image-width: 2880
 scroll-link: "#list"
 first-button: "<a href='/apply/' class='btn btn--primary'>Join Us</a>"
-second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team List</a>"
+second-button: "<a href='#board' class='smoothscroll btn btn--stroke'>View Team List</a>"
 ---
 
 <!-- JEKYLL TEMPLATE:
@@ -34,7 +34,7 @@ second-button: "<a href='#list' class='smoothscroll btn btn--stroke'>View Team L
     ================================================== -->
 <section id="list" class="team-container">
     {% assign categories = "advisors,board,mechanical,electrical-software,operations" | split: "," %} {% for category in categories %}
-    <h2 style="text-align: center;">{{ site.data.team.headers[category] | upcase }}</h2>
+    <h2 style="text-align: center;" {% if category == "board" %}id="board"{% endif %}>{{ site.data.team.headers[category] | upcase }}</h2>
     <div class="responsive-container-block outer-container">
         <!-- Team List (in Alphabetical Order) -->
         <div class="responsive-container-block inner-container">
