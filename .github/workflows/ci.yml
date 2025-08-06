@@ -1,4 +1,6 @@
 name: Codecov Workflow for elara-aerospace.com
+permissions:
+  contents: read
 on: [push, pull_request]
 jobs:
   run:
