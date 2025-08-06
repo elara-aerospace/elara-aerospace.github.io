@@ -345,3 +345,21 @@
   url: "https://www.linkedin.com/company/munich-security-conference/"
   category: "Event Participations"
 
+- name: "Fibrolux"
+  logo: "/assets/images/partners/fibrolux.jpeg"
+  info: "Fibrolux provides Elara Aerospace with advanced composite materials and innovative fiber-reinforced solutions for rocket structural components, aerospace manufacturing materials, and high-performance lightweight materials for space technology applications."
+  url: "https://www.linkedin.com/company/fibrolux/"
+  category: "Industry Partners"
+
+- name: "Voxeljet"
+  logo: "/assets/images/partners/voxeljet.jpeg"
+  info: "Voxeljet provides Elara Aerospace with advanced 3D printing technology and additive manufacturing solutions for rocket component prototyping, aerospace engineering innovation, and precision manufacturing capabilities for space technology development."
+  url: "https://www.linkedin.com/company/voxeljet/"
+  category: "Industry Partners"
+
+- name: "Murr"
+  logo: "/assets/images/partners/murr.jpeg"
+  info: "Murr provides Elara Aerospace with advanced automation and control technology solutions for rocket testing systems, aerospace manufacturing processes, and reliable industrial automation equipment for space technology development and rocket engineering projects."
+  url: "https://www.linkedin.com/company/murr-elektronik/"
+  category: "Industry Partners"
+
