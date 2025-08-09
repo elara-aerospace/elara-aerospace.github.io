@@ -363,3 +363,9 @@
   url: "https://www.linkedin.com/company/murr-elektronik/"
   category: "Industry Partners"
 
+ - name: "Military Counterintelligence Service (Germany)"
+  logo: "/assets/images/partners/mad.jpeg"
+  info: "Responsible for security clearance of Elara Aerospace members and for hiring process"
+  url: ""
+  category: "Strategic Partners"
+
