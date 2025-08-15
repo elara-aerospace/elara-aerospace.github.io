@@ -4,6 +4,33 @@
     font-family: Nunito, sans-serif;
 }
 
+/* FontAwesome Icon Styles */
+.team-container .fa,
+.team-container .fas,
+.team-container .fa-solid,
+.team-container .fa-brands,
+.team-container .fa-regular {
+    font-family: "Font Awesome 6 Free", "Font Awesome 6 Pro", "Font Awesome 6 Brands", "Font Awesome 5 Free", "Font Awesome 5 Pro", "Font Awesome 5 Brands", "FontAwesome" !important;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.team-container .fa-solid,
+.team-container .fas {
+    font-weight: 900;
+}
+
+.team-container .fa-brands {
+    font-weight: 400;
+}
+
+.team-container .fa-regular {
+    font-weight: 400;
+}
+
 .team-container .text-blk {
     margin: 0;
     line-height: 25px;
