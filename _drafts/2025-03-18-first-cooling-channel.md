@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /news/first-cooling-channel/
-author: "Tobias Jäger"
+author: "Tom Luca"
 author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: manufacturing
