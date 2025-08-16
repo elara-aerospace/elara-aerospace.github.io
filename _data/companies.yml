@@ -178,11 +178,11 @@
   url: "https://www.linkedin.com/company/valispace/"
   category: "Industry Partners"
 
-- name: "The Virtual Foundry"
-  logo: "/assets/images/partners/the-virtual-foundry.png"
-  info: "The Virtual Foundry provides Elara Aerospace with advanced metal 3D printing filaments for rocket component prototyping, aerospace engineering innovation, and cutting-edge additive manufacturing solutions for space technology development."
-  url: ""
-  category: "Industry Partners"
+#- name: "The Virtual Foundry"
+#  logo: "/assets/images/partners/the-virtual-foundry.png"
+#  info: "The Virtual Foundry provides Elara Aerospace with advanced metal 3D printing filaments for rocket component prototyping, aerospace engineering innovation, and cutting-edge additive manufacturing solutions for space technology development."
+#  url: ""
+#  category: "Industry Partners"
   
 - name: "Hetzner Online GmbH"
   logo: "/assets/images/partners/hetzner-online-gmbh.jpeg"
@@ -226,11 +226,11 @@
   url: "https://www.linkedin.com/company/confoot/"
   category: "Other Partners"
 
-- name: "Craft"
-  logo: "/assets/images/partners/craft.png"
-  info: "Craft software enhances Elara Aerospace's creative design processes and visual communication capabilities, supporting innovative rocket technology presentation and aerospace engineering visualization for space exploration projects."
-  url: ""
-  category: "Other Partners"
+#- name: "Craft"
+#  logo: "/assets/images/partners/craft.png"
+#  info: "Craft software enhances Elara Aerospace's creative design processes and visual communication capabilities, supporting innovative rocket technology presentation and aerospace engineering visualization for space exploration projects."
+#  url: ""
+#  category: "Other Partners"
 
 - name: "Creality"
   logo: "/assets/images/partners/creality.jpeg"
@@ -361,6 +361,12 @@
   logo: "/assets/images/partners/murr.jpeg"
   info: "Murr provides Elara Aerospace with advanced automation and control technology solutions for rocket testing systems, aerospace manufacturing processes, and reliable industrial automation equipment for space technology development and rocket engineering projects."
   url: "https://www.linkedin.com/company/murr-elektronik/"
+  category: "Industry Partners"
+
+- name: "Vector"
+  logo: "/assets/images/partners/vector.jpeg"
+  info: "Vector provides Elara Aerospace with tools, software components, hardware and services that relieve embedded systems engineers and simplify the development of automotive electronics for rocket avionics systems and aerospace control applications."
+  url: "https://www.vector.com/int/en/"
   category: "Industry Partners"
 
 - name: "Military Counterintelligence Service (Germany)"
