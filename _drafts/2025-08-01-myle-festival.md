@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/myle-festival/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: events
 title: "Elara Aerospace at MYLE Festival: Showcasing Innovation in the Heart of Munich's Startup Ecosystem"

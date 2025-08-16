@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/bayern-chemie-mbda-visit/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-15 10:00:00 +0200
 categories: tour
 title: "Exploring Advanced Propulsion Technology at MBDA Subsidiary"

@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/water-test-milestone/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: testing
 title: "Elara Aerospace Completes Successful Water Test: Validating Propulsion System Performance and Safety"

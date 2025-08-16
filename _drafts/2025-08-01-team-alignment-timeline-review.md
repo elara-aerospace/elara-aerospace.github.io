@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/team-alignment-timeline-review/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: strategy
 title: "Elara Aerospace Conducts Comprehensive Team Alignment and Timeline Review: Strengthening Our Path Forward"

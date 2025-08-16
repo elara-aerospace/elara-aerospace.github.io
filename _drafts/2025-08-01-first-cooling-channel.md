@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/first-cooling-channel/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: manufacturing
 title: "Elara Aerospace Achieves Breakthrough: First Cooling Channel Successfully Manufactured for Rocket Engine"

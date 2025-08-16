@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/presentation-bayernlb/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: milestone
 title: "Elara Aerospace Presents to BayernLB: Showcasing Innovation to Bavaria's Leading Financial Institution"

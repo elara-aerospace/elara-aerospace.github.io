@@ -3,11 +3,11 @@ layout: post
 permalink: /news/official-incorporation/
 author: "Tobias Jäger"
 author-image: /assets/images/team/tobias-jäger.png
-date: 2025-08-01 10:00:00 +0200
+date: 2025-03-13 10:00:00 +0200
 categories: milestone
-title: "Elara Aerospace Officially Incorporated: A Major Milestone in Our Journey to Aerospace Innovation"
-header-title: "Official Incorporation Milestone"
-header-desc: "Celebrating our official incorporation as a legal entity, marking a significant step in our journey to establish Elara Aerospace as a leading aerospace company"
+title: "Elara Aerospace Officially Incorporated: A New Chapter in Aerospace Innovation Begins"
+header-title: "Official Incorporation Complete"
+header-desc: "Elara Aerospace has been officially incorporated as of March 10th, 2025, marking the formal beginning of our journey in aerospace innovation"
 header-image: /assets/images/blog/placeholder.png
 header-image-height: 1200
 header-image-width: 1600

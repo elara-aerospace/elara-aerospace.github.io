@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/msc-space-night/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: events
 title: "Elara Aerospace at MSC Space Night: Connecting with Munich's Space Industry Leaders and Innovators"

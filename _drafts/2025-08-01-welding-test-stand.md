@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/welding-test-stand/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: manufacturing
 title: "Elara Aerospace Develops Advanced Welding Test Stand: Pushing the Boundaries of Aerospace Manufacturing"

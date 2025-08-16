@@ -2,7 +2,7 @@
 layout: post
 permalink: /news/first-rocket-engine/
 author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jaeger.png
+author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: technology
 title: "Elara Aerospace Achieves Major Milestone: First Rocket Engine Successfully Developed and Tested"
