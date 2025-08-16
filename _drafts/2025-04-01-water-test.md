@@ -1,7 +1,7 @@
 ---
 layout: post
 permalink: /news/water-test-milestone/
-author: "Tobias Jäger"
+author: "Adrian Leutner"
 author-image: /assets/images/team/tobias-jäger.png
 date: 2025-08-01 10:00:00 +0200
 categories: testing
