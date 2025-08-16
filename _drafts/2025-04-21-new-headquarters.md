@@ -8,9 +8,9 @@ categories: milestone
 title: "Elara Aerospace Moves to New Headquarters: A Major Milestone in Our Growth Journey"
 header-title: "New Headquarters for Elara Aerospace"
 header-desc: "Celebrating our move to a larger, more advanced facility that will support our expanding operations and ambitious goals"
-header-image: /assets/images/blog/placeholder.png
-header-image-height: 1200
-header-image-width: 1600
+header-image: /assets/images/blog/team-alignment-day.jpg
+header-image-height: 1080
+header-image-width: 1920
 scroll-link: "#read-article"
 ---
 

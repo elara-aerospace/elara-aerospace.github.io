@@ -2,15 +2,15 @@
 layout: post
 permalink: /news/first-rocket-engine/
 author: "Adrian Leutner"
-author-image: /assets/images/team/tobias-jäger.png
+author-image: /assets/images/team/adrian-leutner.png
 date: 2025-08-01 10:00:00 +0200
 categories: technology
 title: "Elara Aerospace Achieves Major Milestone: First Rocket Engine Successfully Developed and Tested"
 header-title: "First Rocket Engine Milestone"
 header-desc: "A historic moment for our company as we successfully develop and test our first rocket engine, marking a significant step toward our mission"
-header-image: /assets/images/blog/placeholder.png
-header-image-height: 1200
-header-image-width: 1600
+header-image: /assets/images/blog/first-rocket-engine.jpg
+header-image-height: 1080
+header-image-width: 1920
 scroll-link: "#read-article"
 ---
 

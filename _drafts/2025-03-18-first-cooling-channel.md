@@ -2,15 +2,15 @@
 layout: post
 permalink: /news/first-cooling-channel/
 author: "Tom Luca"
-author-image: /assets/images/team/tobias-jäger.png
+author-image: /assets/images/team/tomluca-reinhardt.png
 date: 2025-08-01 10:00:00 +0200
 categories: manufacturing
 title: "Elara Aerospace Achieves Breakthrough: First Cooling Channel Successfully Manufactured for Rocket Engine"
 header-title: "First Cooling Channel Milestone"
 header-desc: "A significant technical achievement as we successfully manufacture our first cooling channel, a critical component for rocket engine thermal management"
-header-image: /assets/images/blog/placeholder.png
-header-image-height: 1200
-header-image-width: 1600
+header-image: /assets/images/blog/first-cooling-channels.jpeg
+header-image-height: 1080
+header-image-width: 1920
 scroll-link: "#read-article"
 ---
 

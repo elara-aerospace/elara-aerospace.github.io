@@ -2,15 +2,15 @@
 layout: post
 permalink: /news/welding-test-stand/
 author: "Adrian Leutner"
-author-image: /assets/images/team/tobias-jäger.png
+author-image: /assets/images/team/adrian-leutner.png
 date: 2025-08-01 10:00:00 +0200
 categories: manufacturing
 title: "Elara Aerospace Develops Advanced Welding Test Stand: Pushing the Boundaries of Aerospace Manufacturing"
 header-title: "Advanced Welding Test Stand Development"
 header-desc: "Our latest innovation in manufacturing technology - a custom welding test stand designed for aerospace-grade precision and reliability"
-header-image: /assets/images/blog/placeholder.png
-header-image-height: 1200
-header-image-width: 1600
+header-image: /assets/images/blog/welding-test-stand.jpg
+header-image-height: 1080
+header-image-width: 1920
 scroll-link: "#read-article"
 ---
 

@@ -2,15 +2,15 @@
 layout: post
 permalink: /news/water-test-milestone/
 author: "Adrian Leutner"
-author-image: /assets/images/team/tobias-jäger.png
+author-image: /assets/images/team/adrian-leutner.png
 date: 2025-08-01 10:00:00 +0200
 categories: testing
 title: "Elara Aerospace Completes Successful Water Test: Validating Propulsion System Performance and Safety"
 header-title: "Water Test Milestone"
 header-desc: "A critical milestone achieved as we successfully complete water testing of our propulsion system, validating performance and safety protocols"
-header-image: /assets/images/blog/placeholder.png
-header-image-height: 1200
-header-image-width: 1600
+header-image: /assets/images/blog/first-water-test.jpg
+header-image-height: 1080
+header-image-width: 1920
 scroll-link: "#read-article"
 ---
 
