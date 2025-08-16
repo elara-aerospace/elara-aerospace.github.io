@@ -1,11 +1,11 @@
 ---
 layout: post
 permalink: /news/bayern-chemie-mbda-visit/
-author: "Tobias Jäger"
-author-image: /assets/images/team/tobias-jäger.png
+author: "Suriyaa Sundararuban"
+author-image: /assets/images/team/suriyaa-sundararuban.png
 date: 2025-08-15 10:00:00 +0200
 categories: tour
-title: "Exploring Advanced Propulsion Technology at MBDA Subsidiary"
+title: "Exploring Advanced Propulsion Technology at Bayern-Chemie"
 header-title: "Elara Aerospace Visits Bayern-Chemie"
 header-desc: "Our team's visit to Bayern Chemie, a leading MBDA subsidiary specializing in solid rocket propulsion systems"
 header-image: /assets/images/blog/bayern-chemie.jpeg
