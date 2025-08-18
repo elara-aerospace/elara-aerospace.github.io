@@ -329,13 +329,13 @@
 
 - name: "Difesa (Ministero della Difesa)"
   logo: "/assets/images/partners/ministerodifesa_logo.jpeg"
-  info: "The Italian Ministry of Defence (Ministero della Difesa) collaborates with Elara Aerospace on advanced aerospace technology development, supporting innovative rocket propulsion research and defense applications for space exploration and satellite technology."
+  info: "The Italian Ministry of Defence (Ministero della Difesa) collaborates with Elara Aerospace on advanced aerospace technology development, supporting innovative rocket propulsion research and commercial applications for space exploration and satellite technology."
   url: "https://www.linkedin.com/company/ministero-della-difesa/"
   category: "Strategic Partners"
 
-- name: "NATO"
+- name: "North Atlantic Treaty Organization (NATO)"
   logo: "/assets/images/partners/nato_logo.jpeg"
-  info: "NATO (North Atlantic Treaty Organization) partners with Elara Aerospace on aerospace technology innovation, supporting advanced rocket development for defense applications and collaborative space technology initiatives for international security."
+  info: "Elara Aerospace is utilizing NATO launch sites with the help of OLM Launch for testing and rocket launches."
   url: "https://www.linkedin.com/company/nato/"
   category: "Strategic Partners"
 
@@ -372,6 +372,5 @@
 - name: "Military Counterintelligence Service (Germany)"
   logo: "/assets/images/partners/mad.jpeg"
   info: "Responsible for security clearance of Elara Aerospace members and for hiring process"
-  url: ""
+  url: "https://www.bundeswehr.de/de/organisation/mad-bundesamt-fuer-den-militaerischen-abschirmdienst"
   category: "Strategic Partners"
-
