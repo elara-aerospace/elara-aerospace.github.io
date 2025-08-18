@@ -17,7 +17,7 @@ scroll-link: "#read-article"
 # Elara Aerospace Moves into New Office at TUM Venture Labs  
 ## Finally a place in Garching  
 
-At the end of April, we officially moved into our new office and shared working space at **TUM Venture Labs**, located in the Newton building (also known as the Oerlikon building) at *Freisinger Landstraße 62*. This marks an exciting new chapter for Elara Aerospace as we continue to expand our research and collaboration activities.  
+At the end of April, we officially moved into our new office and shared working space at **TUM Venture Labs**, located in the Newton building (also known as the Oerlikon building) at *Freisinger Landstraße 52*. This marks an exciting new chapter for Elara Aerospace as we continue to expand our research and collaboration activities.  
 
 ## A Place for Collaboration and Growth  
 
