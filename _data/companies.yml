@@ -82,6 +82,12 @@
 #  url: "https://www.bundeswehr.de/en/"
 #  category: "Strategic Partners"
 
+- name: "Military Counterintelligence Service (Germany)"
+  logo: "/assets/images/partners/mad.jpeg"
+  info: "Responsible for security clearance of Elara Aerospace members and for hiring process"
+  url: "https://www.bundeswehr.de/de/organisation/mad-bundesamt-fuer-den-militaerischen-abschirmdienst"
+  category: "Strategic Partners"
+
 - name: "OKR Institute"
   logo: "/assets/images/partners/okr-institute.jpeg"
   info: "OKR Institute supports Elara Aerospace's strategic planning and goal-setting processes, enabling effective rocket development project management, aerospace innovation tracking, and measurable progress toward space exploration objectives."
@@ -369,8 +375,8 @@
   url: "https://www.vector.com/int/en/"
   category: "Industry Partners"
 
-- name: "Military Counterintelligence Service (Germany)"
-  logo: "/assets/images/partners/mad.jpeg"
-  info: "Responsible for security clearance of Elara Aerospace members and for hiring process"
-  url: "https://www.bundeswehr.de/de/organisation/mad-bundesamt-fuer-den-militaerischen-abschirmdienst"
-  category: "Strategic Partners"
+- name: "Nippon Gases"
+  logo: "/assets/images/partners/nippon_gases.jpeg"
+  info: "Nippon Gases provides Elara Aerospace with industrial gases for propulsion testing, manufacturing, and laboratory operations, ensuring a reliable supply to support rocket development activities."
+  url: "https://nippongases.com/"
+  category: "Industry Partners"
