@@ -33,7 +33,7 @@ gem 'liquid', '~> 4.0'
 
 # Check-up Tests
 gem 'html-proofer', '~> 5.0'
-gem 'rake', '~> 13.2'
+gem 'rake', '~> 13.3'
 gem 'minitest', '~> 5.25'
 
 # Performance
