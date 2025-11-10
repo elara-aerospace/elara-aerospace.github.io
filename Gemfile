@@ -34,7 +34,7 @@ gem 'liquid', '~> 4.0'
 # Check-up Tests
 gem 'html-proofer', '~> 5.0'
 gem 'rake', '~> 13.2'
-gem 'minitest', '~> 5.25'
+gem 'minitest', '~> 5.26'
 
 # Performance
 gem 'jekyll-loading-lazy'
